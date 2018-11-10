@@ -1,7 +1,7 @@
 #include "yinsh.h"
 
 int player_num,rings_num,markers_num;
-	float timelimit;
+float timelimit;
 
 Place ring_to_xy(int hex,int pos)
 {
@@ -40,10 +40,56 @@ Place ring_to_xy(int hex,int pos)
 return ans;
 }
 
-// Place xy_to_ring(int x,int y)
-// {
- 
-// }
+Place xy_to_ring(int x,int y)
+{
+ 	Place ans ={0,0};
+ 	x=x-board_rings;
+ 	y=y-board_rings;
+
+ 	if(x==0 && y==0){
+ 		ans.x=0;
+ 		ans.y=0;
+ 	}
+ 	else if(x>=y)
+ 	{
+ 		if(x>=0 && y>=0){
+ 			ans.x=x;
+ 			ans.y=y;
+ 		}
+ 		else if(x<=0 && y<=0)
+ 		{
+ 			ans.x = -y;
+ 			ans.y = x-(5*y);
+
+ 		}
+ 		else if(x>=0 && y<=0)
+ 		{
+ 			ans.x=x-y;
+ 			ans.y = 6*x - 5*y;
+ 		}
+ 	}
+ 	else if (y>x)
+ 	{
+ 		if(x>=0 && y>=0)
+ 		{
+ 			ans.x=y;
+ 			ans.y = 2*y-x;
+
+ 		}
+ 		else if(x<=0 && y<=0)
+ 		{
+ 			ans.x=-1*x;
+ 			ans.y = (-3*x)-y;
+
+ 		}
+ 		else if(x<=0 && y>=0)
+ 		{
+ 			ans.x = y-x;
+ 			ans.y = 2*y - 3*x;
+ 		}
+ 	}
+ 	return ans;
+}
 
 void input_moves(vector<Move> &in_moves)
 {
@@ -63,8 +109,8 @@ void input_moves(vector<Move> &in_moves)
 		x1 = stoi(word);
 		ss>>word;
 		y1=stoi(word);
-		Place p = {0,0};
-		p = ring_to_xy(x1,y1);
+		// Place p = {0,0};
+		Place p = ring_to_xy(x1,y1);
 
 		Move mv = {mov_ty,p.x,p.y};
 
@@ -102,6 +148,8 @@ int main(){
 
 	Yinsh game = Yinsh(rings_num,2*rings_num+1,markers_num);
     
+
+    // cout <<"a "<< ring_to_xy(0,0).x << " b "<< ring_to_xy(0,0).y << " 2a "<< ring_to_xy(1,0).x<< "2b"<<ring_to_xy(0,0).y <<endl;
     // game.play(player_num);
     
     
