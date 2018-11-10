@@ -234,16 +234,76 @@ void Yinsh::remove_ring(Place p1,int id)
 }
 void Yinsh::execute_seq(vector<Move>& move,int id)
 {
-     
+     for(int i_m=0;i_m<move.size();i_m++){
+     	string type_mov = move[i_m].type;
+     	if(type_mov=="P"){
+     		place_ring(move[i_m].x,move[i_m].y,id);
+     	}
+     	else if(type_mov=="S"){
+     		Place sel_dup = {move[i_m].x,move[i_m].y};
+     		i_m++;
+     		Place mov_dup = {move[i_m].x,move[i_m].y};
+
+            select_movering(sel_dup,mov_dup,id);
+     	}
+     	else if(type_mov=="M"){
+     		cout<< "1 M should not reach here"<<endl;
+     	}
+     	else if(type_mov=="RS"){
+     		Place start_dup = {move[i_m].x,move[i_m].y};
+     		i_m++;
+     		Place end_dup = {move[i_m].x,move[i_m].y};
+
+     		remove_row(start_dup,end_dup,id);
+             
+     	}
+     	else if(type_mov=="RE")
+     	{
+     		cout<< "2  RE should not reach here"<<endl;
+     	}
+     	else if(type_mov=="X")
+     	{
+
+     		Place p1 =  {move[i_m].x,move[i_m].y};
+     		remove_ring(p1,id);
+     	}
+     	else{
+     		cout<< "invalid input move"<<endl;
+     	}
+
+
+
+     }
 }
+// from black guides 
 
 void Yinsh::neighbours(Place sel,Place dir,vector<Place>& neighbour)
 {
-
+ 	int token=0;
+ 	for (int a = dir.x,b=dir.y;sel.x+a>=0 && sel.x+a<rows && sel.y+b>=0 && sel.y+b<rows
+ 		&& abs(myboard[sel.x+a][sel.y+b])!=2 && myboard[sel.x+a][sel.y+b]!=-10 ; a=a+dir.x,b=b+dir.y)
+ 	{
+ 		if(myboard[sel.x+a][sel.y+b]!=0){
+ 			token=1;
+ 			continue;
+ 		}
+ 		neighbour.push_back({sel.x+a,sel.y+b});
+ 		if(token==1){
+ 			break;
+ 		}
+ 	}
 
 }
 void Yinsh::totneighbours(Place sel,vector<Place>& neighbour)
 {
+    neighbours(sel,{0,1},neighbour);
+    neighbours(sel,{1,0},neighbour);
+    neighbours(sel,{1,1},neighbour);
+    neighbours(sel,{0,-1},neighbour);
+    neighbours(sel,{-1,0},neighbour);
+    neighbours(sel,{-1,-1},neighbour);
+    
+
 
 }
 double Yinsh::evaluate_reward(int id)
@@ -252,6 +312,9 @@ double Yinsh::evaluate_reward(int id)
 }
 
 
+// id = 1 or -1 
+//for turn 0 id =1
+// rreturns consecutive tokens for one player
  vector<int> Yinsh::eval_collinear(int id){
 
 
