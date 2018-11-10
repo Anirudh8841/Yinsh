@@ -4,7 +4,7 @@
 // Yinsh::Yinsh(){}
 
 
-// 
+//  
 
 void Yinsh::initialize()
 {
@@ -235,12 +235,18 @@ void Yinsh::totneighbours(Place sel,vector<Place>& neighbour)
 {
 
 }
-double Yinsh::evaluate_reward(int id){
+double Yinsh::evaluate_reward(int id)
+{
 
 }
 
-int check_five(int id){
+int Yinsh::check_five(int id,vector< vector<Place> > &five_rows)
+{
+	if(id = 0){
 
+	}
 }
 
-
+int Yinsh::eval_collinear(int id,int no_of_adj){
+	
+}

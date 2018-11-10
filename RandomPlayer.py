@@ -57,41 +57,12 @@ class RandomPlayer:
 
         hexagon = self.x
         position = self.y
-        # if (self.x==0):
-        #   self.y=self.y+1
-        # else:
+
         self.y = self.y+2
 
-
-        # randadd = random.randint(1,2)
-        
-        
-        # str1 = str(hexagon)
-        # str2 = str(position)
-        # suc = self.game.execute_move("P"+" "+str1+" "+str2)
-
-                # if suc !=0:
         return '{type} {hex} {pos}'.format(type='P', hex=hexagon, pos=position), len(self.RingPos), hexagon, position
                     
 
-
-        #           b = 1
-        #           break
-                
-        #   if b == 1:
-        #       break
-        # return '{type} {hex} {pos}'.format(type='P', hex=hexagon, pos=position), len(self.RingPos), hexagon, position
-                    
-
-
-        # movetype = 'P'
-        # hexagon = random.randint(0,self.n)
-        # position = random.randint(0,max(0,6*hexagon-1))
-        
-        # if hexagon==self.n and position%self.n==0:
-        #   position+=1
-        # return '{type} {hex} {pos}'.format(type=movetype, hex=hexagon, pos=position), len(self.RingPos), hexagon, position
-       
 
     def selectRing(self):
         movetype = 'S'
