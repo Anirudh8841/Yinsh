@@ -231,7 +231,7 @@ void Yinsh::neighbours(Place sel,Place dir,vector<Place>& neighbour)
 
 
 }
-void Yinsh::totneighbours(PLace sel,vector<Place>& neighbour)
+void Yinsh::totneighbours(Place sel,vector<Place>& neighbour)
 {
 
 }
@@ -239,8 +239,8 @@ double Yinsh::evaluate_reward(int id){
 
 }
 
-int eval_neighbours(int adj){
-	
+int check_five(int id){
+
 }
 
 
