@@ -42,8 +42,9 @@ class Yinsh{
 		int ring_size; // no of rings
 		int rows;  // 2*rings+1
 		int marker_rem;  // no of markers to win
-		vector<Place> player[2]; // player's rings
+		vector< vector<Place> > player; // player's rings
 		vector<vector<int>> myboard;
+		int cnt =0;
 
 	public:
 		// Yinsh();
@@ -61,6 +62,8 @@ class Yinsh{
 
 		void neighbours(Place sel,Place dir,vector<Place>& neighbour);
 		void totneighbours(PLace sel,vector<Place>& neighbour);
+
+		double evaluate_reward(int id);
 
 
 
