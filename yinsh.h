@@ -3,6 +3,8 @@
 
 using namespace std;
 
+#include <bits/stdc++.h> 
+
 class Place
 {
 	public:
@@ -24,14 +26,14 @@ class Move
 {
 	public:
 		string type;
-		string a;
-		string b;
+		int x;
+		int y;
 	public:
 		Move();
-		Move(string ty,string i1,string i2){
+		Move(string ty,int i1,int i2){
 			type=ty;
-			a=i1;
-			b=i2;
+			x=i1;
+			y=i2;
 		};
 
 
@@ -61,7 +63,7 @@ class Yinsh{
         void execute_seq(vector<Move>& move,int id);
 
 		void neighbours(Place sel,Place dir,vector<Place>& neighbour);
-		void totneighbours(PLace sel,vector<Place>& neighbour);
+		void totneighbours(Place sel,vector<Place>& neighbour);
 
 		double evaluate_reward(int id);
 		int check_five(int id,vector< vector<Place> > &five_rows);

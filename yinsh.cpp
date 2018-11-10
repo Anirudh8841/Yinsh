@@ -37,7 +37,7 @@ void Yinsh::initialize()
         for(j = 0 ; j < rows ; j++){
            y = j - (rings_n) ;
           if( !(y >= low && y <= high)){
-            myboard[i][j] = -5 ;
+            myboard[i][j] = -10 ;
           }
         }
     }
@@ -112,23 +112,24 @@ void Yinsh::select_movering(Place sel,Place mov,int id)
    else {
  		if(mov.x>sel.x){
  			if(mov.y>sel.y){
- 				for(int j1=sel.y+1,int i1 = sel.x+1; i1 < mov.x && j1<mov.y;i1++ ,j1++){
+ 				for(int j1=sel.y+1,i1 = sel.x+1; i1 < mov.x && j1<mov.y;i1++ ,j1++){
  					myboard[i1][j1] = -myboard[i1][j1];
  				}
  			}
  			else{
- 				for(int j1=mov.y+1,int i1 = sel.x+1; i1 < mov.x && j1<sel.y;i1++ ,j1++){
+ 				for(int j1=mov.y+1,i1 = sel.x+1; i1 < mov.x && j1<sel.y;i1++ ,j1++){
  					myboard[i1][j1] = -myboard[i1][j1];
  				}
  			}
  		}
  		else{
  			if(mov.y>sel.y){
- 				for(int j1=sel.y+1,int i1 = mov.x+1; i1 < sel.x && j1<mov.y;i1++ ,j1++){
+ 				for(int j1=sel.y+1,i1 = mov.x+1; i1 < sel.x && j1<mov.y;i1++ ,j1++){
  					myboard[i1][j1] = -myboard[i1][j1];
  				}
- 		p2 			else{
- 				for(int j1=mov.y+1,int i1 = mov.x+1; i1 < sel.x && j1<sel.y;i1++ ,j1++){
+ 			}
+ 			else{
+ 				for(int j1=mov.y+1,i1 = mov.x+1; i1 < sel.x && j1<sel.y;i1++ ,j1++){
  					myboard[i1][j1] = -myboard[i1][j1];
  				}
  			}
@@ -137,7 +138,7 @@ void Yinsh::select_movering(Place sel,Place mov,int id)
 
    		}
 	}
-}
+
 
 void Yinsh::remove_row(Place p1,Place p2,int id)
 {
@@ -176,24 +177,24 @@ void Yinsh::remove_row(Place p1,Place p2,int id)
    else {
  		if(p2.x>p1.x){
  			if(p2.y>p1.y){
- 				for(int j1=p1.y+1,int i1 = p1.x+1; i1 < p2.x && j1<p2.y;i1++ ,j1++){
+ 				for(int j1=p1.y+1,i1 = p1.x+1; i1 < p2.x && j1<p2.y;i1++ ,j1++){
  					myboard[i1][j1] = 0;
  				}
  			}
  			else{
- 				for(int j1=p2.y+1,int i1 = p1.x+1; i1 < p2.x && j1<p1.y;i1++ ,j1++){
+ 				for(int j1=p2.y+1,i1 = p1.x+1; i1 < p2.x && j1<p1.y;i1++ ,j1++){
  					myboard[i1][j1] = 0;
  				}
  			}
  		}
  		else{
  			if(p2.y>p1.y){
- 				for(int j1=p1.y+1,int i1 = p2.x+1; i1 < p1.x && j1<p2.y;i1++ ,j1++){
+ 				for(int j1=p1.y+1,i1 = p2.x+1; i1 < p1.x && j1<p2.y;i1++ ,j1++){
  					myboard[i1][j1] = 0;
  				}
  			}
  			else{
- 				for(int j1=p2.y+1,int i1 = p2.x+1; i1 < p1.x && j1< p1.y;i1++ ,j1++){
+ 				for(int j1=p2.y+1, i1 = p2.x+1; i1 < p1.x && j1< p1.y;i1++ ,j1++){
  					myboard[i1][j1] = 0;
  				}
  			}
@@ -231,7 +232,7 @@ void Yinsh::neighbours(Place sel,Place dir,vector<Place>& neighbour)
 
 
 }
-void Yinsh::totneighbours(PLace sel,vector<Place>& neighbour)
+void Yinsh::totneighbours(Place sel,vector<Place>& neighbour)
 {
 
 }
