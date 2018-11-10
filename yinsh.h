@@ -1,5 +1,6 @@
 #ifndef YINSH_H
 #define YINSH_H
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -45,7 +46,7 @@ class Yinsh{
 		int rows;  // 2*rings+1
 		int marker_rem;  // no of markers to win
 		vector< vector<Place> > player; // player's rings
-		vector<vector<int>> myboard;
+		vector< vector<int> > myboard;
 		int cnt =0;
 
 	public:
@@ -67,6 +68,7 @@ class Yinsh{
 
 		double evaluate_reward(int id);
 		int check_five(int id,vector< vector<Place> > &five_rows);
+		vector<int> eval_collinear();
 
 
 

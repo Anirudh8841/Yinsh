@@ -145,13 +145,23 @@ int main(){
 	rings_num = stoi(rings);
 	timelimit = stoi(time);
 	markers_num = stoi(mark);
-
+  
 	Yinsh game = Yinsh(rings_num,2*rings_num+1,markers_num);
     
 
     // cout <<"a "<< ring_to_xy(0,0).x << " b "<< ring_to_xy(0,0).y << " 2a "<< ring_to_xy(1,0).x<< "2b"<<ring_to_xy(0,0).y <<endl;
     // game.play(player_num);
-    
+     
+     game.initialize();
+	
+	
+	// vector<int> p1 = game.eval_collinear();
+	cout<<"entrd";
+    // for(int i =0;i<p1.size();i++){
+
+	// 		cout<<" i "<<i <<"  " <<p1[i]<< endl;
+
+	// }
     
 
 	//Mybot* b = new Mybot(player_num,rings_num,timelimit,markers_num);
