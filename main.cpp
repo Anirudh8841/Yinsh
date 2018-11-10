@@ -2,6 +2,7 @@
 
 int player_num,rings_num,markers_num;
 float timelimit;
+Yinsh game;
 
 Place ring_to_xy(int hex,int pos)
 {
@@ -43,8 +44,8 @@ return ans;
 Place xy_to_ring(int x,int y)
 {
  	Place ans ={0,0};
- 	x=x-board_rings;
- 	y=y-board_rings;
+ 	x=x- rings_num ;
+ 	y=y- rings_num ;
 
  	if(x==0 && y==0){
  		ans.x=0;
@@ -121,10 +122,6 @@ void input_moves(vector<Move> &in_moves)
 
 }
 
-// double evaluated_value()
-// {
-	
-// }
 
 
 // void play(int id)
@@ -146,22 +143,22 @@ int main(){
 	timelimit = stoi(time);
 	markers_num = stoi(mark);
   
-	Yinsh game = Yinsh(rings_num,2*rings_num+1,markers_num);
+	game = Yinsh(rings_num,2*rings_num+1,markers_num);
     
 
     // cout <<"a "<< ring_to_xy(0,0).x << " b "<< ring_to_xy(0,0).y << " 2a "<< ring_to_xy(1,0).x<< "2b"<<ring_to_xy(0,0).y <<endl;
     // game.play(player_num);
      
-     game.initialize();
+    game.initialize();
 	
 	
-	// vector<int> p1 = game.eval_collinear();
+	vector<int> p1 = game.eval_collinear(1);
 	cout<<"entrd";
-    // for(int i =0;i<p1.size();i++){
+    for(int i =0;i<p1.size();i++){
 
-	// 		cout<<" i "<<i <<"  " <<p1[i]<< endl;
+			cout<<" i "<<i <<"  " <<p1[i]<< endl;
 
-	// }
+	}
     
 
 	//Mybot* b = new Mybot(player_num,rings_num,timelimit,markers_num);

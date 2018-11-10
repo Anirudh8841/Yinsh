@@ -1,11 +1,21 @@
 #include "yinsh.h"
 
 
-// Yinsh::Yinsh(){}
+Yinsh::Yinsh(){};
 
 
 //  
+Yinsh::Yinsh(int rings,int row,int mark){
+            ring_size = rings;
+            rows = row;
+            marker_rem = mark;
+            // matrix.resize(3, vector<int> (5,-1));
+            myboard.resize(rows, vector<int> (rows,0));
+   			player.resize(2, vector<Place> (ring_size,0));
 
+            initialize();  
+
+		};
 void Yinsh::initialize()
 {
 	int rings_n = ring_size;
@@ -241,33 +251,18 @@ double Yinsh::evaluate_reward(int id)
 
 }
 
-// int Yinsh::check_five(int id,vector< vector<Place> > &five_rows)
-// {
-// 	if(id = 0){
 
-// 	}
-// }
+ vector<int> Yinsh::eval_collinear(int id){
 
- vector<int> Yinsh::eval_collinear(){
+
 	// for x y var
    
-	myboard[4][0]=1;
-	myboard[4][1]=0;
-	myboard[4][2]=1;
-	myboard[4][3]=1;
-	myboard[4][4]=1;
-	myboard[4][5]=0;
-	myboard[4][6]=0;
-	myboard[4][7]=1;
-	myboard[4][8]=1;
-	myboard[4][9]=1;
-	myboard[4][10]=1;
-
-	vector<int> player1 (6,0);
+	vector<int> player1 (ring_size+1,0);
 	player1.push_back(0);
 	int count_1=0;
+
+	// for x y var
 	for(int x_i=0;x_i<rows;x_i++){
-		// int y_start=1;
         player1[count_1] = player1[count_1]+1;
 	    count_1=0;
 		for(int y_i =0;y_i<rows;y_i++){
@@ -275,17 +270,10 @@ double Yinsh::evaluate_reward(int id)
 
 			}
 			else{
-
-				if(myboard[x_i][y_i] ==1){
+				if(myboard[x_i][y_i] ==id){
 					count_1++;
-					// y_start=0;
-					
-
-
-
 				}
-				else if(myboard[x_i][y_i] !=1){
-					
+				else if(myboard[x_i][y_i] !=id){
                     player1[count_1] = player1[count_1]+1;
 					count_1=0;
 					
@@ -294,6 +282,79 @@ double Yinsh::evaluate_reward(int id)
 				
 		}
 	}
+
+	// y con x var
+
+	count_1 =0;
+	for(int y_i=0;y_i<rows;y_i++){	
+        player1[count_1] = player1[count_1]+1;
+	    count_1=0;
+		for(int x_i =0;x_i<rows;x_i++){
+			if(myboard[x_i][y_i]==-10){
+			}
+			else{
+				if(myboard[x_i][y_i] ==id){
+					count_1++;
+										
+				}
+				else if(myboard[x_i][y_i] !=id){	
+                    player1[count_1] = player1[count_1]+1;
+					count_1=0;
+				}
+			}
+				
+		}
+	}
+
+	// x y both increase
+
+	//  horiz
+	count_1 =0;
+	for(int x_i=0;x_i<=(rows-1)/2;x_i++){	
+        player1[count_1] = player1[count_1]+1;
+	    count_1=0;
+	    int x_dup=x_i;
+		for(int y_i =0;y_i<rows && x_dup<rows ;y_i++,x_dup++){
+			if(myboard[x_dup][y_i]==-10){
+			}
+			else{
+				if(myboard[x_dup][y_i] ==id){
+					count_1++;
+										
+				}
+				else if(myboard[x_dup][y_i] !=id){	
+                    player1[count_1] = player1[count_1]+1;
+					count_1=0;
+				} 
+			}
+				
+		}
+	}
+	count_1 =0;
+	for(int y_i=1;y_i<=(rows-1)/2;y_i++){	
+        player1[count_1] = player1[count_1]+1;
+	    count_1=0;
+	    int y_dup=y_i;
+		for(int x_i =0;x_i<rows && y_dup<rows ;x_i++,y_dup++){
+			if(myboard[x_i][y_dup]==-10){
+			}
+			else{
+				if(myboard[x_i][y_dup] ==id){
+					count_1++;
+										
+				}
+				else if(myboard[x_i][y_dup] !=id){	
+                    player1[count_1] = player1[count_1]+1;
+					count_1=0;
+				} 
+			}
+				
+		}
+	}
+
+
+
+
 
 	return player1;
 	// for(int i =0;i<player1.size();i++){

@@ -50,12 +50,9 @@ class Yinsh{
 		int cnt =0;
 
 	public:
-		// Yinsh();
-		Yinsh(int rings,int row,int mark){
-            ring_size = rings;
-            rows = row;
-            marker_rem = mark; 
-		};
+		Yinsh();
+		Yinsh(int rings,int row,int mark);
+		
 		void initialize(); 
 		void place_ring(int x,int y,int id);
 		void select_movering(Place sel,Place mov,int id);
@@ -68,7 +65,7 @@ class Yinsh{
 
 		double evaluate_reward(int id);
 		int check_five(int id,vector< vector<Place> > &five_rows);
-		vector<int> eval_collinear();
+		vector<int> eval_collinear(int id);
 
 
 
