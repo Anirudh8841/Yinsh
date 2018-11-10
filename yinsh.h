@@ -68,6 +68,7 @@ class Yinsh{
 
 		double evaluate_reward(int id);
 		int check_five(int id,vector< vector<Place> > &five_rows);
+		vector<int> eval_collinear();
 
 
 

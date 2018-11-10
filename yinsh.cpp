@@ -241,13 +241,66 @@ double Yinsh::evaluate_reward(int id)
 
 }
 
-int Yinsh::check_five(int id,vector< vector<Place> > &five_rows)
-{
-	if(id = 0){
+// int Yinsh::check_five(int id,vector< vector<Place> > &five_rows)
+// {
+// 	if(id = 0){
 
+// 	}
+// }
+
+ vector<int> Yinsh::eval_collinear(){
+	// for x y var
+   
+	myboard[4][0]=1;
+	myboard[4][1]=0;
+	myboard[4][2]=1;
+	myboard[4][3]=1;
+	myboard[4][4]=1;
+	myboard[4][5]=0;
+	myboard[4][6]=0;
+	myboard[4][7]=1;
+	myboard[4][8]=1;
+	myboard[4][9]=1;
+	myboard[4][10]=1;
+
+	vector<int> player1 (6,0);
+	player1.push_back(0);
+	int count_1=0;
+	for(int x_i=0;x_i<rows;x_i++){
+		// int y_start=1;
+        player1[count_1] = player1[count_1]+1;
+	    count_1=0;
+		for(int y_i =0;y_i<rows;y_i++){
+			if(myboard[x_i][y_i]==-10){
+
+			}
+			else{
+
+				if(myboard[x_i][y_i] ==1){
+					count_1++;
+					// y_start=0;
+					
+
+
+
+				}
+				else if(myboard[x_i][y_i] !=1){
+					
+                    player1[count_1] = player1[count_1]+1;
+					count_1=0;
+					
+				}
+			}
+				
+		}
 	}
-}
 
-int Yinsh::eval_collinear(int id,int no_of_adj){
+	return player1;
+	// for(int i =0;i<player1.size();i++){
+
+	// 		cout<<" i "<<i <<"  " <<player1[i]<< endl;
+
+	// }
+
 	
 }
