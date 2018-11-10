@@ -1,12 +1,45 @@
-#include "mybot.h"
+#include "yinsh.h"
 
-double evaluated_value(){
+void input_moves(vector<Move> &in_moves)
+{
+	string mov_ty;
+	int x,y;
+	string word;
+	string dup;
+	getline(cin,dup);
+	while(dup.length==0){
+		getline(cin,dup);
+	}
+	istringstream ss(dup);
+	while(ss>>word)
+	{
+		mov_ty = word;
+		ss>>word;
+		x = stoi(word);
+		ss>>word;
+		y=stoi(word);
+		Place p = ringtoxy(x,y);
+		Move mv = {mov_ty,p.x,p.y};
+
+		in_moves.push_back(mv);
+
+
+	} 
+
+}
+
+double evaluated_value()
+{
 	
 }
-void play(int id){
 
-	
+
+void play(int id)
+{
+
+    vector<Move> playermoves,opponentmoves;
     if(id==1){
+       
 
     }
 }

@@ -4,7 +4,7 @@
 // Yinsh::Yinsh(){}
 
 
-// 
+//  
 
 void Yinsh::initialize()
 {
@@ -238,4 +238,7 @@ double Yinsh::evaluate_reward(int id){
 
 
 }
+void Yinsh::check_five(int id,vector< vector<Place> > &five_rows)
+{
 
+}
