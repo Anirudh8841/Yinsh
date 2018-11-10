@@ -59,9 +59,8 @@ void Yinsh::place_ring(int x,int y,int id)
      player[id][cnt]=p;
      cnt++;
 
-
-    
 }
+
 // reverse in between and place ring at final position 
 // not checked validity
 
@@ -203,6 +202,7 @@ void Yinsh::remove_row(Place p1,Place p2,int id)
 
    }
 }
+
 void Yinsh::remove_ring(Place p1,int id)
 {
 	myboard[p1.x][p1.y] = 0;
@@ -229,6 +229,7 @@ void Yinsh::execute_seq(vector<Move>& move,int id)
 void Yinsh::neighbours(Place sel,Place dir,vector<Place>& neighbour)
 {
 
+
 }
 void Yinsh::totneighbours(PLace sel,vector<Place>& neighbour)
 {
@@ -236,6 +237,10 @@ void Yinsh::totneighbours(PLace sel,vector<Place>& neighbour)
 }
 double Yinsh::evaluate_reward(int id){
 
-
 }
+
+int eval_neighbours(int adj){
+	
+}
+
 
