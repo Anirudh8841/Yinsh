@@ -64,8 +64,8 @@ class Yinsh{
 		void totneighbours(PLace sel,vector<Place>& neighbour);
 
 		double evaluate_reward(int id);
-		void check_five(int id,vector< vector<Place> > &five_rows);
-		
+		int check_five(int id,vector< vector<Place> > &five_rows);
+
 
 
 

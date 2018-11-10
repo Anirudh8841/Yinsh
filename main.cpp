@@ -1,5 +1,18 @@
 #include "yinsh.h"
 
+
+
+Place ring_to_xy(int hex,int pos)
+{
+	Place ans;
+	   
+}
+
+Place xy_to_ring(int x,int y)
+{
+	Place 
+}
+
 void input_moves(vector<Move> &in_moves)
 {
 	string mov_ty;
@@ -18,7 +31,7 @@ void input_moves(vector<Move> &in_moves)
 		x = stoi(word);
 		ss>>word;
 		y=stoi(word);
-		Place p = ringtoxy(x,y);
+		Place p = ring_to_xy(x,y);
 		Move mv = {mov_ty,p.x,p.y};
 
 		in_moves.push_back(mv);
