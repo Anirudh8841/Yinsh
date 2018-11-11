@@ -12,13 +12,14 @@ class Place
 		int x;
 		int y;
 	public:
+		Place(){};
 		Place(int p,int q){
 			x=p;
 			y=q;
 		}
 		Place(int null){
-			x = -5;
-			y = -5;
+			x = -10;
+			y = -10;
 		}
 
 };
@@ -30,7 +31,7 @@ class Move
 		int x;
 		int y;
 	public:
-		Move();
+		Move(){};
 		Move(string ty,int i1,int i2){
 			type=ty;
 			x=i1;

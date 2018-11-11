@@ -15,7 +15,8 @@ Yinsh::Yinsh(int rings,int row,int mark){
 
             initialize();  
 
-		};
+		}
+
 void Yinsh::initialize()
 {
 	int rings_n = ring_size;
@@ -306,21 +307,13 @@ void Yinsh::totneighbours(Place sel,vector<Place>& neighbour)
 
 
 }
-double Yinsh::evaluate_reward(int id)
-{
-
-}
-
-
 // id = 1 or -1 
 //for turn 0 id =1
 // rreturns consecutive tokens for one player
- vector<int> Yinsh::eval_collinear(int id){
-
-
+vector<int> Yinsh::eval_collinear(int id){
 	// for x y var
    
-	vector<int> player1 (ring_size+1,0);
+	vector<int> player1 (rows+1,0);
 	player1.push_back(0);
 	int count_1=0;
 
@@ -368,7 +361,6 @@ double Yinsh::evaluate_reward(int id)
 				
 		}
 	}
-
 	// x y both increase
 
 	//  horiz
@@ -416,15 +408,39 @@ double Yinsh::evaluate_reward(int id)
 	}
 
 
+	return player1;	
+}
 
+// reward for particular 
+double Yinsh::evaluate_reward(int id)
+{
+	vector<int> player1 (ring_size+1,0);
+    vector<int> player2 (ring_size+1,0);
+    double reward;
+    if(id==0){
 
+    	player1 = eval_collinear(1);
+    	player2 = eval_collinear(-1);
 
-	return player1;
-	// for(int i =0;i<player1.size();i++){
+        vector<double> factor ={ 1,1,1,1,1,1,1,1,1,1 };
 
-	// 		cout<<" i "<<i <<"  " <<player1[i]<< endl;
+        for(int i_1 =1;i_1 <= 9;i_1++){
+        	reward = reward+factor[i_1]*(player1[i_1]-player2[i_1]);
+        }
+    	
+    	return reward;
+    }
+    else if(id==1){
 
-	// }
+    	player1 = eval_collinear(1);
+    	player2 = eval_collinear(-1);
 
-	
+        vector<double> factor ={ 1,1,1,1,1,1,1,1,1,1 };
+
+        for(int i_1 =1;i_1 <= 9;i_1++){
+        	reward = reward+factor[i_1]*(player2[i_1]-player1[i_1]);
+        }
+    	
+   		return reward;
+    }
 }
