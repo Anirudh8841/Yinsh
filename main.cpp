@@ -150,6 +150,7 @@ double minimax(int depth,double alpha , double beta , bool isMax_player){
            // original board before sel move child
 
 			vector< vector<int> > inter_board = game.myboard ;
+			vector< vector<Place> > inter_player_rings = game.player;
 
 			for(int i_1=0;i_1<dup_ringlist.size();i_1++)
 			{
@@ -162,10 +163,31 @@ double minimax(int depth,double alpha , double beta , bool isMax_player){
                 for(int i_2=0;i_2<neighb.size();i_2++)
 
                 {
-                	game.myboard = inter_board;
+                	
 
                 	game.select_movering(dup_sel,neighb[i_2],player_num);
-                   // check_five 
+
+                	vector< vector<Place>> five_rows;
+
+
+                	if(player_num==1){
+                		game.check_five(-1,five_rows);
+                	}
+                	else{
+                	 	game.check_five(1,five_rows);
+
+                	}
+
+                	if(five_rows.size()!=0){
+                		//vector<Place> rs_re = five_rows[0];
+                		Place rs = five_rows[0][0];
+                		Place re = five_rows[0][1];
+
+                		game.remove_row(rs,re,player_num);
+                		game.remove_ring(dup_ringlist[0],player_num);
+
+                	}
+                   // game.check_five 
 
                 	double child = minimax(depth-1,alpha,beta,!isMax_player);
                 	best_child = max(best_child,child);
@@ -173,6 +195,9 @@ double minimax(int depth,double alpha , double beta , bool isMax_player){
                 	if(alpha>=beta){
                 		return best_child;
                 	}
+
+                	game.myboard = inter_board;
+                	game.player = inter_player_rings;
                 }
 
 
@@ -206,7 +231,8 @@ double minimax(int depth,double alpha , double beta , bool isMax_player){
 			}
            // original board before sel move child
 
-			vector< vector<int> > orig_board = game.myboard ;
+			vector< vector<int> > inter_board = game.myboard ;
+			vector< vector<Place> > inter_player_rings = game.player;
 
 			for(int i_1=0;i_1<dup_ringlist.size();i_1++)
 			{
@@ -219,10 +245,32 @@ double minimax(int depth,double alpha , double beta , bool isMax_player){
                 for(int i_2=0;i_2<neighb.size();i_2++)
 
                 {
-                	game.myboard = orig_board;
+
 
                 	game.select_movering(dup_sel,neighb[i_2],turn);
-                   // check_five 
+
+
+                	vector< vector<Place>> five_rows;
+
+
+                	if(turn==1){
+                		game.check_five(-1,five_rows);
+                	}
+                	else{
+                	 	game.check_five(1,five_rows);
+
+                	}
+
+                	if(five_rows.size()!=0){
+                		//vector<Place> rs_re = five_rows[0];
+                		Place rs = five_rows[0][0];
+                		Place re = five_rows[0][1];
+
+                		game.remove_row(rs,re,player_num);
+                		game.remove_ring(dup_ringlist[0],turn);
+
+                	}
+                   // game.check_five 
 
                 	double child = minimax(depth-1,alpha,beta,isMax_player);
                 	best_child = min(child,best_child);
@@ -230,6 +278,9 @@ double minimax(int depth,double alpha , double beta , bool isMax_player){
                 	if(alpha>=beta){
                 		return best_child;
                 	}
+
+                	game.myboard = inter_board;
+                	game.player = inter_player_rings;
                 }
 			}
 
@@ -265,6 +316,7 @@ void find_moves(vector<Move> &best_moves,int id)
            // original board before sel move child
 
 			vector< vector<int> > original_board = game.myboard ;
+			vector< vector<Place> > original_player_rings = game.player;
 
 			for(int i_1=0;i_1<dup_ringlist.size();i_1++)
 			{
@@ -277,11 +329,33 @@ void find_moves(vector<Move> &best_moves,int id)
                 	double alpha = INT_MIN;
 					double beta = INT_MAX;
 					double best_child = INT_MIN;
-                	game.myboard = original_board;
+                	
 
                 	game.select_movering(dup_sel,neighb[i_2],player_num);
 
-                   // check_five 
+                	vector< vector<Place>> five_rows;
+
+
+                	if(player_num==1){
+                		game.check_five(-1,five_rows);
+                	}
+                	else{
+                	 	game.check_five(1,five_rows);
+
+                	}
+
+// removing dup ring lists first elemt for randomness can be improved also directly taking first five row formed  
+
+                	if(five_rows.size()!=0){
+                		//vector<Place> rs_re = five_rows[0];
+                		Place rs = five_rows[0][0];
+                		Place re = five_rows[0][1];
+
+                		game.remove_row(rs,re,player_num);
+                		game.remove_ring(dup_ringlist[0],player_num);
+
+                	}
+                   // game.check_five 
 
                 	double child = minimax(depth-1,alpha,beta,!isMax_player);
                 	if(best_child<child){
@@ -289,13 +363,20 @@ void find_moves(vector<Move> &best_moves,int id)
                 		best_moves.resize(0);
                 		best_moves.push_back({"S",dup_sel.x,dup_sel.y});
                 		best_moves.push_back({"M",neighb[i_2].x,neighb[i_2].y});
-                		// if(check_fiverow ){
-                  //          best_moves.push_back({"RS",})
-                		// }
+                		if(five_rows.size()!=0){
+                			best_moves.push_back({"RS",five_rows[0][0].x,five_rows[0][0].y});
+                		    best_moves.push_back({"RE",five_rows[0][1].x,five_rows[0][1].y});
+                		    best_moves.push_back({"X",dup_ringlist[0].x,dup_ringlist[0].y});
+
+                		}
+
 
                 		best_child = child;
                 		
                 	}
+
+                	game.myboard = original_board;
+                	game.player = original_player_rings;
                 	
                 }
 
@@ -402,17 +483,10 @@ int main(){
     // cout <<"a "<< ring_to_xy(0,0).x << " b "<< ring_to_xy(0,0).y << " 2a "<< ring_to_xy(1,0).x<< "2b"<<ring_to_xy(0,0).y <<endl;
     // game.play(player_num);
      
-    game.initialize();
+    play(player_num);
 	
 	
-	vector<int> p1 = game.eval_collinear(1);
-	cout<<"entrd";
-    for(int i =0;i<p1.size();i++){
 
-			cout<<" i "<<i <<"  " <<p1[i]<< endl;
-
-	}
-    
 
 
 
