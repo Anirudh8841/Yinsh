@@ -3,71 +3,28 @@ import random
 import sys
 import time
 
-
 class RandomPlayer:
-    x=0
-    y=0
 
     def __init__(self):
         data = sys.stdin.readline().strip().split() # Initialize Environment
         self.player = int(data[0]) - 1 # player can have values 0 and 1
         self.n = int(data[1]) # n can have values 5, 6, or 7
         self.time_left = int(data[2])
-        self.game = Game(self.n)
-        self.RingPos = {}   
-        self.x=0
-        self.y=0
-        self.cnt=0
-        self.hexlooped =1
-        self.play()   
-
-
+        self.seq = int(data[3])
+        self.game = Game(self.n, self.seq)
+        self.RingPos = {}
+        self.play()
 
     def placeRing(self):
-        
-        if self.y>max(0,6*self.x-1):
-
-            if self.hexlooped ==0:
-
-                if self.y%2 == 0:
-                    
-                    self.y=1
-                    self.cnt=self.cnt+1
-                    if self.cnt>=2:
-
-                        self.hexlooped=1
-                        self.cnt=0
-                    
-
-                else:
-                    
-                    self.y=0
-                    self.cnt=self.cnt+1
-                    if self.cnt>=2:
-                        self.hexlooped=1
-                        self.cnt=0
-                    
-            else:
-                self.x=self.x+1
-                self.y=0
-                self.hexlooped=0
-                self.cnt=0
-
-
-
-        hexagon = self.x
-        position = self.y
-
-        self.y = self.y+2
-
-        return '{type} {hex} {pos}'.format(type='P', hex=hexagon, pos=position), len(self.RingPos), hexagon, position
-                    
-
+        movetype = 'P'
+        hexagon = random.randint(0,self.n)
+        position = random.randint(0,max(0,6*hexagon-1))
+        if hexagon==self.n and position%self.n==0:
+            position+=1
+        return '{type} {hex} {pos}'.format(type=movetype, hex=hexagon, pos=position), len(self.RingPos), hexagon, position
 
     def selectRing(self):
         movetype = 'S'
-
-
         ring_num = random.randint(0,self.n-1)
         while ring_num not in self.RingPos:
             ring_num = random.randint(0,self.n-1)
@@ -78,7 +35,6 @@ class RandomPlayer:
         movetype = 'M'
         hexagon = random.randint(0,self.n)
         position = random.randint(0,max(0,6*hexagon-1))
-
         if hexagon==self.n and position%self.n==0:
             position+=1
         return '{type} {hex} {pos}'.format(type=movetype, hex=hexagon, pos=position), hexagon, position
@@ -112,21 +68,6 @@ class RandomPlayer:
         sys.stdout.write(moves)
         sys.stdout.flush()
 
-    def convertmycoord(self,myh,myp):
-        if myp>=3*myh:
-            myp=3*myh-myp
-            myh=-myh
-        return myh,myp
-
-
-    def get_graph(self,board):
-        root = Node(board,"",[],self.player)
-        
-
-
-
-
-
     def play(self):
         if self.player == 1:
             move = sys.stdin.readline().strip()
@@ -142,7 +83,6 @@ class RandomPlayer:
                         self.RingPos[i] = (hex, pos)
                         move_seq.append(moveP)
                         break
-
                 elif state == 1: ## Select a Ring and the Move to Valid Postion
                     moveS, i = self.selectRing()
                     moveM, hex, pos = self.moveRing()
