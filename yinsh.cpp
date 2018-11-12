@@ -3,8 +3,10 @@
 
 Yinsh::Yinsh(){};
 
-
+// Yinsh::~Yinsh(){};
 //  
+// vector< vector<int> > myboard = myboard;
+
 Yinsh::Yinsh(int rings,int row,int mark){
             ring_size = rings;
             rows = row;
@@ -57,14 +59,14 @@ void Yinsh::initialize()
 
 void Yinsh::place_ring(int x,int y,int id)
 {
-	 Place p = Place(x,y);
+	Place p = Place(x,y);
 
-     if(id==0){
+    if(id==0){
      	myboard[x][y] = 2 ;
-     }
-     else{
+    }
+    else{
      	myboard[x][y] = -2;
-     }
+    }
 
 // updating ring positions
      player[id][cnt]=p;
@@ -235,7 +237,7 @@ void Yinsh::remove_ring(Place p1,int id)
 }
 void Yinsh::execute_seq(vector<Move>& move,int id)
 {
-     for(int i_m=0;i_m<move.size();i_m++){
+     for(int i_m=0;i_m < move.size();i_m++){
      	string type_mov = move[i_m].type;
      	if(type_mov=="P"){
      		place_ring(move[i_m].x,move[i_m].y,id);
@@ -321,19 +323,17 @@ vector<int> Yinsh::eval_collinear(int id){
 	for(int x_i=0;x_i<rows;x_i++){
         player1[count_1] = player1[count_1]+1;
 	    count_1=0;
-		for(int y_i =0;y_i<rows;y_i++){
-			if(myboard[x_i][y_i]==-10){
-
-			}
-			else{
-				if(myboard[x_i][y_i] ==id){
+		    for(int y_i =0;y_i<rows;y_i++){
+                if(myboard[x_i][y_i]==-10){
+                }
+			    else{
+				    if(myboard[x_i][y_i] ==id){
 					count_1++;
-				}
-				else if(myboard[x_i][y_i] !=id){
-                    player1[count_1] = player1[count_1]+1;
-					count_1=0;
-					
-				}
+				    }
+				    else if(myboard[x_i][y_i] !=id){
+                        player1[count_1] = player1[count_1]+1;
+                        count_1=0;
+				    }
 			}
 				
 		}
@@ -411,6 +411,8 @@ vector<int> Yinsh::eval_collinear(int id){
 	return player1;	
 }
 
+
+
 // reward for particular 
 double Yinsh::evaluate_reward(int id)
 {
@@ -422,7 +424,7 @@ double Yinsh::evaluate_reward(int id)
     	player1 = eval_collinear(1);
     	player2 = eval_collinear(-1);
 
-        vector<double> factor ={ 1,1,1,1,1,1,1,1,1,1 };
+        vector<double> factor ={ 0,0.001,0.05,1,100,10000,15000,15000,15000,15000 };
 
         for(int i_1 =1;i_1 <= 9;i_1++){
         	reward = reward+factor[i_1]*(player1[i_1]-player2[i_1]);
@@ -443,4 +445,130 @@ double Yinsh::evaluate_reward(int id)
     	
    		return reward;
     }
+}
+
+// id = 1 or -1 
+// vector< vector<int> > myboard = myboard;
+
+void Yinsh::check_five(int id,vector< vector<Place>>& five_rows)
+{  
+
+    vector<int> player1 (rows+1,0);
+    player1.push_back(0);
+    int count_1=0;
+
+    // for x y var
+    for(int x_i=0;x_i<rows;x_i++){
+        player1[count_1] = player1[count_1]+1;
+        count_1=0;
+        for(int y_i =0;y_i<rows;y_i++){
+            if(myboard[x_i][y_i] == -10){
+            }
+            else{
+                if(myboard[x_i][y_i] ==id){
+                count_1++;
+                }
+                else if(myboard[x_i][y_i] !=id){
+                    vector<Place> dum_5 ; 
+                    if(count_1==5){
+                        dum_5.push_back({x_i,y_i-5});
+                        dum_5.push_back({x_i,y_i-1});
+                        five_rows.push_back(dum_5);
+                    }
+                    player1[count_1] = player1[count_1]+1;
+                    count_1=0;
+                }
+            }
+        }
+    }
+
+  // y con x var
+
+    count_1 =0;
+    for(int y_i=0;y_i<rows;y_i++){
+        player1[count_1] = player1[count_1]+1;
+        count_1=0;
+        for(int x_i =0;x_i<rows;x_i++){
+            if(myboard[x_i][y_i] ==-10){
+            }
+            else{
+                if(myboard[x_i][y_i] ==id){
+                    count_1++;
+                }
+                else if(myboard[x_i][y_i] !=id){  
+                    vector<Place> dum_5 ; 
+                        if(count_1==5){
+                            dum_5.push_back({x_i-5,y_i});
+                            dum_5.push_back({x_i-1,y_i});
+                            five_rows.push_back(dum_5);
+                        }
+            player1[count_1] = player1[count_1]+1;
+            count_1=0;
+        }
+      }
+        
+    }
+  }
+  // x y both increase
+
+  //  horiz
+  count_1 =0;
+  for(int x_i=0;x_i<=(rows-1)/2;x_i++){ 
+        player1[count_1] = player1[count_1]+1;
+      count_1=0;
+      int x_dup=x_i;
+    for(int y_i =0;y_i<rows && x_dup<rows ;y_i++,x_dup++){
+      if(myboard[x_dup][y_i] ==-10){
+      }
+      else{
+        if(myboard[x_dup][y_i] ==id){
+          count_1++;
+                    
+        }
+        else if(myboard[x_dup][y_i] !=id){  
+            vector<Place> dum_5 ; 
+            if(count_1==5){
+                 
+                dum_5.push_back({x_dup-5,y_i-5});
+                dum_5.push_back({x_dup-1,y_i-1});
+                five_rows.push_back(dum_5);
+              }
+            player1[count_1] = player1[count_1]+1;
+            count_1=0;
+                 }
+            }
+        }
+    }
+
+  count_1 =0;
+  for(int y_i=1;y_i<=(rows-1)/2;y_i++){ 
+        player1[count_1] = player1[count_1]+1;
+      count_1=0;
+      int y_dup=y_i;
+    for(int x_i =0;x_i<rows && y_dup<rows ;x_i++,y_dup++){
+      if(myboard[x_i][y_dup] ==-10){
+      }
+      else{
+        if(myboard[x_i][y_dup] ==id){
+          count_1++;
+                    
+        }
+        else if(myboard[x_i][y_dup] !=id){ 
+            vector<Place> dum_5 ; 
+            if(count_1==5){
+                 
+                dum_5.push_back({x_i-5,y_dup-5});
+                dum_5.push_back({x_i-1,y_dup-1});
+                five_rows.push_back(dum_5);
+              }
+            player1[count_1] = player1[count_1]+1;
+            count_1=0;
+                }
+            }
+        }
+    }
+
+
+
+
 }

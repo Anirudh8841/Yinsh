@@ -4,8 +4,6 @@
 
 using namespace std;
 
-#include <bits/stdc++.h> 
-
 class Place
 {
 	public:
@@ -52,6 +50,7 @@ class Yinsh{
 
 	public:
 		Yinsh();
+		// ~Yinsh();
 		Yinsh(int rings,int row,int mark);
 		
 		void initialize(); 
@@ -65,8 +64,9 @@ class Yinsh{
 		void totneighbours(Place sel,vector<Place>& neighbour);
 
 		double evaluate_reward(int id);
-		int check_five(int id,vector< vector<Place> > &five_rows);
+		
 		vector<int> eval_collinear(int id);
+		void check_five(int id,vector< vector<Place> > &five_rows);
 
 
 
