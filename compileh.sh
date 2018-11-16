@@ -1,0 +1,1 @@
+g++ -Ofast -march=native -std=c++11 -o brain brain.cpp game.cpp

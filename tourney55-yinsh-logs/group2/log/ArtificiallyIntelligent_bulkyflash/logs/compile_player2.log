@@ -1,0 +1,9 @@
+ Cleaning...
+ rm -f -r build runner
+ g++  -std=c++11 -Ofast -march=native -I include -c -o build/board.o src/board.cpp
+ g++  -std=c++11 -Ofast -march=native -I include -c -o build/eval_functions.o src/eval_functions.cpp
+ g++  -std=c++11 -Ofast -march=native -I include -c -o build/bot.o src/bot.cpp
+ g++  -std=c++11 -Ofast -march=native -I include -c -o build/util.o src/util.cpp
+ g++  -std=c++11 -Ofast -march=native -I include -c -o build/main.o src/main.cpp
+ Linking...
+ g++  build/board.o build/eval_functions.o build/bot.o build/util.o build/main.o -o runner 

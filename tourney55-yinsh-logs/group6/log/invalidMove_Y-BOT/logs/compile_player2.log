@@ -1,0 +1,2 @@
+g++ -c -o build/main.o src/main.cpp -I./include -std=c++11
+g++ -o bin/bot build/Board.o build/YinshBot.o build/main.o -I./include -std=c++11

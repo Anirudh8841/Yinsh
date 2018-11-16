@@ -1,0 +1,2 @@
+mkdir -p bin build
+g++ -std=c++11 -Ofast -march=native -o build/code src/Main.cpp src/Board.cpp src/State.cpp src/TimeHelper.cpp -I./include 

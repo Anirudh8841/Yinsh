@@ -1,0 +1,1699 @@
+rp.cpp:19:18: error: ‘>>’ should be ‘> >’ within a nested template argument list
+ vector<vector<int>> execute_move(auto state,string s,int chance)
+                  ^
+rp.cpp:19:39: error: ‘state’ does not name a type
+ vector<vector<int>> execute_move(auto state,string s,int chance)
+                                       ^
+rp.cpp: In function ‘std::vector<std::vector<int> > execute_move(int, std::__cxx11::string, int)’:
+rp.cpp:22:8: error: ‘i1’ does not name a type
+   auto i1=state.begin();
+        ^
+rp.cpp:25:10: error: ‘i2’ does not name a type
+     auto i2=(*i1).begin();
+          ^
+rp.cpp:26:14: error: expected ‘;’ before ‘==’ token
+     for(int j==0;j<13;j++)
+              ^
+rp.cpp:26:14: error: expected primary-expression before ‘==’ token
+rp.cpp:26:22: error: expected ‘)’ before ‘;’ token
+     for(int j==0;j<13;j++)
+                      ^
+rp.cpp:26:23: error: name lookup of ‘j’ changed for ISO ‘for’ scoping [-fpermissive]
+     for(int j==0;j<13;j++)
+                       ^
+rp.cpp:26:23: note: (if you use ‘-fpermissive’ G++ will accept your code)
+rp.cpp:26:26: error: expected ‘;’ before ‘)’ token
+     for(int j==0;j<13;j++)
+                          ^
+rp.cpp:31:5: error: ‘i1’ was not declared in this scope
+     i1++;
+     ^
+rp.cpp:33:8: error: ‘st’ does not name a type
+   auto st=split(s,' ');
+        ^
+rp.cpp:34:8: error: ‘it’ does not name a type
+   auto it=st.begin();
+        ^
+rp.cpp:39:7: error: ‘it’ was not declared in this scope
+       it++;
+       ^
+rp.cpp:40:26: error: ‘stoi’ was not declared in this scope
+       int i=hp_x[stoi(*it)];it++;
+                          ^
+rp.cpp:46:7: error: ‘it’ was not declared in this scope
+       it++;
+       ^
+rp.cpp:47:27: error: ‘stoi’ was not declared in this scope
+       int i1=hp_x[stoi(*it)];it++;
+                           ^
+rp.cpp:54:30: error: ‘>>’ should be ‘> >’ within a nested template argument list
+             vector<vector<int>> v1;
+                              ^
+rp.cpp:76:26: error: ‘>>’ should be ‘> >’ within a nested template argument list
+         vector<vector<int>> v1;
+                          ^
+rp.cpp:96:26: error: ‘>>’ should be ‘> >’ within a nested template argument list
+         vector<vector<int>> v1;
+                          ^
+rp.cpp:133:14: error: ‘st’ was not declared in this scope
+       if(it!=st.end()) //if it's time to remove ring
+              ^
+rp.cpp:144:32: error: ‘>>’ should be ‘> >’ within a nested template argument list
+               vector<vector<int>> v1;
+                                ^
+rp.cpp:155:28: error: ‘>>’ should be ‘> >’ within a nested template argument list
+           vector<vector<int>> v1;
+                            ^
+rp.cpp:168:28: error: ‘>>’ should be ‘> >’ within a nested template argument list
+           vector<vector<int>> v1;
+                            ^
+rp.cpp:201:18: error: ‘v1’ was not declared in this scope
+           return v1;
+                  ^
+rp.cpp:213:9: error: ‘it’ was not declared in this scope
+         it++;
+         ^
+rp.cpp:214:28: error: ‘stoi’ was not declared in this scope
+         int i=hp_x[stoi(*it)];it++;
+                            ^
+rp.cpp:220:9: error: ‘it’ was not declared in this scope
+         it++;
+         ^
+rp.cpp:221:29: error: ‘stoi’ was not declared in this scope
+         int i1=hp_x[stoi(*it)];it++;
+                             ^
+rp.cpp:228:32: error: ‘>>’ should be ‘> >’ within a nested template argument list
+               vector<vector<int>> v1;
+                                ^
+rp.cpp:249:28: error: ‘>>’ should be ‘> >’ within a nested template argument list
+           vector<vector<int>> v1;
+                            ^
+rp.cpp:269:28: error: ‘>>’ should be ‘> >’ within a nested template argument list
+           vector<vector<int>> v1;
+                            ^
+rp.cpp:306:16: error: ‘st’ was not declared in this scope
+         if(it!=st.end()) //if it's time to remove ring
+                ^
+rp.cpp:317:34: error: ‘>>’ should be ‘> >’ within a nested template argument list
+                 vector<vector<int>> v1;
+                                  ^
+rp.cpp:328:30: error: ‘>>’ should be ‘> >’ within a nested template argument list
+             vector<vector<int>> v1;
+                              ^
+rp.cpp:341:30: error: ‘>>’ should be ‘> >’ within a nested template argument list
+             vector<vector<int>> v1;
+                              ^
+rp.cpp:374:20: error: ‘v1’ was not declared in this scope
+             return v1;
+                    ^
+rp.cpp:379:22: error: template argument 1 is invalid
+   vector<vector<int> v;
+                      ^
+rp.cpp:379:22: error: template argument 2 is invalid
+rp.cpp:387:5: error: ‘v’ was not declared in this scope
+     v.push_back(temp);
+     ^
+rp.cpp:389:10: error: ‘v’ was not declared in this scope
+   return v;
+          ^
+rp.cpp: In function ‘void Initialize_Board()’:
+rp.cpp:393:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=0;pos[11][6]=0;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:394:3: error: reference to ‘hex’ is ambiguous
+   hex[9][6]=1;pos[9][6]=1;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:395:3: error: reference to ‘hex’ is ambiguous
+   hex[10][7]=1;pos[10][7]=1;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:396:3: error: reference to ‘hex’ is ambiguous
+   hex[12][7]=1;pos[12][7]=2;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:397:3: error: reference to ‘hex’ is ambiguous
+   hex[13][6]=1;pos[13][6]=3;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:398:3: error: reference to ‘hex’ is ambiguous
+   hex[12][5]=1;pos[12][5]=4;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:399:3: error: reference to ‘hex’ is ambiguous
+   hex[10][5]=1;pos[10][5]=5;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:401:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=0;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:402:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=1;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:403:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=2;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:404:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=3;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:405:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=4;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:406:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=5;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:407:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=6;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:408:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=7;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:409:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=8;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:410:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=9;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:411:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=10;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:412:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=2;pos[11][6]=11;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:414:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=0;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:415:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=1;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:416:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=2;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:417:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=3;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:418:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=4;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:419:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=5;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:420:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=6;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:421:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=7;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:422:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=8;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:423:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=9;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:424:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=10;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:425:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=11;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:426:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=12;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:427:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=13;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:428:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=14;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:429:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=15
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:430:3: error: expected ‘;’ before ‘hex’
+   hex[11][6]=3;pos[11][6]=16;
+   ^
+rp.cpp:431:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=3;pos[11][6]=17;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:433:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=0;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:434:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=1;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:435:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=2;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:436:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=3;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:437:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=4;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:438:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=5;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:439:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=6;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:440:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=7;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:441:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=8;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:442:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=9;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:443:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=10;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:444:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=11;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:445:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=12;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:446:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=13;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:447:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=14;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:448:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=15
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:449:3: error: expected ‘;’ before ‘hex’
+   hex[11][6]=4;pos[11][6]=16;
+   ^
+rp.cpp:450:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=17;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:451:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=18;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:452:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=19;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:453:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=20;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:454:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=21;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:455:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=22;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:456:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=4;pos[11][6]=23;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:458:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=0;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:459:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=1;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:460:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=2;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:461:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=3;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:462:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=4;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:463:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=5;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:464:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=6;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:465:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=7;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:466:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=8;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:467:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=9;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:468:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=10;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:469:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=11;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:470:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=12;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:471:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=13;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:472:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=14;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:473:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=15
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:474:3: error: expected ‘;’ before ‘hex’
+   hex[11][6]=5;pos[11][6]=16;
+   ^
+rp.cpp:475:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=17;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:476:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=18;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:477:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=19;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:478:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=20;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:479:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=21;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:480:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=22;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:481:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=23;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:482:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=24;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:483:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=25;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:484:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=26;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:485:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=27;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:486:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=28;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp:487:3: error: reference to ‘hex’ is ambiguous
+   hex[11][6]=5;pos[11][6]=29;
+   ^
+rp.cpp:5:5: note: candidates are: int hex [21][13]
+ int hex[21][13],pos[21][13],hp_x[6][30],hp_y[6][30];
+     ^
+In file included from /usr/include/c++/5/ios:42:0,
+                 from /usr/include/c++/5/istream:38,
+                 from /usr/include/c++/5/sstream:38,
+                 from /usr/include/c++/5/complex:45,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66,
+                 from rp.cpp:1:
+/usr/include/c++/5/bits/ios_base.h:1024:3: note:                 std::ios_base& std::hex(std::ios_base&)
+   hex(ios_base& __base)
+   ^
+rp.cpp: In function ‘int main()’:
+rp.cpp:562:9: error: ‘player’ was not declared in this scope
+     if (player==1)
+         ^
+rp.cpp:564:7: error: ‘move’ was not declared in this scope
+       move=//Readinput from terminal
+       ^
+rp.cpp:565:7: error: ‘game’ was not declared in this scope
+       game.execute_move(move);
+       ^
+rp.cpp:573:11: error: ‘state’ was not declared in this scope
+           state=game.check_player_state();
+           ^
+rp.cpp:573:17: error: ‘game’ was not declared in this scope
+           state=game.check_player_state();
+                 ^
+rp.cpp: At global scope:
+rp.cpp:601:13: error: ‘state’ does not name a type
+ MinVal(auto state,int alpha,int beta)
+             ^
+rp.cpp:601:37: error: ISO C++ forbids declaration of ‘MinVal’ with no type [-fpermissive]
+ MinVal(auto state,int alpha,int beta)
+                                     ^
+rp.cpp: In function ‘int MinVal(int, int, int)’:
+rp.cpp:603:15: error: ‘state’ was not declared in this scope
+   if(terminal(state))
+               ^
+rp.cpp:603:20: error: ‘terminal’ was not declared in this scope
+   if(terminal(state))
+                    ^
+rp.cpp:605:24: error: ‘eval_H’ was not declared in this scope
+     return eval_H(state);
+                        ^
+rp.cpp:607:8: error: ‘childs’ does not name a type
+   auto childs=children(state);
+        ^
+rp.cpp:609:12: error: ‘s’ does not name a type
+   for(auto s=childs.begin();s!=childs.end();s++)
+            ^
+rp.cpp:609:29: error: expected ‘;’ before ‘s’
+   for(auto s=childs.begin();s!=childs.end();s++)
+                             ^
+rp.cpp:609:29: error: ‘s’ was not declared in this scope
+rp.cpp:609:32: error: ‘childs’ was not declared in this scope
+   for(auto s=childs.begin();s!=childs.end();s++)
+                                ^
+rp.cpp:611:10: error: ‘child’ does not name a type
+     auto child=MaxVal(*s,alpha,beta);
+          ^
+rp.cpp:612:19: error: ‘child’ was not declared in this scope
+     beta=min(beta,child);
+                   ^
+rp.cpp: At global scope:
+rp.cpp:621:13: error: ‘state’ does not name a type
+ MaxVal(auto state,int alpha,int beta)
+             ^
+rp.cpp:621:37: error: ISO C++ forbids declaration of ‘MaxVal’ with no type [-fpermissive]
+ MaxVal(auto state,int alpha,int beta)
+                                     ^
+rp.cpp: In function ‘int MaxVal(int, int, int)’:
+rp.cpp:623:15: error: ‘state’ was not declared in this scope
+   if(terminal(state))
+               ^
+rp.cpp:623:20: error: ‘terminal’ was not declared in this scope
+   if(terminal(state))
+                    ^
+rp.cpp:624:24: error: ‘eval_H’ was not declared in this scope
+     return eval_H(state);
+                        ^
+rp.cpp:625:8: error: ‘childs’ does not name a type
+   auto childs=children(state);
+        ^
+rp.cpp:627:12: error: ‘s’ does not name a type
+   for(auto s=childs.begin();s!=childs.end();s++)
+            ^
+rp.cpp:627:29: error: expected ‘;’ before ‘s’
+   for(auto s=childs.begin();s!=childs.end();s++)
+                             ^
+rp.cpp:627:29: error: ‘s’ was not declared in this scope
+rp.cpp:627:32: error: ‘childs’ was not declared in this scope
+   for(auto s=childs.begin();s!=childs.end();s++)
+                                ^
+rp.cpp:629:10: error: ‘child’ does not name a type
+     auto child=MinVal(*s,alpha,beta);
+          ^
+rp.cpp:630:21: error: ‘child’ was not declared in this scope
+     alpha=max(alpha,child);
+                     ^
+rp.cpp: At global scope:
+rp.cpp:638:20: error: ‘>>’ should be ‘> >’ within a nested template argument list
+ vector<pair<int,int>> Rings_1(auto state)
+                    ^
+rp.cpp:638:36: error: ‘state’ does not name a type
+ vector<pair<int,int>> Rings_1(auto state)
+                                    ^
+rp.cpp: In function ‘std::vector<std::pair<int, int> > Rings_1(int)’:
+rp.cpp:641:12: error: ‘i1’ does not name a type
+       auto i1=state.begin();
+            ^
+rp.cpp:644:14: error: ‘i2’ does not name a type
+         auto i2=(*i1).begin();
+              ^
+rp.cpp:645:18: error: expected ‘;’ before ‘==’ token
+         for(int j==0;j<13;j++)
+                  ^
+rp.cpp:645:18: error: expected primary-expression before ‘==’ token
+rp.cpp:645:26: error: expected ‘)’ before ‘;’ token
+         for(int j==0;j<13;j++)
+                          ^
+rp.cpp:645:27: error: name lookup of ‘j’ changed for ISO ‘for’ scoping [-fpermissive]
+         for(int j==0;j<13;j++)
+                           ^
+rp.cpp:645:30: error: expected ‘;’ before ‘)’ token
+         for(int j==0;j<13;j++)
+                              ^
+rp.cpp:650:9: error: ‘i1’ was not declared in this scope
+         i1++;
+         ^
+rp.cpp:652:26: error: ‘>>’ should be ‘> >’ within a nested template argument list
+       vector<pair<int,int>> v;
+                          ^
+rp.cpp:659:20: error: ‘p’ does not name a type
+               auto p=make_pair(i,j);
+                    ^
+rp.cpp:660:27: error: ‘p’ was not declared in this scope
+               v.push_back(p);
+                           ^
+rp.cpp: At global scope:
+rp.cpp:666:20: error: ‘>>’ should be ‘> >’ within a nested template argument list
+ vector<pair<int,int>> Rings_2(auto state)
+                    ^
+rp.cpp:666:36: error: ‘state’ does not name a type
+ vector<pair<int,int>> Rings_2(auto state)
+                                    ^
+rp.cpp: In function ‘std::vector<std::pair<int, int> > Rings_2(int)’:
+rp.cpp:669:12: error: ‘i1’ does not name a type
+       auto i1=state.begin();
+            ^
+rp.cpp:672:14: error: ‘i2’ does not name a type
+         auto i2=(*i1).begin();
+              ^
+rp.cpp:673:18: error: expected ‘;’ before ‘==’ token
+         for(int j==0;j<13;j++)
+                  ^
+rp.cpp:673:18: error: expected primary-expression before ‘==’ token
+rp.cpp:673:26: error: expected ‘)’ before ‘;’ token
+         for(int j==0;j<13;j++)
+                          ^
+rp.cpp:673:27: error: name lookup of ‘j’ changed for ISO ‘for’ scoping [-fpermissive]
+         for(int j==0;j<13;j++)
+                           ^
+rp.cpp:673:30: error: expected ‘;’ before ‘)’ token
+         for(int j==0;j<13;j++)
+                              ^
+rp.cpp:678:9: error: ‘i1’ was not declared in this scope
+         i1++;
+         ^
+rp.cpp:680:26: error: ‘>>’ should be ‘> >’ within a nested template argument list
+       vector<pair<int,int>> v;
+                          ^
+rp.cpp:687:20: error: ‘p’ does not name a type
+               auto p=make_pair(i,j);
+                    ^
+rp.cpp:688:27: error: ‘p’ was not declared in this scope
+               v.push_back(p);
+                           ^
+rp.cpp: At global scope:
+rp.cpp:694:25: error: ‘>>’ should be ‘> >’ within a nested template argument list
+ vector<vector<vector<int>>> children(auto state,int c)
+                         ^
+rp.cpp:694:43: error: ‘state’ does not name a type
+ vector<vector<vector<int>>> children(auto state,int c)
+                                           ^
+rp.cpp: In function ‘std::vector<std::vector<std::vector<int> > > children(int, int)’:
+rp.cpp:697:10: error: ‘i1’ does not name a type
+     auto i1=state.begin();
+          ^
+rp.cpp:700:12: error: ‘i2’ does not name a type
+       auto i2=(*i1).begin();
+            ^
+rp.cpp:701:16: error: expected ‘;’ before ‘==’ token
+       for(int j==0;j<13;j++)
+                ^
+rp.cpp:701:16: error: expected primary-expression before ‘==’ token
+rp.cpp:701:24: error: expected ‘)’ before ‘;’ token
+       for(int j==0;j<13;j++)
+                        ^
+rp.cpp:701:25: error: name lookup of ‘j’ changed for ISO ‘for’ scoping [-fpermissive]
+       for(int j==0;j<13;j++)
+                         ^
+rp.cpp:701:28: error: expected ‘;’ before ‘)’ token
+       for(int j==0;j<13;j++)
+                            ^
+rp.cpp:706:7: error: ‘i1’ was not declared in this scope
+       i1++;
+       ^
+rp.cpp:708:29: error: ‘>>’ should be ‘> >’ within a nested template argument list
+     vector<vector<vector<int>>>childs;
+                             ^
+rp.cpp:711:12: error: ‘v’ does not name a type
+       auto v=Rings_1(state);
+            ^
+rp.cpp:712:16: error: ‘ir’ does not name a type
+       for(auto ir=v.begin();ir!=v.end();ir++)
+                ^
+rp.cpp:712:29: error: expected ‘;’ before ‘ir’
+       for(auto ir=v.begin();ir!=v.end();ir++)
+                             ^
+rp.cpp:712:29: error: ‘ir’ was not declared in this scope
+rp.cpp:712:33: error: ‘v’ was not declared in this scope
+       for(auto ir=v.begin();ir!=v.end();ir++)
+                                 ^
+rp.cpp:714:14: error: ‘p’ does not name a type
+         auto p=*ir;  //pair<int,int> (r,c or x,y)
+              ^
+rp.cpp:715:15: error: ‘p’ was not declared in this scope
+         int x=p.first;
+               ^
+rp.cpp:729:19: error: invalid operands of types ‘const char [2]’ and ‘const char [2]’ to binary ‘operator+’
+             s="S"+" "+to_string(x)+" "+to_string(y)+" "+"M"+" "+to_string(i)+" "+to_string(j)+" ";
+                   ^
+rp.cpp:729:34: error: ‘to_string’ was not declared in this scope
+             s="S"+" "+to_string(x)+" "+to_string(y)+" "+"M"+" "+to_string(i)+" "+to_string(j)+" ";
+                                  ^
+rp.cpp: At global scope:
+rp.cpp:736:29: error: ‘>>’ should be ‘> >’ within a nested template argument list
+ int eval_H(vector<vector<int>> state)
+                             ^
+rp.cpp: In function ‘int eval_H(std::vector<std::vector<int> >)’:
+rp.cpp:739:8: error: ‘i1’ does not name a type
+   auto i1=state.begin();
+        ^
+rp.cpp:742:10: error: ‘i2’ does not name a type
+     auto i2=(*i1).begin();
+          ^
+rp.cpp:743:14: error: expected ‘;’ before ‘==’ token
+     for(int j==0;j<13;j++)
+              ^
+rp.cpp:743:14: error: expected primary-expression before ‘==’ token
+rp.cpp:743:22: error: expected ‘)’ before ‘;’ token
+     for(int j==0;j<13;j++)
+                      ^
+rp.cpp:743:23: error: name lookup of ‘j’ changed for ISO ‘for’ scoping [-fpermissive]
+     for(int j==0;j<13;j++)
+                       ^
+rp.cpp:743:26: error: expected ‘;’ before ‘)’ token
+     for(int j==0;j<13;j++)
+                          ^
+rp.cpp:748:5: error: ‘i1’ was not declared in this scope
+     i1++;
+     ^

@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "predator.py", line 381, in <module>
+    player = Myplayer()
+  File "predator.py", line 43, in __init__
+    self.game = Game(self.n)
+TypeError: __init__() takes at least 3 arguments (2 given)
+***********************************
+
+-> You are player 1
+-> You are alloted a time of 120s
+
+***********************************
+
+Time remaining is: 120s
+ERROR : THIS CLIENT RAN OUT OF TIME!

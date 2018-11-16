@@ -1,0 +1,213 @@
+69
+Depth 2
+Remaining Time 119.485133171
+60
+Depth 2
+Remaining Time 118.996051073
+54
+Depth 2
+Remaining Time 118.583535194
+52
+Depth 2
+Remaining Time 117.951584101
+50
+Depth 2
+Remaining Time 116.509099245
+48
+Depth 2
+Remaining Time 115.085608244
+41
+Depth 2
+Remaining Time 113.845175266
+42
+Depth 2
+Remaining Time 112.636372328
+46
+Depth 2
+Remaining Time 111.236062288
+52
+Depth 2
+Remaining Time 110.888949156
+41
+Depth 2
+Remaining Time 110.16916728
+38
+Depth 3
+Remaining Time 107.465297222
+40
+Depth 2
+Remaining Time 106.094818115
+36
+Depth 3
+Remaining Time 103.301134109
+40
+Depth 2
+Remaining Time 102.688220263
+42
+Depth 2
+Remaining Time 102.151446342
+42
+Depth 2
+Remaining Time 101.506167173
+36
+Depth 3
+Remaining Time 99.6372182369
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 0 0
+P 0 0 True
+Time remaining is: 120s
+You played : P 2 0
+P 2 0 True
+Player 1 played : P 1 0
+P 1 0 True
+Time remaining is: 120s
+You played : P 3 3
+P 3 3 True
+Player 1 played : P 1 1
+P 1 1 True
+Time remaining is: 120s
+You played : P 3 6
+P 3 6 True
+Player 1 played : P 1 2
+P 1 2 True
+Time remaining is: 120s
+You played : P 2 4
+P 2 4 True
+Player 1 played : P 1 3
+P 1 3 True
+Time remaining is: 120s
+You played : P 2 6
+P 2 6 True
+Player 1 played : S 0 0 M 1 5
+S 0 0 True
+M 1 5 True
+Time remaining is: 120s
+You played : S 2 0 M 3 0
+S 2 0 True
+M 3 0 True
+Player 1 played : S 1 5 M 2 10
+S 1 5 True
+M 2 10 True
+Time remaining is: 120s
+You played : S 3 3 M 3 1
+S 3 3 True
+M 3 1 True
+Player 1 played : S 2 10 M 3 15
+S 2 10 True
+M 3 15 True
+Time remaining is: 119s
+You played : S 3 1 M 4 1
+S 3 1 True
+M 4 1 True
+Player 1 played : S 1 1 M 4 4
+S 1 1 True
+M 4 4 True
+Time remaining is: 119s
+You played : S 3 0 M 4 0
+S 3 0 True
+M 4 0 True
+Player 1 played : S 3 15 M 4 20
+S 3 15 True
+M 4 20 True
+Time remaining is: 118s
+You played : S 4 0 M 5 1
+S 4 0 True
+M 5 1 True
+Player 1 played : S 1 0 M 2 1
+S 1 0 True
+M 2 1 True
+Time remaining is: 117s
+You played : S 4 1 M 5 2
+S 4 1 True
+M 5 2 True
+Player 1 played : S 2 1 M 3 2
+S 2 1 True
+M 3 2 True
+Time remaining is: 115s
+You played : S 5 2 M 5 3
+S 5 2 True
+M 5 3 True
+Player 1 played : S 4 4 M 5 29
+S 4 4 True
+M 5 29 True
+Time remaining is: 114s
+You played : S 5 1 M 4 23
+S 5 1 True
+M 4 23 True
+Player 1 played : S 3 2 M 4 3
+S 3 2 True
+M 4 3 True
+Time remaining is: 113s
+You played : S 4 23 M 1 4
+S 4 23 True
+M 1 4 True
+Player 1 played : S 5 29 M 3 17
+S 5 29 True
+M 3 17 True
+Time remaining is: 111s
+You played : S 2 4 M 4 2
+S 2 4 True
+M 4 2 True
+Player 1 played : S 3 17 M 2 2
+S 3 17 True
+M 2 2 True
+Time remaining is: 111s
+You played : S 3 6 M 3 7
+S 3 6 True
+M 3 7 True
+Player 1 played : S 4 3 M 2 9
+S 4 3 True
+M 2 9 True
+Time remaining is: 110s
+You played : S 4 2 M 5 6
+S 4 2 True
+M 5 6 True
+Player 1 played : S 2 2 M 3 4
+S 2 2 True
+M 3 4 True
+Time remaining is: 108s
+You played : S 1 4 M 2 11
+S 1 4 True
+M 2 11 True
+Player 1 played : S 4 20 M 5 26
+S 4 20 True
+M 5 26 True
+Time remaining is: 106s
+You played : S 2 11 M 3 14
+S 2 11 True
+M 3 14 True
+Player 1 played : S 2 9 M 3 16
+S 2 9 True
+M 3 16 True
+Time remaining is: 103s
+You played : S 5 6 M 5 7
+S 5 6 True
+M 5 7 True
+Player 1 played : S 5 26 M 4 21
+S 5 26 True
+M 4 21 True
+Time remaining is: 103s
+You played : S 5 3 M 5 4
+S 5 3 True
+M 5 4 True
+Player 1 played : S 3 16 M 2 3
+S 3 16 True
+M 2 3 True
+Time remaining is: 102s
+You played : S 3 7 M 4 10
+S 3 7 True
+M 4 10 True
+Player 1 played : S 2 3 M 3 5
+S 2 3 True
+M 3 5 True
+Time remaining is: 101s
+You played : S 5 7 M 5 28
+S 5 7 True
+M 5 28 True
+ERROR : INVALID MOVE BY PLAYER 1 : Player 1 SCORE : 1.013 : Player 2 SCORE : 9.018 ,ON OTHER CLIENT

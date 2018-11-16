@@ -1,0 +1,1 @@
+g++ --std=c++11 -O3 -o main main.cpp Player.cpp Game.cpp Move.cpp MicroMove.cpp Utility.cpp 

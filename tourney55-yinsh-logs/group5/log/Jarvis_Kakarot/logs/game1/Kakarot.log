@@ -1,0 +1,88 @@
+Depth: 2 NOM:44
+Depth: 2 NOM:52
+Depth: 2 NOM:55
+Depth: 2 NOM:56
+Depth: 2 NOM:52
+Depth: 2 NOM:52
+Depth: 2 NOM:45
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 0 0
+P 0 0 True
+Time remaining is: 120s
+You played : P 1 0
+P 1 0 True
+Player 1 played : P 1 1
+P 1 1 True
+Time remaining is: 120s
+You played : P 1 2
+P 1 2 True
+Player 1 played : P 1 3
+P 1 3 True
+Time remaining is: 120s
+You played : P 1 4
+P 1 4 True
+Player 1 played : P 1 5
+P 1 5 True
+Time remaining is: 120s
+You played : P 2 0
+P 2 0 True
+Player 1 played : P 2 1
+P 2 1 True
+Time remaining is: 120s
+You played : P 2 2
+P 2 2 True
+Player 1 played : S 1 5 M 2 11
+S 1 5 True
+M 2 11 True
+Time remaining is: 120s
+You played : S 2 0 M 4 0
+S 2 0 True
+M 4 0 True
+Player 1 played : S 2 1 M 3 17
+S 2 1 True
+M 3 17 True
+Time remaining is: 120s
+You played : S 2 2 M 3 3
+S 2 2 True
+M 3 3 True
+Player 1 played : S 2 11 M 2 10
+S 2 11 True
+M 2 10 True
+Time remaining is: 119s
+You played : S 1 4 M 3 14
+S 1 4 True
+M 3 14 True
+Player 1 played : S 0 0 M 2 8
+S 0 0 True
+M 2 8 True
+Time remaining is: 118s
+You played : S 3 14 M 3 13
+S 3 14 True
+M 3 13 True
+Player 1 played : S 2 8 M 2 9
+S 2 8 True
+M 2 9 True
+Time remaining is: 116s
+You played : S 1 0 M 3 16
+S 1 0 True
+M 3 16 True
+Player 1 played : S 1 3 M 3 0
+S 1 3 True
+M 3 0 True
+Time remaining is: 116s
+You played : S 3 3 M 3 1
+S 3 3 True
+M 3 1 True
+Player 1 played : S 1 1 M 4 4
+S 1 1 True
+M 4 4 True
+Time remaining is: 115s
+You played : S 4 0 M 4 2
+S 4 0 True
+M 4 2 True

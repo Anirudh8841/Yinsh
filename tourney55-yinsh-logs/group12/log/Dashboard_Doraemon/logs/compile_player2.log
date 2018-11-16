@@ -1,0 +1,5 @@
+rm -f Python/*.pyc build/*.o core
+g++ -c -Wall -Wextra -O3 -std=c++11 -pedantic -I/usr/local/include -I./include -o build/main.o src/main.cpp
+g++ -c -Wall -Wextra -O3 -std=c++11 -pedantic -I/usr/local/include -I./include -o build/State.o src/State.cpp
+g++ -c -Wall -Wextra -O3 -std=c++11 -pedantic -I/usr/local/include -I./include -o build/Search.o src/Search.cpp
+g++ -Wall -Wextra -O3 -std=c++11 -pedantic -o bin/code  build/main.o  build/State.o  build/Search.o  -I/usr/local/include -I./include -L./

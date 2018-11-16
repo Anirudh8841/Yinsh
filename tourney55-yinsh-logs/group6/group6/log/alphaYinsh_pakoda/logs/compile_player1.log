@@ -1,0 +1,19 @@
+rm -rf bin/ build/
+make directories;
+make[1]: Entering directory '/home/baadalvm/Yinsh-AI-Eval/tourney55/group6/log/alphaYinsh_pakoda/alphaYinsh'
+mkdir -p build/AI build/Game bin
+make[1]: Leaving directory '/home/baadalvm/Yinsh-AI-Eval/tourney55/group6/log/alphaYinsh_pakoda/alphaYinsh'
+make bin/ai;
+make[1]: Entering directory '/home/baadalvm/Yinsh-AI-Eval/tourney55/group6/log/alphaYinsh_pakoda/alphaYinsh'
+g++ -std=c++11 -Ofast -c src/AI/Ai.cpp -o build/AI/Ai.o
+g++ -std=c++11 -Ofast -c src/AI/Tree.cpp -o build/AI/Tree.o
+g++ -std=c++11 -Ofast -c src/AI/Huerisitic.cpp -o build/AI/Huerisitic.o
+g++ -std=c++11 -Ofast -c src/AI/Node.cpp -o build/AI/Node.o
+g++ -std=c++11 -Ofast -c src/Game/Game.cpp -o build/Game/Game.o
+g++ -std=c++11 -Ofast -c src/Game/Board.cpp -o build/Game/Board.o
+g++ -std=c++11 -Ofast -c src/Game/Player.cpp -o build/Game/Player.o
+g++ -std=c++11 -Ofast -c src/Game/Move.cpp -o build/Game/Move.o
+g++ -std=c++11 -Ofast -c src/Game/Operation.cpp -o build/Game/Operation.o
+g++ -std=c++11 -Ofast -c src/Game/Point.cpp -o build/Game/Point.o
+g++ build/AI/Ai.o build/AI/Tree.o build/AI/Huerisitic.o build/AI/Node.o build/Game/Game.o build/Game/Board.o build/Game/Player.o build/Game/Move.o build/Game/Operation.o build/Game/Point.o -o bin/ai
+make[1]: Leaving directory '/home/baadalvm/Yinsh-AI-Eval/tourney55/group6/log/alphaYinsh_pakoda/alphaYinsh'

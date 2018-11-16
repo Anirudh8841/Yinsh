@@ -1,0 +1,337 @@
+1 5 120 5
+In initial move
+In initial move
+In initial move
+In initial move
+In initial move
+Branching factor = 11
+Branching factor = 11
+1, 2; 2, 2
+5, 1 to 5, 3
+Branching factor = 12
+Branching factor = 12
+2, 2; 3, 3
+0, 2 to 3, 2
+Branching factor = 12
+Branching factor = 12
+1, 1; 1, 3
+5, 3 to 5, 2
+Branching factor = 15
+Branching factor = 15
+1, 3; 1, 4
+5, 2 to 4, 2
+Branching factor = 15
+Branching factor = 15
+1, 4; 1, 5
+0, 1 to 2, 3
+Branching factor = 12
+Branching factor = 12
+Branching factor = 12
+0, 0; 0, 3
+4, 2 to 4, 1
+Branching factor = 15
+Branching factor = 15
+Branching factor = 15
+Branching factor = 15
+Branching factor = 15
+Branching factor = 15
+Branching factor = 15
+Branching factor = 15
+0, 3; -1, 2
+4, 1 to -1, 1
+Branching factor = 15
+Branching factor = 15
+Branching factor = 15
+Branching factor = 15
+-1, 2; -2, 1
+Branching factor = 22
+Branching factor = 22
+-2, 1; -3, 0
+-1, 1 to -3, 1
+-1, 0; 1, 2
+2, 3 to -1, 3
+Branching factor = 21
+Branching factor = 21
+1, 2; 3, 4
+3, 1 to 2, 1
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+Branching factor = 21
+3, 4; 4, 5
+Ring removed at index4
+Branching factor = 16
+Branching factor = 16
+1, 5; 1, 2
+2, 4 to -2, 0
+Branching factor = 17
+Branching factor = 17
+1, 2; 2, 3
+-2, 0 to -1, 0
+Branching factor = 18
+Branching factor = 18
+Branching factor = 18
+2, 3; -1, 3
+-1, 0 to 3, 4
+Branching factor = 17
+Branching factor = 17
+4, 5; 3, 5
+3, 4 to 4, 4
+Branching factor = 18
+Branching factor = 18
+3, 5; 2, 5
+4, 4 to 2, 2
+-1, 3; 0, 4
+1, 0 to 5, 4
+-3, 0; 2, 0
+***********************************
+
+-> You are player 1
+-> You are alloted a time of 120s
+
+***********************************
+
+Time remaining is: 120s
+You played : P 0 0
+P 0 0 True
+Player 2 played : P 1 0
+P 1 0 True
+Time remaining is: 120s
+You played : P 1 1
+P 1 1 True
+Player 2 played : P 1 2
+P 1 2 True
+Time remaining is: 120s
+You played : P 1 3
+P 1 3 True
+Player 2 played : P 1 4
+P 1 4 True
+Time remaining is: 120s
+You played : P 1 5
+P 1 5 True
+Player 2 played : P 2 0
+P 2 0 True
+Time remaining is: 120s
+You played : P 2 1
+P 2 1 True
+Player 2 played : P 5 9
+P 5 9 True
+Time remaining is: 120s
+You played : S 2 1 M 2 2
+S 2 1 True
+M 2 2 True
+Player 2 played : S 5 9 M 5 7
+S 5 9 True
+M 5 7 True
+Time remaining is: 119s
+You played : S 2 2 M 3 3
+S 2 2 True
+M 3 3 True
+Player 2 played : S 2 0 M 3 4
+S 2 0 True
+M 3 4 True
+Time remaining is: 117s
+You played : S 1 1 M 3 1
+S 1 1 True
+M 3 1 True
+Player 2 played : S 5 7 M 5 8
+S 5 7 True
+M 5 8 True
+Time remaining is: 116s
+You played : S 3 1 M 4 1
+S 3 1 True
+M 4 1 True
+Player 2 played : S 5 8 M 4 6
+S 5 8 True
+M 4 6 True
+Time remaining is: 113s
+You played : S 4 1 M 5 1
+S 4 1 True
+M 5 1 True
+Player 2 played : S 1 0 M 3 2
+S 1 0 True
+M 3 2 True
+Time remaining is: 111s
+You played : S 0 0 M 3 0
+S 0 0 True
+M 3 0 True
+Player 2 played : S 4 6 M 4 7
+S 4 6 True
+M 4 7 True
+Time remaining is: 109s
+You played : S 3 0 M 3 17
+S 3 0 True
+M 3 17 True
+Player 2 played : S 4 7 M 2 11
+S 4 7 True
+M 2 11 True
+Time remaining is: 106s
+You played : S 3 17 M 3 16
+S 3 17 True
+M 3 16 True
+Player 2 played : S 3 4 M 3 5 RS 2 1 RE 5 8 X 1 4
+S 3 4 True
+M 3 5 True
+RS 2 1 True
+RE 5 8 True
+X 1 4 True
+Time remaining is: 103s
+You played : S 3 16 M 3 15
+S 3 16 True
+M 3 15 True
+Player 2 played : S 2 11 M 4 21
+S 2 11 True
+M 4 21 True
+Time remaining is: 99s
+You played : S 1 5 M 2 1
+S 1 5 True
+M 2 1 True
+Player 2 played : S 3 2 M 4 23
+S 3 2 True
+M 4 23 True
+Time remaining is: 96s
+You played : S 2 1 M 4 3
+S 2 1 True
+M 4 3 True
+Player 2 played : S 3 5 M 2 3
+S 3 5 True
+M 2 3 True
+Time remaining is: 92s
+You played : S 4 3 M 5 4 RS 1 5 RE 4 3 X 3 3
+S 4 3 True
+M 5 4 True
+RS 1 5 True
+RE 4 3 True
+X 3 3 True
+Player 2 played : S 2 3 M 4 2 RS 1 1 RE 5 9 X 4 23
+S 2 3 True
+M 4 2 True
+RS 1 1 True
+RE 5 9 True
+X 4 23 True
+Time remaining is: 90s
+You played : S 5 1 M 2 1
+S 5 1 True
+M 2 1 True
+Player 2 played : S 4 2 M 2 10
+S 4 2 True
+M 2 10 True
+Time remaining is: 86s
+You played : S 2 1 M 3 2
+S 2 1 True
+M 3 2 True
+Player 2 played : S 2 10 M 1 5
+S 2 10 True
+M 1 5 True
+Time remaining is: 84s
+You played : S 3 2 M 4 23
+S 3 2 True
+M 4 23 True
+Player 2 played : S 1 5 M 4 3
+S 1 5 True
+M 4 3 True
+Time remaining is: 79s
+You played : S 5 4 M 5 3
+S 5 4 True
+M 5 3 True
+Player 2 played : S 4 3 M 4 4
+S 4 3 True
+M 4 4 True
+Time remaining is: 76s
+You played : S 5 3 M 5 2
+S 5 3 True
+M 5 2 True
+Player 2 played : S 4 4 M 2 2
+S 4 4 True
+M 2 2 True
+Time remaining is: 73s
+You played : S 4 23 M 4 0
+S 4 23 True
+M 4 0 True
+Player 2 played : S 1 2 M 5 6
+S 1 2 True
+M 5 6 True
+Time remaining is: 72s
+You played : S 3 15 M 2 4
+S 3 15 True
+M 2 4 True
+Player 2 played : S 5 6 M 3 4 RS 4 1 RE 5 6 X 4 21
+S 5 6 True
+M 3 4 True
+RS 4 1 True
+RE 5 6 True
+X 4 21 True
+OTHER PLAYER WINS!
+Your Score : 1.012
+Opponent's Score : 9.006

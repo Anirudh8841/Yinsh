@@ -1,0 +1,6 @@
+rm -f *.o neighmainank
+g++ -std=c++14 -Ofast -march=native -c funlib.cpp 
+g++ -std=c++14 -Ofast -march=native -c neighGame.cpp 
+g++ -std=c++14 -Ofast -march=native -c neighank.cpp 
+g++ -std=c++14 -Ofast -march=native -c neighoptimize.cpp 
+g++ -std=c++14 -Ofast -march=native -o neighmainank main.cpp neighoptimize.o neighank.o neighGame.o funlib.o 

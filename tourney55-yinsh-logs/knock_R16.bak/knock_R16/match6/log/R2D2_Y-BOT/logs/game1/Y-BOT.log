@@ -1,0 +1,838 @@
+init complete: 
+boardsize: 5
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ _ _ _ _ _ _ _ 
+       _ _ _ _ a _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 0
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ _ _ _ _ _ _ _ 
+       _ _ _ _ a _ _ _ _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ _ _ _ _ _ _ _ 
+       _ _ _ _ a a _ _ _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 0
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ _ _ 1 _ _ _ _ 
+       _ _ _ _ a a _ _ _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ _ _ 1 _ _ _ _ 
+       _ _ _ a a a _ _ _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 0
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ _ _ 1 _ _ _ _ 
+       _ _ _ a a a _ 1 _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ _ _ 1 _ _ _ _ 
+       _ _ a a a a _ 1 _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 0
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ _ _ 1 _ _ _ _ 
+       _ _ a a a a 1 1 _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ _ _ 1 _ _ _ _ 
+       _ _ a a a a 1 1 _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 0
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ _ _ 1 _ _ _ _ 
+       _ 1 a a a a 1 1 _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ a _ 1 _ _ _ _ 
+       _ 1 a b a a 1 1 _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 1198
+            _ _ _ _   
+         _ _ _ _ 1 _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ a _ 1 _ _ _ _ 
+       _ 1 a b a a 1 2 _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 1 _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ a a 1 _ _ _ _ 
+       _ 1 a b b a 1 2 _   
+      _ _ _ _ 1 _ _ _ _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 2924
+            _ _ _ _   
+         _ _ _ _ 1 _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ a a 1 _ _ _ _ 
+       _ 1 a b b a 1 2 _   
+      _ _ _ _ 2 _ 1 _ _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 1 _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ a b 1 _ _ _ _ 
+       _ 1 a 2 b a 1 2 _   
+      _ _ _ a 2 _ 1 _ _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 3751
+            _ _ _ _   
+         _ _ _ _ 1 _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ _ a b 1 _ _ _ _ 
+       _ 1 a 2 b a 1 2 _   
+      _ _ _ a 2 _ 2 1 _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 1 _ _ 
+        _ _ _ _ _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ a a b 1 _ _ _ _ 
+       _ 1 b 2 b a 1 2 _   
+      _ _ _ a 2 _ 2 1 _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 4483
+            _ _ _ _   
+         _ _ _ _ 1 _ _ 
+        _ _ _ 1 _ _ _ _ 
+       _ _ _ _ _ _ _ _ _ 
+      _ _ a a b 2 _ _ _ _ 
+       _ 1 b 2 b a 1 2 _   
+      _ _ _ a 2 _ 2 1 _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 1 _ _ 
+        _ _ _ 1 _ _ _ _ 
+       _ _ _ _ a _ _ _ _ 
+      _ _ a a b b _ _ _ _ 
+       _ 1 b 2 b b 1 2 _   
+      _ _ _ a 2 _ 2 1 _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 5198
+            _ _ _ _   
+         _ _ _ _ 1 _ _ 
+        _ _ _ 1 _ _ _ _ 
+       _ _ _ _ a _ _ _ _ 
+      _ _ a a b b _ _ _ _ 
+       _ 2 b 2 b b 1 2 _   
+      _ _ 1 a 2 _ 2 1 _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 1 _ _ 
+        _ _ _ 1 _ _ _ _ 
+       _ _ _ _ a _ _ _ _ 
+      _ _ a a b b _ _ _ _ 
+       _ 2 b 2 b b 1 2 _   
+      _ _ 1 b b a 2 1 _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 6181
+            _ _ _ _   
+         _ _ _ _ 2 _ 1 
+        _ _ _ 1 _ _ _ _ 
+       _ _ _ _ a _ _ _ _ 
+      _ _ a a b b _ _ _ _ 
+       _ 2 b 2 b b 1 2 _   
+      _ _ 1 b b a 2 1 _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 2 _ 1 
+        _ _ _ 1 _ _ _ _ 
+       _ _ _ _ b a _ _ _ 
+      _ _ a a b b _ _ _ _ 
+       _ 2 b 2 b b 1 2 _   
+      _ _ 1 b b a 2 1 _ _ 
+       _ _ _ a _ _ _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 6738
+            _ _ _ _   
+         _ _ _ _ 2 _ 1 
+        _ _ _ 1 _ _ _ _ 
+       _ _ _ _ b a _ _ _ 
+      _ _ a a b b _ _ _ _ 
+       _ 2 b 2 b b 2 2 _   
+      _ _ 1 b b a b 1 _ _ 
+       _ _ _ a _ 1 _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 2 _ 1 
+        _ _ _ 1 _ _ _ _ 
+       _ _ _ a 2 b _ _ _ 
+      _ _ a a b b _ _ _ _ 
+       _ 2 b 2 b b 2 2 _   
+      _ _ 1 b b a b 1 _ _ 
+       _ _ _ a _ 1 _ _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 7088
+            _ _ _ _   
+         _ _ _ _ 2 _ 1 
+        _ _ _ 2 _ _ _ _ 
+       _ _ _ a b b _ _ _ 
+      _ _ a a b 2 _ _ _ _ 
+       _ 2 b 2 b 2 2 2 _   
+      _ _ 1 b b a 2 1 _ _ 
+       _ _ _ a _ 1 1 _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 2 _ 1 
+        _ _ _ 2 _ _ _ _ 
+       _ _ _ a b b _ _ _ 
+      _ _ a b b 2 _ _ _ _ 
+       _ 2 b b b 2 2 2 _   
+      _ _ 1 b 2 a 2 1 _ _ 
+       _ _ _ a a 1 1 _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 7559
+            _ _ _ _   
+         _ _ _ _ 2 _ 1 
+        _ _ _ 2 _ _ _ _ 
+       _ _ _ a b b _ _ _ 
+      _ _ a b b 2 _ _ _ _ 
+       _ 2 b b b 2 2 2 _   
+      _ _ 2 b 2 a 2 1 _ _ 
+       _ _ 1 a a 1 1 _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 2 _ 1 
+        _ _ _ 2 _ _ _ _ 
+       _ _ _ a b b _ _ _ 
+      _ _ b 2 2 b a _ _ _ 
+       _ 2 b b b 2 2 2 _   
+      _ _ 2 b 2 a 2 1 _ _ 
+       _ _ 1 a a 1 1 _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 7832
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 _ _ _ _ 
+       _ _ _ a b b 1 _ _ 
+      _ _ b 2 2 b a _ _ _ 
+       _ 2 b b b 2 2 2 _   
+      _ _ 2 b 2 a 2 1 _ _ 
+       _ _ 1 a a 1 1 _ _ 
+        _ _ _ _ _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 _ _ _ _ 
+       _ _ _ a b b 1 _ _ 
+      _ _ b 2 2 b a _ _ _ 
+       _ 2 b b b 2 2 2 _   
+      _ _ 2 b 2 a 2 1 _ _ 
+       _ _ 1 b a 1 1 _ _ 
+        _ _ _ a _ _ _ _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 8311
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 _ _ _ _ 
+       _ _ _ a b b 1 _ _ 
+      _ _ b 2 2 b a _ _ _ 
+       _ 2 b b b 2 2 2 _   
+      _ _ 2 b 2 a 2 1 _ _ 
+       _ _ 1 b a 1 2 _ _ 
+        _ _ _ a _ _ 1 _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 _ _ _ _ 
+       _ _ _ a b b 1 _ _ 
+      _ _ _ 2 2 b a _ _ _ 
+       _ 2 _ b b 2 2 2 _   
+      _ _ 2 _ 2 _ 2 1 _ _ 
+       _ _ 1 _ a 1 2 _ _ 
+        _ _ a _ _ _ 1 _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 8739
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 _ 1 _ _ 
+       _ _ _ a b b 2 _ _ 
+      _ _ _ 2 2 b a _ _ _ 
+       _ 2 _ b b 2 2 2 _   
+      _ _ 2 _ 2 _ 2 1 _ _ 
+       _ _ 1 _ a 1 2 _ _ 
+        _ _ a _ _ _ 1 _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 _ 1 _ _ 
+       _ _ _ a b b 2 _ _ 
+      _ _ _ 2 2 b a _ _ _ 
+       _ 2 _ b b 2 2 2 _   
+      _ _ 2 _ 2 _ 2 1 _ _ 
+       _ _ 1 a b 1 2 _ _ 
+        _ _ a _ _ _ 1 _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 9437
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 _ 1 _ _ 
+       _ _ _ a b b 2 _ _ 
+      _ _ _ 2 2 b a _ _ _ 
+       _ 2 _ b b 2 2 2 _   
+      _ _ 2 _ 2 1 2 1 _ _ 
+       _ _ 1 a b 2 2 _ _ 
+        _ _ a _ _ _ 1 _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 _ 1 _ _ 
+       _ _ _ b b b 2 _ _ 
+      _ _ _ b 2 b a _ _ _ 
+       _ 2 a b b 2 2 2 _   
+      _ _ 2 _ 2 1 2 1 _ _ 
+       _ _ 1 a b 2 2 _ _ 
+        _ _ a _ _ _ 1 _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+count of prune: 9819
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 _ 1 _ _ 
+       _ _ _ b b b 2 _ _ 
+      _ _ _ b 2 b a _ _ _ 
+       _ 2 a b b 2 2 2 _   
+      _ _ 2 _ 2 1 2 1 _ _ 
+       _ _ 1 a b 2 2 1 _ 
+        _ _ a _ _ _ 2 _ 
+         _ _ _ _ _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 _ 1 _ _ 
+       _ _ _ b b b 2 _ _ 
+      _ _ _ b 2 b a _ _ _ 
+       _ 2 a b b 2 2 2 _   
+      _ _ 2 _ 2 1 2 1 _ _ 
+       _ _ 1 b b 2 2 1 _ 
+        _ _ a _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+count of prune: 10320
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 1 1 _ _ 
+       _ _ _ b 2 b 2 _ _ 
+      _ _ _ b b b a _ _ _ 
+       _ 2 a 2 b 2 2 2 _   
+      _ _ 2 _ 2 1 2 1 _ _ 
+       _ _ 2 b b 2 2 1 _ 
+        _ _ a _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ 2 1 1 _ _ 
+       _ _ _ b 2 b 2 _ _ 
+      _ _ _ b b b a _ _ _ 
+       _ 2 b b 2 b b b a   
+      _ _ 2 _ 2 1 2 1 _ _ 
+       _ _ 2 b b 2 2 1 _ 
+        _ _ a _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+count of prune: 10557
+            _ _ _ _   
+         _ _ _ 1 2 _ 2 
+        _ _ _ 2 2 1 _ _ 
+       _ _ _ b 2 b 2 _ _ 
+      _ _ _ b b b a _ _ _ 
+       _ 2 b b 2 b b b a   
+      _ _ 2 _ 2 1 2 1 _ _ 
+       _ _ 2 b b 2 2 1 _ 
+        _ _ a _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ 1 2 _ 2 
+        _ _ _ 2 2 1 _ _ 
+       _ _ _ b 2 b 2 a _ 
+      _ _ _ b b b a _ _ _ 
+       _ 2 b b 2 b b b b   
+      _ _ 2 _ 2 1 2 1 _ _ 
+       _ _ 2 b b 2 2 1 _ 
+        _ _ a _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+count of prune: 10760
+            _ _ _ _   
+         _ _ _ 1 2 _ 2 
+        _ _ _ 2 2 1 _ _ 
+       _ _ _ b 2 b 2 a _ 
+      _ _ _ b b b a _ _ 1 
+       _ 2 b b 2 b b b 2   
+      _ _ 2 _ 2 1 2 1 _ _ 
+       _ _ 2 b b 2 2 2 _ 
+        _ _ a _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ 1 2 _ 2 
+        _ _ _ 2 2 1 _ _ 
+       _ _ _ b 2 b 2 a _ 
+      _ a _ b b b a _ _ 1 
+       _ b b b 2 b b b 2   
+      _ _ b _ 2 1 2 1 _ _ 
+       _ _ b b b 2 2 2 _ 
+        _ _ b _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+count of prune: 10976
+            _ _ _ _   
+         _ _ _ 2 2 _ 2 
+        _ _ _ b 2 1 _ _ 
+       _ _ _ 2 2 b 2 a _ 
+      _ a _ 2 b b a _ _ 1 
+       _ b 2 b 2 b b b 2   
+      _ _ 2 _ 2 1 2 1 _ _ 
+       _ 1 b b b 2 2 2 _ 
+        _ _ b _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+            _ _ _ _   
+         _ _ _ 2 2 _ 2 
+        _ _ _ b 2 1 _ _ 
+       _ _ a b b 2 b b _ 
+      _ a _ 2 b b a _ _ 1 
+       _ b 2 b 2 b b b 2   
+      _ _ 2 _ 2 1 2 1 _ _ 
+       _ 1 b b b 2 2 2 _ 
+        _ _ b _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+count of prune: 11384
+            _ _ _ _   
+         _ _ _ 2 2 _ 2 
+        _ _ _ b 2 1 _ _ 
+       _ _ a b b 2 b b _ 
+      _ a _ 2 b b a _ 1 1 
+       _ b 2 b 2 b b 2 2   
+      _ _ 2 _ 2 1 2 2 _ _ 
+       _ 1 b b b 2 2 2 _ 
+        _ _ b _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+            _ a _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ b _ 1 _ _ 
+       _ _ a b b _ b b _ 
+      _ _ _ 2 b b _ _ 1 1 
+       _ b 2 b 2 b _ 2 2   
+      _ _ 2 _ 2 1 2 2 _ _ 
+       _ 1 b b b 2 2 2 _ 
+        _ _ b _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+count of prune: 11517
+            _ a _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ b _ 1 _ _ 
+       _ _ a b b _ b b _ 
+      _ _ _ 2 b b 1 _ 1 1 
+       _ b 2 b 2 2 _ 2 2   
+      _ _ 2 _ 2 2 2 2 _ _ 
+       _ 1 b b b 2 2 2 _ 
+        _ _ b _ _ _ 2 _ 
+         _ _ _ a _ _ _ 
+            _ _ _ _   
+            _ a _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ b _ 1 _ _ 
+       _ _ a b b _ b b _ 
+      _ _ _ 2 b b 1 _ 1 1 
+       _ b 2 b 2 2 _ 2 2   
+      _ _ 2 a 2 2 2 2 _ _ 
+       _ 1 b 2 b 2 2 2 _ 
+        _ _ b _ _ _ 2 _ 
+         _ _ _ b _ _ _ 
+            _ _ _ _   
+count of prune: 11624
+            _ a _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ b _ 1 _ _ 
+       _ _ a b b _ b b _ 
+      _ _ 1 b 2 _ 2 _ _ 1 
+       _ b 2 b 2 _ _ 2 2   
+      _ _ 2 a 2 2 _ 2 _ _ 
+       _ 1 b 2 b 2 _ 2 _ 
+        _ _ b _ _ _ _ _ 
+         _ _ _ b _ _ _ 
+            _ _ _ _   
+            _ a _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ b _ 1 _ _ 
+       _ _ a b b _ b b _ 
+      _ _ 1 b 2 _ 2 _ _ 1 
+       _ b 2 b 2 _ _ 2 2   
+      _ _ 2 b b b a 2 _ _ 
+       _ 1 b 2 b 2 _ 2 _ 
+        _ _ b _ _ _ _ _ 
+         _ _ _ b _ _ _ 
+            _ _ _ _   
+count of prune: 11690
+            _ a _ _   
+         _ _ _ _ 2 _ 2 
+        _ _ _ b _ 1 _ _ 
+       _ _ a b b _ b b _ 
+      _ _ 1 b 2 _ 2 _ _ 1 
+       _ b 2 b 2 _ _ 2 2   
+      _ _ 2 b b b a 2 _ _ 
+       _ 2 2 b 2 b 1 2 _ 
+        _ _ b _ _ _ _ _ 
+         _ _ _ b _ _ _ 
+            _ _ _ _   
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 0 0
+P 0 0 True
+Time remaining is: 120s
+You played : P 1 2
+P 1 2 True
+Player 1 played : P 1 0
+P 1 0 True
+Time remaining is: 120s
+You played : P 1 5
+P 1 5 True
+Player 1 played : P 1 3
+P 1 3 True
+Time remaining is: 120s
+You played : P 3 0
+P 3 0 True
+Player 1 played : P 2 6
+P 2 6 True
+Time remaining is: 120s
+You played : P 2 0
+P 2 0 True
+Player 1 played : P 2 4
+P 2 4 True
+Time remaining is: 120s
+You played : P 3 9
+P 3 9 True
+Player 1 played : S 1 3 M 2 7
+S 1 3 True
+M 2 7 True
+Time remaining is: 120s
+You played : S 3 0 M 4 19
+S 3 0 True
+M 4 19 True
+Player 1 played : S 0 0 M 1 4
+S 0 0 True
+M 1 4 True
+Time remaining is: 117s
+You played : S 1 2 M 2 1
+S 1 2 True
+M 2 1 True
+Player 1 played : S 1 4 M 2 5
+S 1 4 True
+M 2 5 True
+Time remaining is: 111s
+You played : S 2 1 M 3 1
+S 2 1 True
+M 3 1 True
+Player 1 played : S 2 6 M 3 10
+S 2 6 True
+M 3 10 True
+Time remaining is: 108s
+You played : S 1 5 M 3 13
+S 1 5 True
+M 3 13 True
+Player 1 played : S 1 0 M 2 9
+S 1 0 True
+M 2 9 True
+Time remaining is: 106s
+You played : S 3 9 M 3 8
+S 3 9 True
+M 3 8 True
+Player 1 played : S 2 5 M 1 1
+S 2 5 True
+M 1 1 True
+Time remaining is: 103s
+You played : S 4 19 M 5 26
+S 4 19 True
+M 5 26 True
+Player 1 played : S 2 9 M 2 10
+S 2 9 True
+M 2 10 True
+Time remaining is: 100s
+You played : S 2 0 M 2 2
+S 2 0 True
+M 2 2 True
+Player 1 played : S 2 10 M 2 8
+S 2 10 True
+M 2 8 True
+Time remaining is: 98s
+You played : S 3 13 M 3 2
+S 3 13 True
+M 3 2 True
+Player 1 played : S 2 7 M 2 3
+S 2 7 True
+M 2 3 True
+Time remaining is: 96s
+You played : S 3 8 M 3 7
+S 3 8 True
+M 3 7 True
+Player 1 played : S 3 10 M 2 11
+S 3 10 True
+M 2 11 True
+Time remaining is: 94s
+You played : S 5 26 M 3 16
+S 5 26 True
+M 3 16 True
+Player 1 played : S 2 4 M 3 5
+S 2 4 True
+M 3 5 True
+Time remaining is: 93s
+You played : S 3 2 M 4 3
+S 3 2 True
+M 4 3 True
+Player 1 played : S 3 5 M 3 6 RS 3 10 RE 3 5 X 1 1
+S 3 5 True
+M 3 6 True
+RS 3 10 True
+RE 3 5 True
+X 1 1 True
+Time remaining is: 91s
+You played : S 3 16 M 3 15
+S 3 16 True
+M 3 15 True
+Player 1 played : S 2 3 M 2 4
+S 2 3 True
+M 2 4 True
+Time remaining is: 90s
+You played : S 2 2 M 1 1
+S 2 2 True
+M 1 1 True
+Player 1 played : S 2 8 M 2 6
+S 2 8 True
+M 2 6 True
+Time remaining is: 88s
+You played : S 4 3 M 4 2
+S 4 3 True
+M 4 2 True
+Player 1 played : S 2 4 M 4 6
+S 2 4 True
+M 4 6 True
+Time remaining is: 87s
+You played : S 3 7 M 3 14
+S 3 7 True
+M 3 14 True
+Player 1 played : S 2 6 M 4 0
+S 2 6 True
+M 4 0 True
+Time remaining is: 85s
+You played : S 3 14 M 4 18
+S 3 14 True
+M 4 18 True
+Player 1 played : S 4 0 M 4 22
+S 4 0 True
+M 4 22 True
+Time remaining is: 84s
+You played : S 4 2 M 5 29
+S 4 2 True
+M 5 29 True
+Player 1 played : S 3 6 M 4 13
+S 3 6 True
+M 4 13 True
+Time remaining is: 83s
+You played : S 4 18 M 4 10
+S 4 18 True
+M 4 10 True
+Player 1 played : S 4 22 M 3 11
+S 4 22 True
+M 3 11 True
+Time remaining is: 82s
+You played : S 3 1 M 4 23
+S 3 1 True
+M 4 23 True
+Player 1 played : S 2 11 M 5 22 RS 4 18 RE 2 0 X 4 13
+S 2 11 True
+M 5 22 True
+RS 4 18 True
+RE 2 0 True
+X 4 13 True
+Time remaining is: 80s
+You played : S 1 1 M 2 11
+S 1 1 True
+M 2 11 True
+Player 1 played : S 4 6 M 2 5
+S 4 6 True
+M 2 5 True
+Time remaining is: 79s
+You played : S 2 11 M 3 10 RS 1 5 RE 4 3 X 4 23
+S 2 11 True
+M 3 10 True
+RS 1 5 True
+RE 4 3 True
+X 4 23 True
+Player 1 played : S 2 5 M 2 1
+S 2 5 True
+M 2 1 True
+Time remaining is: 79s
+You played : S 4 10 M 3 2
+S 4 10 True
+M 3 2 True
+Player 1 played : S 2 1 M 4 1 RS 2 5 RE 3 1 X 4 1
+S 2 1 True
+M 4 1 True
+RS 2 5 True
+RE 3 1 True
+X 4 1 True
+OTHER PLAYER WINS!
+Your Score : 1.013
+Opponent's Score : 9.012

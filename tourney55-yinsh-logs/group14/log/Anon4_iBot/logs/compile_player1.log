@@ -1,0 +1,119 @@
+ Cleaning ....
+rm -rf build code
+g++  -c -o build/game.o src/game.cpp -Iinclude  -I./lib -std=c++14 -O3  -march=native -fpermissive
+In file included from include/game.h:7:0,
+                 from src/game.cpp:1:
+include/board.h:89:30: warning: ISO C++ forbids declaration of ‘BoardEval’ with no type [-fpermissive]
+         BoardEval(int playnum);
+                              ^
+g++  -c -o build/player.o src/player.cpp -Iinclude  -I./lib -std=c++14 -O3  -march=native -fpermissive
+In file included from include/game.h:7:0,
+                 from include/player.h:4,
+                 from src/player.cpp:1:
+include/board.h:89:30: warning: ISO C++ forbids declaration of ‘BoardEval’ with no type [-fpermissive]
+         BoardEval(int playnum);
+                              ^
+src/player.cpp: In member function ‘void player::play()’:
+src/player.cpp:210:12: warning: return-statement with a value, in function returning 'void' [-fpermissive]
+     return 0; 
+            ^
+g++  -c -o build/valid.o src/valid.cpp -Iinclude  -I./lib -std=c++14 -O3  -march=native -fpermissive
+In file included from include/game.h:7:0,
+                 from include/valid.h:2,
+                 from src/valid.cpp:2:
+include/board.h:89:30: warning: ISO C++ forbids declaration of ‘BoardEval’ with no type [-fpermissive]
+         BoardEval(int playnum);
+                              ^
+g++  -c -o build/yinsh.o src/yinsh.cpp -Iinclude  -I./lib -std=c++14 -O3  -march=native -fpermissive
+In file included from include/game.h:7:0,
+                 from include/yinsh.h:5,
+                 from src/yinsh.cpp:1:
+include/board.h:89:30: warning: ISO C++ forbids declaration of ‘BoardEval’ with no type [-fpermissive]
+         BoardEval(int playnum);
+                              ^
+g++  -c -o build/board.o src/board.cpp -Iinclude  -I./lib -std=c++14 -O3  -march=native -fpermissive
+In file included from src/board.cpp:1:0:
+include/board.h:89:30: warning: ISO C++ forbids declaration of ‘BoardEval’ with no type [-fpermissive]
+         BoardEval(int playnum);
+                              ^
+src/board.cpp:207:67: warning: default argument given for parameter 4 of ‘void Board::set(int, int, int, bool)’ [-fpermissive]
+ void Board::set(int shell, int position, point input,bool con=true){
+                                                                   ^
+In file included from src/board.cpp:1:0:
+include/board.h:70:14: note: previous specification in ‘void Board::set(int, int, int, bool)’ here
+         void set(int shell, int position, point input,bool con=true);
+              ^
+src/board.cpp:244:87: warning: default argument given for parameter 4 of ‘std::vector<int> Board::get_row(int, int, int, bool, bool)’ [-fpermissive]
+ vector<int> Board::get_row(int shell, int pos, int dir, bool keep=false, bool org=true){
+                                                                                       ^
+In file included from src/board.cpp:1:0:
+include/board.h:73:21: note: previous specification in ‘std::vector<int> Board::get_row(int, int, int, bool, bool)’ here
+         vector<int> get_row(int shell, int pos, int dir, bool keep=false, bool org=true);
+                     ^
+src/board.cpp:244:87: warning: default argument given for parameter 5 of ‘std::vector<int> Board::get_row(int, int, int, bool, bool)’ [-fpermissive]
+ vector<int> Board::get_row(int shell, int pos, int dir, bool keep=false, bool org=true){
+                                                                                       ^
+In file included from src/board.cpp:1:0:
+include/board.h:73:21: note: previous specification in ‘std::vector<int> Board::get_row(int, int, int, bool, bool)’ here
+         vector<int> get_row(int shell, int pos, int dir, bool keep=false, bool org=true);
+                     ^
+src/board.cpp:285:106: warning: default argument given for parameter 4 of ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod(int, int, int, bool, bool)’ [-fpermissive]
+ vector<tuple<int,int,int> > Board::get_row_mod(int shell, int pos, int dir, bool keep=false,bool org=true){
+                                                                                                          ^
+In file included from src/board.cpp:1:0:
+include/board.h:74:37: note: previous specification in ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod(int, int, int, bool, bool)’ here
+         vector<tuple<int,int,int> > get_row_mod(int shell, int pos, int dir, bool keep=false,bool org=true);
+                                     ^
+src/board.cpp:285:106: warning: default argument given for parameter 5 of ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod(int, int, int, bool, bool)’ [-fpermissive]
+ vector<tuple<int,int,int> > Board::get_row_mod(int shell, int pos, int dir, bool keep=false,bool org=true){
+                                                                                                          ^
+In file included from src/board.cpp:1:0:
+include/board.h:74:37: note: previous specification in ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod(int, int, int, bool, bool)’ here
+         vector<tuple<int,int,int> > get_row_mod(int shell, int pos, int dir, bool keep=false,bool org=true);
+                                     ^
+src/board.cpp:335:107: warning: default argument given for parameter 4 of ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod1(int, int, int, bool, bool)’ [-fpermissive]
+ vector<tuple<int,int,int> > Board::get_row_mod1(int shell, int pos, int dir, bool keep=false,bool org=true){
+                                                                                                           ^
+In file included from src/board.cpp:1:0:
+include/board.h:75:37: note: previous specification in ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod1(int, int, int, bool, bool)’ here
+         vector<tuple<int,int,int> > get_row_mod1(int shell, int pos, int dir, bool keep=false,bool org=true);
+                                     ^
+src/board.cpp:335:107: warning: default argument given for parameter 5 of ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod1(int, int, int, bool, bool)’ [-fpermissive]
+ vector<tuple<int,int,int> > Board::get_row_mod1(int shell, int pos, int dir, bool keep=false,bool org=true){
+                                                                                                           ^
+In file included from src/board.cpp:1:0:
+include/board.h:75:37: note: previous specification in ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod1(int, int, int, bool, bool)’ here
+         vector<tuple<int,int,int> > get_row_mod1(int shell, int pos, int dir, bool keep=false,bool org=true);
+                                     ^
+src/board.cpp:397:107: warning: default argument given for parameter 4 of ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod2(int, int, int, bool, bool)’ [-fpermissive]
+ vector<tuple<int,int,int> > Board::get_row_mod2(int shell, int pos, int dir, bool keep=false,bool org=true){
+                                                                                                           ^
+In file included from src/board.cpp:1:0:
+include/board.h:76:37: note: previous specification in ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod2(int, int, int, bool, bool)’ here
+         vector<tuple<int,int,int> > get_row_mod2(int shell, int pos, int dir, bool keep=false,bool org=true);
+                                     ^
+src/board.cpp:397:107: warning: default argument given for parameter 5 of ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod2(int, int, int, bool, bool)’ [-fpermissive]
+ vector<tuple<int,int,int> > Board::get_row_mod2(int shell, int pos, int dir, bool keep=false,bool org=true){
+                                                                                                           ^
+In file included from src/board.cpp:1:0:
+include/board.h:76:37: note: previous specification in ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod2(int, int, int, bool, bool)’ here
+         vector<tuple<int,int,int> > get_row_mod2(int shell, int pos, int dir, bool keep=false,bool org=true);
+                                     ^
+src/board.cpp: In member function ‘std::vector<std::tuple<int, int, int> > Board::get_row_mod2(int, int, int, bool, bool)’:
+src/board.cpp:440:14: warning: jump to case label [-fpermissive]
+         case 1:
+              ^
+src/board.cpp:409:13: note:   crosses initialization of ‘int hit’
+         int hit=0;
+             ^
+src/board.cpp:465:9: warning: jump to case label [-fpermissive]
+         default:
+         ^
+src/board.cpp:409:13: note:   crosses initialization of ‘int hit’
+         int hit=0;
+             ^
+
+
+
+ Linking ....
+g++ -o code build/game.o build/player.o build/valid.o build/yinsh.o build/board.o -Iinclude  -I./lib -std=c++14 -O3  -march=native -fpermissive -lm  

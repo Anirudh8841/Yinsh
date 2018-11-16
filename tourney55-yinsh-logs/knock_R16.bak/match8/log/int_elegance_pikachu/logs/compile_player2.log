@@ -1,0 +1,5 @@
+rm pika1.1
+rm: cannot remove 'pika1.1': No such file or directory
+Makefile:5: recipe for target 'clean' failed
+make: *** [clean] Error 1
+g++ -O3 --std=c++11 pikachu1.1.cpp -o pika1.1

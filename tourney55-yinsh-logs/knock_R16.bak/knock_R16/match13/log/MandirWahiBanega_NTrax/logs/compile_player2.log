@@ -1,0 +1,5 @@
+g++ -c -Wall -Wextra -O2 -march=native -std=c++11 -pedantic -I/usr/local/include -lboost_system -o main.o main.cpp
+g++ -c -Wall -Wextra -O2 -march=native -std=c++11 -pedantic -I/usr/local/include -lboost_system -o heuristic.o heuristic.cpp
+g++ -c -Wall -Wextra -O2 -march=native -std=c++11 -pedantic -I/usr/local/include -lboost_system -o state.o state.cpp
+g++ -c -Wall -Wextra -O2 -march=native -std=c++11 -pedantic -I/usr/local/include -lboost_system -o move.o move.cpp
+g++ -o yinsh main.o heuristic.o state.o move.o  -lboost_system -I/usr/local/include -L./

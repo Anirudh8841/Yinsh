@@ -1,0 +1,11 @@
+***********************************
+
+-> You are player 1
+-> You are alloted a time of 120s
+
+***********************************
+
+Time remaining is: 120s
+You played : P 1 0
+P 1 0 True
+ERROR : UNEXPECTED STOP BY PLAYER 2 : Player 2 SCORE : 0 : Player 1 SCORE : 10 ,ON OTHER CLIENT

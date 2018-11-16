@@ -1,0 +1,14 @@
+Incorrect Move True
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 4 11 True
+P 4 11 True
+Time remaining is: 120s
+You played : P 0 0
+P 0 0 True
+ERROR : INVALID MOVE BY PLAYER 1 : Player 1 SCORE : 0 : Player 2 SCORE : 10 ,ON OTHER CLIENT

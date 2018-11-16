@@ -1,0 +1,58 @@
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 0 0
+P 0 0 True
+Time remaining is: 120s
+You played : P 3 8
+P 3 8 True
+Player 1 played : P 4 22
+P 4 22 True
+Time remaining is: 120s
+You played : P 5 17
+P 5 17 True
+Player 1 played : P 4 13
+P 4 13 True
+Time remaining is: 120s
+You played : P 2 0
+P 2 0 True
+Player 1 played : P 2 5
+P 2 5 True
+Time remaining is: 120s
+You played : P 4 7
+P 4 7 True
+Player 1 played : P 2 3
+P 2 3 True
+Time remaining is: 120s
+You played : P 4 20
+P 4 20 True
+Player 1 played : S 2 3 M 5 26
+S 2 3 True
+M 5 26 True
+Time remaining is: 120s
+You played : S 3 8 M 3 7
+S 3 8 True
+M 3 7 True
+Player 1 played : S 2 5 M 1 1
+S 2 5 True
+M 1 1 True
+Time remaining is: 116s
+You played : S 3 7 M 3 6
+S 3 7 True
+M 3 6 True
+Player 1 played : S 0 0 M 2 4
+S 0 0 True
+M 2 4 True
+Time remaining is: 113s
+You played : S 3 6 M 3 5
+S 3 6 True
+M 3 5 True
+Player 1 played : S 2 4 M 4 10
+S 2 4 True
+M 4 10 True
+Time remaining is: 111s
+ERROR : THIS CLIENT RAN OUT OF TIME!

@@ -1,0 +1,864 @@
+conversion:0 -3
+player_id:1
+5
+PLY COUNTER:1 MAX_LIMIT:0.9
+PLY COUNTER:2 MAX_LIMIT:0.9
+p:0
+PLY COUNTER:3 MAX_LIMIT:0.9
+p:0
+p:1
+PLY COUNTER:4 MAX_LIMIT:0.9
+p:0
+p:1
+p:2
+p:3
+PLY COUNTER:5 MAX_LIMIT:0.9
+p:0
+p:1
+p:2
+p:3
+p:4
+PLY COUNTER:6 MAX_LIMIT:0.9
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: 1
+time spent:0.002222
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: 0
+time spent:0.025832
+prune_counter:37
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: 13
+time spent:0.095048
+prune_counter:73
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: 0
+time spent:1.30112
+prune_counter:2418
+
+DECISION TIME:1.30113s prune counter:2418
+
+time remaining: 118
+
+PLY COUNTER:7 MAX_LIMIT:0.9
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: 54
+time spent:0.001516
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: 0
+time spent:0.035508
+prune_counter:46
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: 40
+time spent:0.130774
+prune_counter:103
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: 0
+time spent:1.64806
+prune_counter:2383
+
+DECISION TIME:1.64807s prune counter:2383
+
+time remaining: 116
+
+PLY COUNTER:8 MAX_LIMIT:0.9
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: 54
+time spent:0.002556
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: 0
+time spent:0.035367
+prune_counter:44
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: 105
+time spent:0.247556
+prune_counter:247
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: 0
+time spent:2.64832
+prune_counter:3408
+
+DECISION TIME:2.64834s prune counter:3408
+
+time remaining: 113
+
+PLY COUNTER:9 MAX_LIMIT:0.9
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: 66
+time spent:0.001953
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: 0
+time spent:0.038416
+prune_counter:43
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: 168
+time spent:0.198978
+prune_counter:183
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: 39
+time spent:2.67117
+prune_counter:3622
+
+DECISION TIME:2.67119s prune counter:3622
+
+time remaining: 110
+
+PLY COUNTER:10 MAX_LIMIT:0.9
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: 194
+time spent:0.002521
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: 116
+time spent:0.045524
+prune_counter:51
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: 499
+time spent:0.213662
+prune_counter:149
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -12
+time spent:4.17493
+prune_counter:6167
+
+DECISION TIME:4.17495s prune counter:6167
+
+time remaining: 105
+
+PLY COUNTER:11 MAX_LIMIT:0.9
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: 499
+time spent:0.001612
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: 116
+time spent:0.032367
+prune_counter:46
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: 347
+time spent:0.161176
+prune_counter:137
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: 65
+time spent:3.4331
+prune_counter:5371
+
+DECISION TIME:3.43312s prune counter:5371
+
+time remaining: 101
+
+PLY COUNTER:12 MAX_LIMIT:0.9
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: 653
+time spent:0.002481
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: 101
+time spent:0.030393
+prune_counter:45
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: 194
+time spent:0.151109
+prune_counter:103
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -343
+time spent:2.96888
+prune_counter:3787
+
+DECISION TIME:2.96889s prune counter:3787
+
+time remaining: 98
+
+PLY COUNTER:13 MAX_LIMIT:0.9
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: 102
+time spent:0.001643
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -996
+time spent:0.049462
+prune_counter:44
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -777
+time spent:0.179704
+prune_counter:154
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -4881
+time spent:4.64403
+prune_counter:8013
+
+DECISION TIME:4.64407s prune counter:8013
+
+time remaining: 93
+
+PLY COUNTER:14 MAX_LIMIT:0.9
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -4409
+time spent:0.002863
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -4869
+time spent:0.029774
+prune_counter:47
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -4602
+time spent:0.134864
+prune_counter:130
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -5369
+time spent:3.96857
+prune_counter:7426
+
+DECISION TIME:3.96858s prune counter:7426
+
+time remaining: 89
+
+PLY COUNTER:15 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -4397
+time spent:0.002184
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -4869
+time spent:0.034522
+prune_counter:35
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -4790
+time spent:0.137637
+prune_counter:116
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -4970
+time spent:0.75821
+prune_counter:1661
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -4604
+time spent:4.78092
+prune_counter:4012
+
+DECISION TIME:4.78094s prune counter:4012
+
+time remaining: 84
+
+PLY COUNTER:16 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -4486
+time spent:0.0015
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -9893
+time spent:0.03938
+prune_counter:34
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -9459
+time spent:0.228829
+prune_counter:171
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -9970
+time spent:1.87092
+prune_counter:3512
+
+DECISION TIME:1.87094s prune counter:3512
+
+time remaining: 82
+
+PLY COUNTER:17 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -9459
+time spent:0.001462
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -9895
+time spent:0.020803
+prune_counter:43
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -9103
+time spent:0.129772
+prune_counter:121
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -9728
+time spent:1.70781
+prune_counter:4722
+
+DECISION TIME:1.70783s prune counter:4722
+
+time remaining: 80
+
+PLY COUNTER:18 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -8961
+time spent:0.002683
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -114882
+time spent:0.028314
+prune_counter:44
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -9421
+time spent:0.068747
+prune_counter:81
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -9959
+time spent:0.211735
+prune_counter:361
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -9144
+time spent:1.65604
+prune_counter:1754
+
+DECISION TIME:1.65606s prune counter:1754
+
+time remaining: 78
+
+PLY COUNTER:19 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -9079
+time spent:0.002085
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -9986
+time spent:0.020402
+prune_counter:34
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -9144
+time spent:0.117371
+prune_counter:55
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -9974
+time spent:0.917358
+prune_counter:2236
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -9117
+time spent:5.41364
+prune_counter:5097
+
+DECISION TIME:5.41365s prune counter:5097
+
+time remaining: 72
+
+PLY COUNTER:20 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -9567
+time spent:0.002211
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -10090
+time spent:0.015285
+prune_counter:31
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -9949
+time spent:0.031205
+prune_counter:50
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -10130
+time spent:0.181981
+prune_counter:450
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -9733
+time spent:1.45057
+prune_counter:2059
+
+DECISION TIME:1.45059s prune counter:2059
+
+time remaining: 70
+
+PLY COUNTER:21 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -9934
+time spent:0.001716
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -10409
+time spent:0.017188
+prune_counter:32
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -9733
+time spent:0.177818
+prune_counter:169
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -10497
+time spent:0.987416
+prune_counter:2096
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -9668
+time spent:4.28346
+prune_counter:5056
+
+DECISION TIME:4.28347s prune counter:5056
+
+time remaining: 65
+
+PLY COUNTER:22 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -9907
+time spent:0.001848
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -10101
+time spent:0.016366
+prune_counter:28
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -9668
+time spent:0.117446
+prune_counter:103
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -10421
+time spent:0.789529
+prune_counter:1835
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -9516
+time spent:3.43607
+prune_counter:4503
+
+DECISION TIME:3.43608s prune counter:4503
+
+time remaining: 61
+
+PLY COUNTER:23 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -9516
+time spent:0.00084
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -10116
+time spent:0.011619
+prune_counter:25
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -9552
+time spent:0.102549
+prune_counter:119
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -9872
+time spent:0.480938
+prune_counter:1240
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -9105
+time spent:3.46862
+prune_counter:5252
+
+DECISION TIME:3.46864s prune counter:5252
+
+time remaining: 57
+
+PLY COUNTER:24 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -9655
+time spent:0.00166
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -10130
+time spent:0.011691
+prune_counter:18
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -5653
+time spent:0.050428
+prune_counter:62
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -5997
+time spent:0.225526
+prune_counter:512
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -5246
+time spent:0.775512
+prune_counter:1070
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 6 underway:best action score: -5806
+time spent:8.89308
+prune_counter:22580
+
+DECISION TIME:8.8931s prune counter:22580
+
+time remaining: 48
+
+PLY COUNTER:25 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -9922
+time spent:0.002186
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -10047
+time spent:0.016276
+prune_counter:21
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -5904
+time spent:0.049275
+prune_counter:40
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -9647
+time spent:0.40828
+prune_counter:925
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -4991
+time spent:1.88976
+prune_counter:2517
+
+DECISION TIME:1.88978s prune counter:2517
+
+time remaining: 46
+
+PLY COUNTER:26 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -9655
+time spent:0.000757
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -10452
+time spent:0.009296
+prune_counter:18
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -9554
+time spent:0.02568
+prune_counter:33
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -6154
+time spent:0.329723
+prune_counter:770
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -9697
+time spent:1.22627
+prune_counter:1809
+
+DECISION TIME:1.22629s prune counter:1809
+
+time remaining: 44
+
+PLY COUNTER:27 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -10064
+time spent:0.00082
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -10848
+time spent:0.008734
+prune_counter:16
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -9697
+time spent:0.03572
+prune_counter:51
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -10167
+time spent:0.147383
+prune_counter:378
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -5783
+time spent:0.541201
+prune_counter:738
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 6 underway:best action score: -10460
+time spent:4.52895
+prune_counter:13221
+
+DECISION TIME:4.52896s prune counter:13221
+
+time remaining: 39
+
+PLY COUNTER:28 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -9592
+time spent:0.000781
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -10167
+time spent:0.009779
+prune_counter:17
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -5195
+time spent:0.056465
+prune_counter:47
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -10460
+time spent:0.662815
+prune_counter:1361
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -5210
+time spent:1.66303
+prune_counter:1800
+
+DECISION TIME:1.66304s prune counter:1800
+
+time remaining: 37
+
+PLY COUNTER:29 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -5222
+time spent:0.002087
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -10087
+time spent:0.01492
+prune_counter:28
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -5142
+time spent:0.027082
+prune_counter:44
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -109464
+time spent:0.280095
+prune_counter:646
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -5840
+time spent:0.612611
+prune_counter:816
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 6 underway:best action score: -110028
+time spent:1.64046
+prune_counter:2867
+
+DECISION TIME:1.64047s prune counter:2867
+
+time remaining: 35
+
+PLY COUNTER:30 MAX_LIMIT:0.75
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 1 underway:best action score: -5094
+time spent:0.001071
+prune_counter:0
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 2 underway:best action score: -10078
+time spent:0.012007
+prune_counter:24
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 3 underway:best action score: -5406
+time spent:0.031094
+prune_counter:49
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 4 underway:best action score: -5880
+time spent:0.106547
+prune_counter:245
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 5 underway:best action score: -4954
+time spent:0.924775
+prune_counter:1227
+MAX_DEPTH ALLOWED:8
+ID DEPTH: 6 underway:best action score: -109621
+time spent:1.62769
+prune_counter:1809
+
+DECISION TIME:1.62771s prune counter:1809
+
+time remaining: 33
+
+***********************************
+
+-> You are player 1
+-> You are alloted a time of 120s
+
+***********************************
+
+Time remaining is: 120s
+You played : P 0 0
+P 0 0 True
+Player 2 played : P 2 5
+P 2 5 True
+Time remaining is: 120s
+You played : P 1 0
+P 1 0 True
+Player 2 played : P 1 2
+P 1 2 True
+Time remaining is: 120s
+You played : P 1 1
+P 1 1 True
+Player 2 played : P 2 4
+P 2 4 True
+Time remaining is: 120s
+You played : P 1 3
+P 1 3 True
+Player 2 played : P 2 6
+P 2 6 True
+Time remaining is: 120s
+You played : P 1 4
+P 1 4 True
+Player 2 played : P 2 7
+P 2 7 True
+Time remaining is: 120s
+You played : S 1 4 M 3 14
+S 1 4 True
+M 3 14 True
+Player 2 played : S 2 5 M 4 11
+S 2 5 True
+M 4 11 True
+Time remaining is: 119s
+You played : S 1 1 M 2 1
+S 1 1 True
+M 2 1 True
+Player 2 played : S 2 4 M 4 2
+S 2 4 True
+M 4 2 True
+Time remaining is: 118s
+You played : S 1 0 M 2 11
+S 1 0 True
+M 2 11 True
+Player 2 played : S 2 6 M 4 14
+S 2 6 True
+M 4 14 True
+Time remaining is: 115s
+You played : S 1 3 M 3 7
+S 1 3 True
+M 3 7 True
+Player 2 played : S 1 2 M 3 8
+S 1 2 True
+M 3 8 True
+Time remaining is: 112s
+You played : S 0 0 M 3 9
+S 0 0 True
+M 3 9 True
+Player 2 played : S 2 7 M 3 10
+S 2 7 True
+M 3 10 True
+Time remaining is: 108s
+You played : S 2 1 M 3 4
+S 2 1 True
+M 3 4 True
+Player 2 played : S 4 14 M 2 9
+S 4 14 True
+M 2 9 True
+Time remaining is: 104s
+You played : S 3 9 M 4 13
+S 3 9 True
+M 4 13 True
+Player 2 played : S 3 8 M 2 8
+S 3 8 True
+M 2 8 True
+Time remaining is: 102s
+You played : S 3 4 M 3 11
+S 3 4 True
+M 3 11 True
+Player 2 played : S 3 10 M 1 5 RS 4 14 RE 2 4 X 4 11
+S 3 10 True
+M 1 5 True
+RS 4 14 True
+RE 2 4 True
+X 4 11 True
+Time remaining is: 97s
+You played : S 3 7 M 2 2
+S 3 7 True
+M 2 2 True
+Player 2 played : S 2 9 M 2 5
+S 2 9 True
+M 2 5 True
+Time remaining is: 93s
+You played : S 2 11 M 3 1
+S 2 11 True
+M 3 1 True
+Player 2 played : S 1 5 M 3 2
+S 1 5 True
+M 3 2 True
+Time remaining is: 88s
+You played : S 4 13 M 3 10
+S 4 13 True
+M 3 10 True
+Player 2 played : S 3 2 M 4 3 RS 2 9 RE 3 2 X 2 8
+S 3 2 True
+M 4 3 True
+RS 2 9 True
+RE 3 2 True
+X 2 8 True
+Time remaining is: 86s
+You played : S 3 10 M 2 6
+S 3 10 True
+M 2 6 True
+Player 2 played : S 4 3 M 1 5
+S 4 3 True
+M 1 5 True
+Time remaining is: 84s
+You played : S 2 2 M 2 8
+S 2 2 True
+M 2 8 True
+Player 2 played : S 4 2 M 3 2
+S 4 2 True
+M 3 2 True
+Time remaining is: 83s
+You played : S 3 11 M 5 17
+S 3 11 True
+M 5 17 True
+Player 2 played : S 1 5 M 5 16
+S 1 5 True
+M 5 16 True
+Time remaining is: 77s
+You played : S 2 6 M 4 14
+S 2 6 True
+M 4 14 True
+Player 2 played : S 3 2 M 2 3
+S 3 2 True
+M 2 3 True
+Time remaining is: 76s
+You played : S 3 1 M 3 3
+S 3 1 True
+M 3 3 True
+Player 2 played : S 5 16 M 4 11
+S 5 16 True
+M 4 11 True
+Time remaining is: 71s
+You played : S 2 8 M 4 10
+S 2 8 True
+M 4 10 True
+Player 2 played : S 2 5 M 4 9
+S 2 5 True
+M 4 9 True
+Time remaining is: 68s
+You played : S 3 14 M 2 9
+S 3 14 True
+M 2 9 True
+Player 2 played : S 2 3 M 4 15
+S 2 3 True
+M 4 15 True
+Time remaining is: 64s
+You played : S 4 14 M 2 4
+S 4 14 True
+M 2 4 True
+Player 2 played : S 4 11 M 2 1
+S 4 11 True
+M 2 1 True
+Time remaining is: 56s
+You played : S 2 4 M 5 18
+S 2 4 True
+M 5 18 True
+Player 2 played : S 2 1 M 5 14
+S 2 1 True
+M 5 14 True
+Time remaining is: 54s
+You played : S 3 3 M 3 5
+S 3 3 True
+M 3 5 True
+Player 2 played : S 4 15 M 3 12
+S 4 15 True
+M 3 12 True
+Time remaining is: 52s
+You played : S 3 5 M 1 0
+S 3 5 True
+M 1 0 True
+Player 2 played : S 3 12 M 4 4
+S 3 12 True
+M 4 4 True
+Time remaining is: 48s
+You played : S 5 18 M 3 13
+S 5 18 True
+M 3 13 True
+Player 2 played : S 4 4 M 4 5
+S 4 4 True
+M 4 5 True
+Time remaining is: 46s
+You played : S 1 0 M 5 4
+S 1 0 True
+M 5 4 True
+Player 2 played : S 4 9 M 5 3
+S 4 9 True
+M 5 3 True
+Time remaining is: 45s
+You played : S 3 13 M 5 21 RS 5 18 RE 3 14 X 4 10
+S 3 13 True
+M 5 21 True
+RS 5 18 True
+RE 3 14 True
+X 4 10 True
+Player 2 played : S 4 5 M 4 15 RS 1 4 RE 4 9 X 5 14
+S 4 5 True
+M 4 15 True
+RS 1 4 True
+RE 4 9 True
+X 5 14 True
+OTHER PLAYER WINS!
+Your Score : 1.015
+Opponent's Score : 9.015

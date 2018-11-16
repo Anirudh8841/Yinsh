@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "predator.py", line 381, in <module>
+    player = Myplayer()
+  File "predator.py", line 43, in __init__
+    self.game = Game(self.n)
+TypeError: __init__() takes at least 3 arguments (2 given)
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 0 0
+P 0 0 True
+ERROR : FAILED TO SEND DATA TO PROCESS
+Time remaining is: 120s
+ERROR : THIS CLIENT STOPPED UNEXPECTEDLY OR TIMED OUT

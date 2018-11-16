@@ -1,0 +1,16 @@
+***********************************
+
+-> You are player 1
+-> You are alloted a time of 120s
+
+***********************************
+
+Time remaining is: 120s
+You played : P 0 0 True
+P 0 0 True
+Player 2 played : P 5 1
+P 5 1 True
+Time remaining is: 119s
+You played : P 0 0
+P 0 0 False
+INVALID MOVE ON THIS CLIENT

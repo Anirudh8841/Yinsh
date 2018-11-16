@@ -1,0 +1,27 @@
+g++ -std=c++11 game.cpp minmax.cpp -o player -fpermissive -O3
+In file included from game.cpp:1:0:
+game.h:17:13: warning: specialization of ‘template<class _Tp> struct std::hash’ in different namespace [-fpermissive]
+ struct std::hash<pair<int, int> > {
+             ^
+In file included from /usr/include/c++/5/bits/stl_bvector.h:1265:0,
+                 from /usr/include/c++/5/vector:65,
+                 from game.h:5,
+                 from game.cpp:1:
+/usr/include/c++/5/bits/functional_hash.h:58:12: warning:   from definition of ‘template<class _Tp> struct std::hash’ [-fpermissive]
+     struct hash;
+            ^
+game.cpp: In function ‘std::vector<std::pair<int, int> > getline_ours(std::pair<int, int>, std::pair<int, int>, GameState*)’:
+game.cpp:25:16: warning: division by zero [-Wdiv-by-zero]
+     float f = 1/0;
+                ^
+In file included from minmax.cpp:1:0:
+game.h:17:13: warning: specialization of ‘template<class _Tp> struct std::hash’ in different namespace [-fpermissive]
+ struct std::hash<pair<int, int> > {
+             ^
+In file included from /usr/include/c++/5/bits/stl_bvector.h:1265:0,
+                 from /usr/include/c++/5/vector:65,
+                 from game.h:5,
+                 from minmax.cpp:1:
+/usr/include/c++/5/bits/functional_hash.h:58:12: warning:   from definition of ‘template<class _Tp> struct std::hash’ [-fpermissive]
+     struct hash;
+            ^

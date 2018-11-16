@@ -1,0 +1,336 @@
+line read
+2 5 120 5
+5 5 120
+5 - 5  -- 5
+move :: P 5 4
+move :: P 6 5
+move :: P 6 6
+move :: P 5 3
+move :: P 6 4
+completing move
+return move :: S 5 3 M 4 3  value:: -932
+time is :2.42158move :: S 5 3 M 4 3
+completing move
+return move :: S 6 5 M 7 5  value:: -942
+time is :2.79691move :: S 6 5 M 7 5
+completing move
+return move :: S 6 4 M 6 3  value:: -58948
+time is :3.18055move :: S 6 4 M 6 3
+completing move
+return move :: S 6 6 M 6 8  value:: -94824
+time is :4.63738move :: S 6 6 M 6 8
+completing move
+return move :: S 6 3 M 10 7  value:: -114226
+time is :5.65179move :: S 6 3 M 10 7
+completing move
+return move :: S 5 4 M 7 4  value:: -11068179
+time is :8.06899move :: S 5 4 M 7 4
+completing move
+return move :: S 10 7 M 6 7  value:: -11069236
+time is :9.23565move :: S 10 7 M 6 7
+completing move
+return move :: S 4 3 M 4 5  value:: -10832299
+time is :9.88645move :: S 4 3 M 4 5
+completing move
+return move :: S 7 5 M 7 8  value:: -11069277
+time is :10.9903move :: S 7 5 M 7 8
+completing move
+return move :: S 4 5 M 4 2  value:: -11068318
+time is :12.6379move :: S 4 5 M 4 2
+completing move
+return move :: S 6 7 M 4 7  value:: -11067929
+time is :13.2617move :: S 6 7 M 4 7
+completing move
+return move :: S 7 4 M 5 2  value:: -11048648
+time is :13.7748move :: S 7 4 M 5 2
+completing move
+return move :: S 4 7 M 3 7  value:: -10278553
+time is :14.5128move :: S 4 7 M 3 7
+completing move
+return move :: S 3 7 M 3 2 RS 3 7 RE 7 7 X 6 8   value:: -10239093
+time is :15.3657move :: S 3 7 M 3 2 RS 3 7 RE 7 7 X 6 8 
+completing move
+return move :: S 5 2 M 8 5  value:: -10241852
+time is :20.574move :: S 5 2 M 8 5
+completing move
+return move :: S 8 5 M 8 4  value:: -10247394
+time is :24.3228move :: S 8 5 M 8 4
+completing move
+return move :: S 3 2 M 2 1  value:: -10240776
+time is :25.3383move :: S 3 2 M 2 1
+completing move
+return move :: S 7 8 M 3 4  value:: -10243354
+time is :26.9965move :: S 7 8 M 3 4
+completing move
+return move :: S 8 4 M 9 5  value:: -10297085
+time is :28.944move :: S 8 4 M 9 5
+completing move
+return move :: S 2 1 M 1 1  value:: -10243546
+time is :31.1459move :: S 2 1 M 1 1
+completing move
+return move :: S 1 1 M 2 2  value:: -10298930
+time is :32.8476move :: S 1 1 M 2 2
+completing move
+return move :: S 3 4 M 8 9  value:: -13916427
+time is :33.1472move :: S 3 4 M 8 9
+completing move
+return move :: S 9 5 M 9 4  value:: -20069118
+time is :33.9468move :: S 9 5 M 9 4
+completing move
+return move :: S 4 2 M 6 2  value:: -20069364
+time is :35.2362move :: S 4 2 M 6 2
+completing move
+depth shift 6
+depth shift 6
+depth shift 6
+return move :: S 8 9 M 10 9  value:: -20536242
+time is :36.5206move :: S 8 9 M 10 9
+completing move
+return move :: S 2 2 M 9 9 RS 5 5 RE 9 5 X 9 4   value:: -100000000
+time is :37.452move :: S 2 2 M 9 9 RS 5 5 RE 9 5 X 9 4 
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 0 0
+P 0 0 True
+Time remaining is: 120s
+You played : P 1 0
+P 1 0 True
+Player 1 played : P 1 3
+P 1 3 True
+Time remaining is: 120s
+You played : P 1 1
+P 1 1 True
+Player 1 played : P 1 5
+P 1 5 True
+Time remaining is: 120s
+You played : P 1 2
+P 1 2 True
+Player 1 played : P 1 4
+P 1 4 True
+Time remaining is: 120s
+You played : P 2 0
+P 2 0 True
+Player 1 played : P 2 4
+P 2 4 True
+Time remaining is: 120s
+You played : P 2 1
+P 2 1 True
+Player 1 played : S 1 4 M 2 7
+S 1 4 True
+M 2 7 True
+Time remaining is: 120s
+You played : S 2 0 M 2 11
+S 2 0 True
+M 2 11 True
+Player 1 played : S 1 3 M 2 5
+S 1 3 True
+M 2 5 True
+Time remaining is: 118s
+You played : S 1 1 M 2 2
+S 1 1 True
+M 2 2 True
+Player 1 played : S 2 5 M 3 7
+S 2 5 True
+M 3 7 True
+Time remaining is: 118s
+You played : S 2 1 M 3 1
+S 2 1 True
+M 3 1 True
+Player 1 played : S 1 5 M 2 9
+S 1 5 True
+M 2 9 True
+Time remaining is: 117s
+You played : S 1 2 M 3 8
+S 1 2 True
+M 3 8 True
+Player 1 played : S 2 4 M 2 6
+S 2 4 True
+M 2 6 True
+Time remaining is: 116s
+You played : S 3 1 M 5 7
+S 3 1 True
+M 5 7 True
+Player 1 played : S 2 9 M 3 13
+S 2 9 True
+M 3 13 True
+Time remaining is: 115s
+You played : S 1 0 M 3 2
+S 1 0 True
+M 3 2 True
+Player 1 played : S 3 7 M 2 3 RS 2 9 RE 3 7 X 3 13
+S 3 7 True
+M 2 3 True
+RS 2 9 True
+RE 3 7 True
+X 3 13 True
+Time remaining is: 112s
+You played : S 5 7 M 2 5
+S 5 7 True
+M 2 5 True
+Player 1 played : S 2 3 M 1 3
+S 2 3 True
+M 1 3 True
+Time remaining is: 111s
+You played : S 2 11 M 1 4
+S 2 11 True
+M 1 4 True
+Player 1 played : S 0 0 M 2 10
+S 0 0 True
+M 2 10 True
+Time remaining is: 110s
+You played : S 2 2 M 3 7
+S 2 2 True
+M 3 7 True
+Player 1 played : S 2 10 M 4 2
+S 2 10 True
+M 4 2 True
+Time remaining is: 109s
+You played : S 1 4 M 3 17
+S 1 4 True
+M 3 17 True
+Player 1 played : S 2 6 M 3 9
+S 2 6 True
+M 3 9 True
+Time remaining is: 108s
+You played : S 2 5 M 3 10
+S 2 5 True
+M 3 10 True
+Player 1 played : S 3 9 M 4 13
+S 3 9 True
+M 4 13 True
+Time remaining is: 107s
+You played : S 3 2 M 3 0
+S 3 2 True
+M 3 0 True
+Player 1 played : S 1 3 M 3 4
+S 1 3 True
+M 3 4 True
+Time remaining is: 106s
+You played : S 3 10 M 4 14
+S 3 10 True
+M 4 14 True
+Player 1 played : S 3 4 M 3 5
+S 3 4 True
+M 3 5 True
+Time remaining is: 106s
+You played : S 4 14 M 3 16 RS 4 14 RE 2 4 X 3 8
+S 4 14 True
+M 3 16 True
+RS 4 14 True
+RE 2 4 True
+X 3 8 True
+Player 1 played : S 4 13 M 4 16
+S 4 13 True
+M 4 16 True
+Time remaining is: 105s
+You played : S 3 0 M 3 3
+S 3 0 True
+M 3 3 True
+Player 1 played : S 3 5 M 2 5
+S 3 5 True
+M 2 5 True
+Time remaining is: 100s
+You played : S 3 3 M 4 3
+S 3 3 True
+M 4 3 True
+Player 1 played : S 2 5 M 2 6
+S 2 5 True
+M 2 6 True
+Time remaining is: 96s
+You played : S 3 16 M 4 21
+S 3 16 True
+M 4 21 True
+Player 1 played : S 4 2 M 3 14
+S 4 2 True
+M 3 14 True
+Time remaining is: 95s
+You played : S 3 7 M 2 9
+S 3 7 True
+M 2 9 True
+Player 1 played : S 2 6 M 2 4
+S 2 6 True
+M 2 4 True
+Time remaining is: 93s
+You played : S 4 3 M 4 4
+S 4 3 True
+M 4 4 True
+Player 1 played : S 4 16 M 2 8
+S 4 16 True
+M 2 8 True
+Time remaining is: 91s
+You played : S 4 21 M 4 20
+S 4 21 True
+M 4 20 True
+Player 1 played : S 2 7 M 3 10
+S 2 7 True
+M 3 10 True
+Time remaining is: 89s
+You played : S 4 20 M 3 15
+S 4 20 True
+M 3 15 True
+Player 1 played : S 2 4 M 3 6
+S 2 4 True
+M 3 6 True
+Time remaining is: 87s
+You played : S 2 9 M 4 9
+S 2 9 True
+M 4 9 True
+Player 1 played : S 2 8 M 3 13
+S 2 8 True
+M 3 13 True
+Time remaining is: 87s
+You played : S 4 4 M 5 4
+S 4 4 True
+M 5 4 True
+Player 1 played : S 3 6 M 3 8
+S 3 6 True
+M 3 8 True
+Time remaining is: 86s
+You played : S 3 17 M 4 1
+S 3 17 True
+M 4 1 True
+Player 1 played : S 3 13 M 4 17
+S 3 13 True
+M 4 17 True
+Time remaining is: 85s
+You played : S 4 9 M 5 9
+S 4 9 True
+M 5 9 True
+Player 1 played : S 3 10 M 3 12
+S 3 10 True
+M 3 12 True
+Time remaining is: 83s
+You played : S 3 15 M 4 8 RS 0 0 RE 4 4 X 5 4
+S 3 15 True
+M 4 8 True
+RS 0 0 True
+RE 4 4 True
+X 5 4 True
+Player 1 played : RS 2 7 RE 3 4 X 4 17 S 3 14 M 1 3
+RS 2 7 True
+RE 3 4 True
+X 4 17 True
+S 3 14 True
+M 1 3completing move
+return move :: S 6 2 M 1 2  value:: -100000000
+time is :37.5354move :: S 6 2 M 1 2
+completing move
+return move :: S 9 9 M 6 6  value:: -100000000
+time is :37.6238move :: S 9 9 M 6 6
+ True
+Time remaining is: 82s
+You played : S 4 1 M 4 19
+S 4 1 True
+M 4 19 True
+Player 1 played : S 3 12 M 4 17
+S 3 12 True
+M 4 17 True
+Time remaining is: 82s
+You played : S 4 8 M 1 2
+S 4 8 True
+M 1 2 True

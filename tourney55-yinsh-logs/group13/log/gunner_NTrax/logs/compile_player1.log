@@ -1,0 +1,4 @@
+g++ -std=c++11 -O3  -c server_main.cpp 
+g++ -std=c++11 -O3  -c player.cpp 
+g++ -std=c++11 -O3 -c board.cpp
+g++ -std=c++11 -O3  -o server_main server_main.o player.o board.o

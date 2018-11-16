@@ -1,0 +1,5 @@
+rm -f game *.o *~
+g++ -std=c++11 -Ofast -O3 -c ./code/game.cpp
+g++ -std=c++11 -Ofast -O3 -c ./code/board.cpp
+g++ -std=c++11 -Ofast -O3 -c ./code/generateMoves.cpp
+g++ -std=c++11 -Ofast -O3 -o game game.o board.o generateMoves.o

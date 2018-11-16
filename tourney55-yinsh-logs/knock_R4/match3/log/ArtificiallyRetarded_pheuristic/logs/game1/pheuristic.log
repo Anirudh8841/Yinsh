@@ -1,0 +1,451 @@
+The5
+WHY 
+
+centre is -1
+layer num 1		-1  -1  -1  -1  -1  0  
+layer num 2		-1  0  -1  -1  -1  -1  0  -1  -1  -1  -1  -1  
+layer num 3		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  -1  -1  -1  -1  1  -1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  1  1  1  3  -1  1  -1  -1  -1  
+my rings: 0
+other rings: 1
+Came here
+5
+2
+WHY 
+
+centre is -1
+layer num 1		0  -1  -1  -1  -1  0  
+layer num 2		-1  2  -1  -1  -1  -1  0  -1  -1  -1  -1  -1  
+layer num 3		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  -1  -1  -1  1  1  -1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  1  1  3  3  -1  1  -1  -1  -1  
+my rings: 1
+other rings: 2
+Came here
+5
+4
+WHY 
+
+centre is -1
+layer num 1		2  -1  -1  -1  -1  0  
+layer num 2		-1  2  -1  -1  -1  -1  0  -1  -1  -1  -1  0  
+layer num 3		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  -1  -1  1  3  1  -1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  1  1  3  3  -1  1  -1  -1  -1  
+my rings: 2
+other rings: 3
+Came here
+5
+6
+WHY 
+
+centre is 0
+layer num 1		2  -1  -1  -1  -1  0  
+layer num 2		-1  2  -1  -1  -1  -1  2  -1  -1  -1  -1  0  
+layer num 3		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  -1  1  3  3  1  -1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  1  1  3  3  -1  1  -1  -1  -1  
+my rings: 3
+other rings: 4
+Came here
+5
+8
+WHY 
+
+centre is 0
+layer num 1		2  -1  -1  -1  -1  0  
+layer num 2		-1  2  -1  -1  -1  -1  2  -1  -1  -1  -1  0  
+layer num 3		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  1  -1  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  0  1  3  3  1  -1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  1  1  3  3  -1  3  -1  -1  -1  
+my rings: 4
+other rings: 5
+Came here
+6
+11
+WHY 
+
+centre is 0
+layer num 1		2  -1  -1  -1  -1  2  
+layer num 2		-1  2  -1  -1  -1  -1  2  -1  -1  -1  -1  0  
+layer num 3		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  1  0  -1  -1  1  -1  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  0  3  3  3  1  -1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  1  1  3  3  -1  3  -1  -1  -1  
+my rings: 5
+other rings: 6
+Came here
+6
+14
+WHY 
+
+centre is 0
+layer num 1		2  -1  -1  -1  -1  2  
+layer num 2		-1  2  -1  -1  -1  -1  2  -1  -1  0  -1  0  
+layer num 3		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  3  3  1  -1  1  -1  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  0  3  3  3  1  -1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  1  1  3  3  -1  3  -1  -1  -1  
+my rings: 5
+other rings: 8
+Came here
+4
+15
+WHY 
+
+centre is 2
+layer num 1		2  -1  0  -1  -1  2  
+layer num 2		-1  2  -1  -1  -1  -1  2  -1  -1  0  -1  0  
+layer num 3		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  3  3  3  1  1  -1  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  0  3  3  3  1  -1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  1  1  3  3  -1  3  -1  -1  -1  
+my rings: 6
+other rings: 9
+Came here
+4
+16
+WHY 
+
+centre is 2
+layer num 1		2  -1  2  -1  -1  2  
+layer num 2		-1  2  -1  -1  0  -1  2  -1  -1  0  -1  0  
+layer num 3		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  3  3  3  3  1  -1  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  0  3  3  3  1  1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  1  1  3  3  -1  3  -1  -1  -1  
+my rings: 7
+other rings: 10
+Came here
+6
+19
+WHY 
+
+centre is 2
+layer num 1		2  -1  2  -1  -1  2  
+layer num 2		-1  2  -1  -1  0  -1  2  -1  0  0  -1  0  
+layer num 3		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  3  3  3  1  -1  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  2  3  3  3  1  3  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  1  1  3  3  -1  3  1  -1  -1  
+my rings: 9
+other rings: 10
+Came here
+6
+22
+WHY 
+
+centre is 2
+layer num 1		2  -1  2  -1  -1  2  
+layer num 2		-1  2  -1  -1  0  -1  2  -1  0  0  -1  2  
+layer num 3		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  -1  1  0  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  2  3  3  3  1  -1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  1  1  3  3  -1  3  -1  -1  -1  
+my rings: 10
+other rings: 6
+Came here
+6
+25
+WHY 
+
+centre is 2
+layer num 1		2  -1  2  -1  -1  2  
+layer num 2		-1  2  -1  -1  2  -1  2  -1  0  0  -1  2  
+layer num 3		-1  -1  -1  -1  -1  -1  0  -1  -1  -1  -1  -1  2  -1  -1  -1  1  0  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  2  -1  -1  -1  -1  1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0  -1  -1  -1  1  3  3  -1  -1  -1  -1  -1  
+my rings: 11
+other rings: 2
+Came here
+6
+28
+WHY 
+
+centre is -1
+layer num 1		2  -1  -1  -1  -1  -1  
+layer num 2		-1  2  -1  -1  -1  -1  2  -1  0  0  -1  2  
+layer num 3		-1  -1  -1  -1  -1  0  -1  -1  -1  -1  -1  -1  2  -1  -1  -1  1  0  
+layer num 4		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  2  -1  -1  -1  -1  1  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  1  3  3  3  -1  -1  -1  -1  -1  
+my rings: 7
+other rings: 3
+Came here
+6
+31
+WHY 
+
+centre is -1
+layer num 1		2  0  -1  -1  -1  -1  
+layer num 2		-1  2  -1  -1  -1  -1  2  -1  0  0  -1  2  
+layer num 3		-1  -1  -1  -1  -1  2  -1  -1  -1  -1  -1  -1  2  -1  -1  -1  1  0  
+layer num 4		1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  2  -1  -1  -1  -1  3  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  1  3  3  3  -1  -1  -1  -1  -1  
+my rings: 8
+other rings: 4
+Came here
+6
+34
+WHY 
+
+centre is 0
+layer num 1		2  0  -1  -1  -1  -1  
+layer num 2		1  2  -1  -1  -1  -1  2  -1  2  0  -1  2  
+layer num 3		-1  -1  -1  -1  -1  2  -1  -1  -1  -1  -1  -1  2  -1  -1  -1  1  0  
+layer num 4		3  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  2  -1  -1  -1  -1  3  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  1  3  3  3  -1  -1  -1  -1  -1  
+my rings: 9
+other rings: 5
+Came here
+6
+37
+WHY 
+
+centre is 0
+layer num 1		2  2  -1  -1  -1  -1  
+layer num 2		3  2  -1  0  -1  -1  2  -1  2  0  1  3  
+layer num 3		-1  -1  -1  -1  -1  2  -1  -1  -1  -1  -1  -1  2  -1  -1  -1  1  0  
+layer num 4		3  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  2  -1  -1  -1  -1  3  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  1  3  3  3  -1  -1  -1  -1  -1  
+my rings: 9
+other rings: 7
+Came here
+6
+40
+WHY 
+
+centre is 2
+layer num 1		2  2  -1  -1  0  -1  
+layer num 2		3  2  -1  0  -1  -1  2  -1  2  0  3  3  
+layer num 3		-1  -1  -1  -1  -1  2  -1  -1  -1  -1  -1  -1  2  -1  1  -1  1  0  
+layer num 4		3  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  2  -1  -1  2  -1  -1  -1  -1  3  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  1  3  3  3  -1  -1  -1  -1  -1  
+my rings: 10
+other rings: 8
+Came here
+6
+43
+WHY 
+
+centre is -1
+layer num 1		2  2  -1  -1  -1  -1  
+layer num 2		3  2  -1  0  -1  -1  2  -1  -1  0  3  3  
+layer num 3		-1  -1  -1  -1  -1  2  -1  -1  -1  -1  -1  -1  -1  -1  1  -1  1  0  
+layer num 4		3  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  3  -1  -1  1  -1  -1  -1  -1  3  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  3  3  3  3  -1  -1  -1  -1  -1  
+my rings: 5
+other rings: 10
+Came here
+6
+46
+WHY 
+
+centre is -1
+layer num 1		2  2  -1  -1  0  -1  
+layer num 2		3  2  -1  0  -1  -1  2  -1  1  3  2  3  
+layer num 3		-1  -1  -1  -1  -1  2  -1  -1  -1  -1  -1  -1  -1  -1  1  -1  3  0  
+layer num 4		3  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  3  -1  -1  1  -1  -1  -1  -1  3  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  3  3  3  3  -1  -1  -1  -1  -1  
+my rings: 6
+other rings: 11
+Came here
+6
+49
+WHY 
+
+centre is -1
+layer num 1		2  2  0  -1  0  -1  
+layer num 2		3  2  -1  2  -1  -1  2  -1  1  3  2  3  
+layer num 3		-1  -1  -1  -1  -1  2  -1  -1  -1  -1  -1  -1  -1  -1  3  -1  3  0  
+layer num 4		3  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  3  -1  -1  1  -1  -1  1  -1  3  -1  -1  
+layer num 5		-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  3  3  3  3  -1  -1  -1  -1  -1  
+my rings: 7
+other rings: 12
+Came here
+6
+52
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 5 24
+P 5 24 True
+Time remaining is: 120s
+You played : P 2 1
+P 2 1 True
+Player 1 played : P 5 23
+P 5 23 True
+Time remaining is: 120s
+You played : P 2 6
+P 2 6 True
+Player 1 played : P 5 22
+P 5 22 True
+Time remaining is: 120s
+You played : P 4 13
+P 4 13 True
+Player 1 played : P 5 21
+P 5 21 True
+Time remaining is: 120s
+You played : P 1 5
+P 1 5 True
+Player 1 played : P 5 26
+P 5 26 True
+Time remaining is: 120s
+You played : P 5 18
+P 5 18 True
+Player 1 played : S 5 24 M 4 20
+S 5 24 True
+M 4 20 True
+Time remaining is: 120s
+You played : S 2 1 M 1 0
+S 2 1 True
+M 1 0 True
+Player 1 played : S 5 23 M 4 19
+S 5 23 True
+M 4 19 True
+Time remaining is: 120s
+You played : S 1 0 M 2 11
+S 1 0 True
+M 2 11 True
+Player 1 played : S 4 19 M 4 18
+S 4 19 True
+M 4 18 True
+Time remaining is: 119s
+You played : S 2 6 M 0 0
+S 2 6 True
+M 0 0 True
+Player 1 played : S 4 18 M 4 17
+S 4 18 True
+M 4 17 True
+Time remaining is: 119s
+You played : S 4 13 M 4 16
+S 4 13 True
+M 4 16 True
+Player 1 played : S 5 26 M 3 16
+S 5 26 True
+M 3 16 True
+Time remaining is: 117s
+You played : S 1 5 M 3 13
+S 1 5 True
+M 3 13 True
+Player 1 played : S 4 17 M 3 12
+S 4 17 True
+M 3 12 True
+Time remaining is: 115s
+You played : S 3 13 M 2 9
+S 3 13 True
+M 2 9 True
+Player 1 played : S 3 12 M 3 14
+S 3 12 True
+M 3 14 True
+Time remaining is: 113s
+You played : S 0 0 M 1 2
+S 0 0 True
+M 1 2 True
+Player 1 played : S 3 14 M 3 15
+S 3 14 True
+M 3 15 True
+Time remaining is: 112s
+You played : S 1 2 M 2 4
+S 1 2 True
+M 2 4 True
+Player 1 played : S 3 15 M 4 21
+S 3 15 True
+M 4 21 True
+Time remaining is: 112s
+You played : S 4 16 M 2 8
+S 4 16 True
+M 2 8 True
+Player 1 played : S 4 21 M 5 27
+S 4 21 True
+M 5 27 True
+Time remaining is: 108s
+You played : S 2 11 M 3 17
+S 2 11 True
+M 3 17 True
+Player 1 played : S 5 27 M 5 29 RS 3 13 RE 5 27 X 5 29
+S 5 27 True
+M 5 29 True
+RS 3 13 True
+RE 5 27 True
+X 5 29 True
+Time remaining is: 106s
+You played : S 2 4 M 3 6
+S 2 4 True
+M 3 6 True
+Player 1 played : S 4 20 M 4 21 RS 4 17 RE 5 26 X 5 21
+S 4 20 True
+M 4 21 True
+RS 4 17 True
+RE 5 26 True
+X 5 21 True
+Time remaining is: 104s
+You played : S 3 6 M 3 5 RS 1 5 RE 3 6 X 5 18
+S 3 6 True
+M 3 5 True
+RS 1 5 True
+RE 3 6 True
+X 5 18 True
+Player 1 played : S 5 22 M 5 21
+S 5 22 True
+M 5 21 True
+Time remaining is: 100s
+You played : S 3 5 M 1 1
+S 3 5 True
+M 1 1 True
+Player 1 played : S 4 21 M 4 0
+S 4 21 True
+M 4 0 True
+Time remaining is: 98s
+You played : S 2 8 M 0 0
+S 2 8 True
+M 0 0 True
+Player 1 played : S 4 0 M 2 0
+S 4 0 True
+M 2 0 True
+Time remaining is: 97s
+You played : S 1 1 M 2 3
+S 1 1 True
+M 2 3 True
+Player 1 played : S 2 0 M 2 10
+S 2 0 True
+M 2 10 True
+Time remaining is: 96s
+You played : S 0 0 M 1 4
+S 0 0 True
+M 1 4 True
+Player 1 played : S 2 10 M 3 14
+S 2 10 True
+M 3 14 True
+Time remaining is: 95s
+You played : S 1 4 M 5 16 RS 4 16 RE 0 0 X 5 16
+S 1 4 True
+M 5 16 True
+RS 4 16 True
+RE 0 0 True
+X 5 16 True
+Player 1 played : S 5 21 M 4 16
+S 5 21 True
+M 4 16 True
+Time remaining is: 92s
+You played : S 2 9 M 1 4
+S 2 9 True
+M 1 4 True
+Player 1 played : S 3 16 M 2 8
+S 3 16 True
+M 2 8 True
+Time remaining is: 91s
+You played : S 2 3 M 1 2
+S 2 3 True
+M 1 2 True
+Player 1 played : S 3 14 M 4 19
+S 3 14 True
+M 4 19 True
+Time remaining is: 91s
+You played : S 3 17 M 1 5 RS 2 11 RE 3 5 X 1 2
+S 3 17 True
+M 1 5 True
+RS 2 11 True
+RE 3 5 True
+X 1 2 True
+YOU WIN!
+Your Score : 8.004
+Opponent's Score : 2.011

@@ -1,0 +1,83 @@
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 5 22
+P 5 22 True
+Time remaining is: 120s
+You played : P 0 0
+P 0 0 True
+Player 1 played : P 2 10
+P 2 10 True
+Time remaining is: 120s
+You played : P 1 0
+P 1 0 True
+Player 1 played : P 5 7
+P 5 7 True
+Time remaining is: 120s
+You played : P 1 1
+P 1 1 True
+Player 1 played : P 3 16
+P 3 16 True
+Time remaining is: 120s
+You played : P 1 2
+P 1 2 True
+Player 1 played : P 5 12
+P 5 12 True
+Time remaining is: 120s
+You played : P 1 3
+P 1 3 True
+Player 1 played : S 5 22 M 5 21
+S 5 22 True
+M 5 21 True
+Time remaining is: 120s
+You played : S 0 0 M 1 5
+S 0 0 True
+M 1 5 True
+Player 1 played : S 5 21 M 4 17
+S 5 21 True
+M 4 17 True
+Time remaining is: 120s
+You played : S 1 3 M 4 19
+S 1 3 True
+M 4 19 True
+Player 1 played : S 4 17 M 4 16
+S 4 17 True
+M 4 16 True
+Time remaining is: 120s
+You played : S 1 0 M 2 0
+S 1 0 True
+M 2 0 True
+Player 1 played : S 4 16 M 5 19
+S 4 16 True
+M 5 19 True
+Time remaining is: 119s
+You played : S 1 2 M 2 7
+S 1 2 True
+M 2 7 True
+Player 1 played : S 5 19 M 4 15
+S 5 19 True
+M 4 15 True
+Time remaining is: 118s
+You played : S 2 0 M 3 0
+S 2 0 True
+M 3 0 True
+Player 1 played : S 2 10 M 3 1
+S 2 10 True
+M 3 1 True
+Time remaining is: 117s
+You played : S 3 0 M 2 6
+S 3 0 True
+M 2 6 True
+Player 1 played : S 3 1 M 2 11
+S 3 1 True
+M 2 11 True
+Time remaining is: 116s
+You played : S 2 6 M 4 0 RS 2 0 RE 2 6 X 4 0
+S 2 6 True
+M 4 0 True
+RS 2 0 False
+INVALID MOVE ON THIS CLIENT

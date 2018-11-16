@@ -46,7 +46,9 @@ class Yinsh{
 		int marker_rem;  // no of markers to win
 		vector< vector<Place> > player; // player's rings
 		vector< vector<int> > myboard;
-		int cnt =0;
+		int cnt_0 = 0 ,cnt_1 =0;
+		int p0_rings =0;
+		int p1_rings =0;
 
 	public:
 		Yinsh();
@@ -63,10 +65,19 @@ class Yinsh{
 		void neighbours(Place sel,Place dir,vector<Place>& neighbour);
 		void totneighbours(Place sel,vector<Place>& neighbour);
 
-		double evaluate_reward(int id);
+		float evaluate_reward(int id);
 		
 		vector<int> eval_collinear(int id);
+
+		int num_ring_present(int id);
 		void check_five(int id,vector< vector<Place> > &five_rows);
+		int totcheck_linering(Place sel,int id);
+		int check_linering(Place sel,Place dir,int id);
+
+		bool check_surr(Place sel,Place dir,int id);
+		bool col3(Place sel,Place dir,int id);
+		bool totcheck_surr(Place sel,int id);
+		bool totcol3(Place sel,int id);
 
 
 

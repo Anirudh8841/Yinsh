@@ -1,0 +1,113 @@
+Started the contest
+2 5 120
+5
+Player is initialized! Now perform any move
+Initial board configuration
+
+Neighbours explored 40609
+Neighbours explored 30787
+Neighbours explored 147016
+Neighbours explored 126300
+Neighbours explored 1006348
+Neighbours explored 535182
+Neighbours explored 345102
+Neighbours explored 374332
+Neighbours explored 297068
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 4 11
+P 4 11 True
+Time remaining is: 120s
+You played : P 0 0
+P 0 0 True
+Player 1 played : P 2 4
+P 2 4 True
+Time remaining is: 120s
+You played : P 1 0
+P 1 0 True
+Player 1 played : P 1 1
+P 1 1 True
+Time remaining is: 120s
+You played : P 1 2
+P 1 2 True
+Player 1 played : P 3 14
+P 3 14 True
+Time remaining is: 120s
+You played : P 1 3
+P 1 3 True
+Player 1 played : P 3 15
+P 3 15 True
+Time remaining is: 120s
+You played : P 1 4
+P 1 4 True
+Player 1 played : S 2 4 M 2 6
+S 2 4 True
+M 2 6 True
+Time remaining is: 120s
+You played : S 1 3 M 2 5
+S 1 3 True
+M 2 5 True
+Player 1 played : S 4 11 M 4 10
+S 4 11 True
+M 4 10 True
+Time remaining is: 120s
+You played : S 1 4 M 2 9
+S 1 4 True
+M 2 9 True
+Player 1 played : S 2 6 M 2 7
+S 2 6 True
+M 2 7 True
+Time remaining is: 120s
+You played : S 1 0 M 1 5
+S 1 0 True
+M 1 5 True
+Player 1 played : S 4 10 M 3 7
+S 4 10 True
+M 3 7 True
+Time remaining is: 120s
+You played : S 2 9 M 2 10
+S 2 9 True
+M 2 10 True
+Player 1 played : S 3 14 M 4 18
+S 3 14 True
+M 4 18 True
+Time remaining is: 119s
+You played : S 2 10 M 2 0
+S 2 10 True
+M 2 0 True
+Player 1 played : S 2 7 M 2 8
+S 2 7 True
+M 2 8 True
+Time remaining is: 117s
+You played : S 2 0 M 2 11
+S 2 0 True
+M 2 11 True
+Player 1 played : S 3 15 M 3 17
+S 3 15 True
+M 3 17 True
+Time remaining is: 115s
+You played : S 1 2 M 3 6
+S 1 2 True
+M 3 6 True
+Player 1 played : S 3 17 M 2 1
+S 3 17 True
+M 2 1 True
+Time remaining is: 114s
+You played : S 0 0 M 3 0
+S 0 0 True
+M 3 0 True
+Player 1 played : S 1 1 M 2 3
+S 1 1 True
+M 2 3 True
+Time remaining is: 113s
+You played : S 1 5 M 3 10 RS 2 4 RE 2 10 X 3 6
+S 1 5 True
+M 3 10 True
+RS 2 4 True
+RE 2 10 True
+X 3 6 True

@@ -1,0 +1,82 @@
+My MOVE: P 0 0 
+My MOVE: P 1 4 
+My MOVE: P 1 5 
+My MOVE: P 2 8 
+My MOVE: P 5 22 
+My MOVE: S 5 22 M 3 12 
+My MOVE: S 1 5 M 2 11 
+My MOVE: S 1 4 M 2 9 
+My MOVE: S 2 11 M 3 17 
+My MOVE: S 3 17 M 4 23 
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 5 19
+P 5 19 True
+Time remaining is: 120s
+You played : P 0 0
+P 0 0 True
+Player 1 played : P 5 18
+P 5 18 True
+Time remaining is: 120s
+You played : P 1 4
+P 1 4 True
+Player 1 played : P 5 17
+P 5 17 True
+Time remaining is: 119s
+You played : P 1 5
+P 1 5 True
+Player 1 played : P 5 16
+P 5 16 True
+Time remaining is: 119s
+You played : P 2 8
+P 2 8 True
+Player 1 played : P 5 21
+P 5 21 True
+Time remaining is: 118s
+You played : P 5 22
+P 5 22 True
+Player 1 played : S 5 17 M 3 9
+S 5 17 True
+M 3 9 True
+Time remaining is: 118s
+You played : S 5 22 M 3 12
+S 5 22 True
+M 3 12 True
+Player 1 played : S 5 16 M 4 13
+S 5 16 True
+M 4 13 True
+Time remaining is: 102s
+You played : S 1 5 M 2 11
+S 1 5 True
+M 2 11 True
+Player 1 played : S 3 9 M 3 7
+S 3 9 True
+M 3 7 True
+Time remaining is: 92s
+You played : S 1 4 M 2 9
+S 1 4 True
+M 2 9 True
+Player 1 played : S 5 18 M 2 6
+S 5 18 True
+M 2 6 True
+Time remaining is: 76s
+You played : S 2 11 M 3 17
+S 2 11 True
+M 3 17 True
+Player 1 played : S 3 7 M 3 6
+S 3 7 True
+M 3 6 True
+Time remaining is: 56s
+You played : S 3 17 M 4 23
+S 3 17 True
+M 4 23 True
+Player 1 played : S 2 6 M 3 8
+S 2 6 True
+M 3 8 True
+Time remaining is: 34s
+ERROR : THIS CLIENT RAN OUT OF TIME!

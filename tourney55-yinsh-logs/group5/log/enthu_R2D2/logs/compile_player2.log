@@ -1,0 +1,1 @@
+g++ -g -w  -Wall -std=c++11 -O3  -I./include/  -o game main.cpp 

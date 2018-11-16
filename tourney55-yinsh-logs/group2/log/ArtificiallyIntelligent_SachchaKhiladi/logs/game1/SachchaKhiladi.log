@@ -1,0 +1,1587 @@
+2 5 120 5
+SachchaKhiladi, by Sachin Kr Chauhan (2018CSZ8012)
+
+Hex numbers -> 
+                                       
+                5     5                
+             5     4     5             
+          5     4     4     5          
+       5     4     3     4     5       
+          4     3     3     4          
+       4     3     2     3     4       
+    5     3     2     2     3     5    
+       4     2     1     2     4       
+    5     3     1     1     3     5    
+       4     2     0     2     4       
+    5     3     1     1     3     5    
+       4     2     1     2     4       
+    5     3     2     2     3     5    
+       4     3     2     3     4       
+          4     3     3     4          
+       5     4     3     4     5       
+          5     4     4     5          
+             5     4     5             
+                5     5                
+                                       
+Pos numbers -> 
+                                       
+                29     1               
+             28     0     2            
+          27    23     1     3         
+       26    22     0     2     4      
+          21    17     1     3         
+       20    16     0     2     4      
+    24    15    11     1     3     6   
+       19    10     0     2     5      
+    23    14     5     1     4     7   
+       18     9     0     3     6      
+    22    13     4     2     5     8   
+       17     8     3     4     7      
+    21    12     7     5     6     9   
+       16    11     6     7     8      
+          15    10     8     9         
+       19    14     9    10    11      
+          18    13    11    12         
+             17    12    13            
+                16    14               
+                                       
+OTH : Placed Ring @ (10,6)
+OTH[1] 1 vs 0
+.....___.....
+..../   \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+|           |
+|           |
+|           |
+|           |
+|     a     |
+|           |
+|           |
+|           |
+|           |
+\.         ./
+.\         /.
+..\       /..
+...\     /...
+....\   /....
+.....---.....
+
++ mov = P 2 4 
+SELF : Placed Ring @ (12,8)
+SELF[2] 1 vs 1
+.....___.....
+..../   \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+|           |
+|           |
+|           |
+|           |
+|     a     |
+|           |
+|       A   |
+|           |
+|           |
+\.         ./
+.\         /.
+..\       /..
+...\     /...
+....\   /....
+.....---.....
+
+OTH : Placed Ring @ (8,6)
+OTH[3] 2 vs 1
+.....___.....
+..../   \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+|           |
+|           |
+|     b     |
+|           |
+|     a     |
+|           |
+|       A   |
+|           |
+|           |
+\.         ./
+.\         /.
+..\       /..
+...\     /...
+....\   /....
+.....---.....
+
++ mov = P 5 29 
+SELF : Placed Ring @ (1,5)
+SELF[4] 2 vs 2
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+|           |
+|           |
+|     b     |
+|           |
+|     a     |
+|           |
+|       A   |
+|           |
+|           |
+\.         ./
+.\         /.
+..\       /..
+...\     /...
+....\   /....
+.....---.....
+
+OTH : Placed Ring @ (9,7)
+OTH[5] 3 vs 2
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+|           |
+|           |
+|     b     |
+|      c    |
+|     a     |
+|           |
+|       A   |
+|           |
+|           |
+\.         ./
+.\         /.
+..\       /..
+...\     /...
+....\   /....
+.....---.....
+
++ mov = P 4 20 
+SELF : Placed Ring @ (6,2)
+SELF[6] 3 vs 3
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+| C         |
+|           |
+|     b     |
+|      c    |
+|     a     |
+|           |
+|       A   |
+|           |
+|           |
+\.         ./
+.\         /.
+..\       /..
+...\     /...
+....\   /....
+.....---.....
+
+OTH : Placed Ring @ (11,7)
+OTH[7] 4 vs 3
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+| C         |
+|           |
+|     b     |
+|      c    |
+|     a     |
+|      d    |
+|       A   |
+|           |
+|           |
+\.         ./
+.\         /.
+..\       /..
+...\     /...
+....\   /....
+.....---.....
+
++ mov = P 4 12 
+SELF : Placed Ring @ (18,6)
+SELF[8] 4 vs 4
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+| C         |
+|           |
+|     b     |
+|      c    |
+|     a     |
+|      d    |
+|       A   |
+|           |
+|           |
+\.         ./
+.\         /.
+..\       /..
+...\  D  /...
+....\   /....
+.....---.....
+
+OTH : Placed Ring @ (12,6)
+OTH[9] 5 vs 4
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+| C         |
+|           |
+|     b     |
+|      c    |
+|     a     |
+|      d    |
+|     e A   |
+|           |
+|           |
+\.         ./
+.\         /.
+..\       /..
+...\  D  /...
+....\   /....
+.....---.....
+
++ mov = P 3 7 
+SELF : Placed Ring @ (14,8)
+SELF[10] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+| C         |
+|           |
+|     b     |
+|      c    |
+|     a     |
+|      d    |
+|     e A   |
+|           |
+|       E   |
+\.         ./
+.\         /.
+..\       /..
+...\  D  /...
+....\   /....
+.....---.....
+
+OTH : Select Ring 3d @ (11,7)
+OTH : Move Ring 3d @ (8,10)
+Toggle dd= @ (-1,1) From @ (11,7) To @ (8,10)
+TGL @ loc=(10,8),  -> 
+TGL @ loc=(9,9),  -> 
+OTH[11] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+| C         |
+|           |
+|     b   d |
+|      c    |
+|     a     |
+|      x    |
+|     e A   |
+|           |
+|       E   |
+\.         ./
+.\         /.
+..\       /..
+...\  D  /...
+....\   /....
+.....---.....
+
+Sort ring -> 0(0), 1(0), 2(0), 3(0), 4(0), 
+SM RL
++ mov = S 3 7 M 4 9 
+SELF : Select Ring 4E @ (14,8)
+SELF : Move Ring 4E @ (15,9)
+Toggle dd= @ (1,1) From @ (14,8) To @ (15,9)
+SELF[12] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+| C         |
+|           |
+|     b   d |
+|      c    |
+|     a     |
+|      x    |
+|     e A   |
+|           |
+|       O   |
+\.       E ./
+.\         /.
+..\       /..
+...\  D  /...
+....\   /....
+.....---.....
+
+OTH : Select Ring 2c @ (9,7)
+OTH : Move Ring 2c @ (7,7)
+Toggle dd= @ (-2,0) From @ (9,7) To @ (7,7)
+OTH[13] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+| C         |
+|      c    |
+|     b   d |
+|      x    |
+|     a     |
+|      x    |
+|     e A   |
+|           |
+|       O   |
+\.       E ./
+.\         /.
+..\       /..
+...\  D  /...
+....\   /....
+.....---.....
+
+Sort ring -> 0(1), 4(1), 2(0), 3(0), 1(0), 
+SM BP
++ mov = S 2 4 M 2 3 
+SELF : Select Ring 0A @ (12,8)
+SELF : Move Ring 0A @ (10,8)
+Toggle dd= @ (-2,0) From @ (12,8) To @ (10,8)
+SELF[14] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.         .\
+| C         |
+|      c    |
+|     b   d |
+|      x    |
+|     a A   |
+|      x    |
+|     e O   |
+|           |
+|       O   |
+\.       E ./
+.\         /.
+..\       /..
+...\  D  /...
+....\   /....
+.....---.....
+
+OTH : Select Ring 2c @ (7,7)
+OTH : Move Ring 2c @ (5,7)
+Toggle dd= @ (-2,0) From @ (7,7) To @ (5,7)
+OTH[15] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.     c   .\
+| C         |
+|      x    |
+|     b   d |
+|      x    |
+|     a A   |
+|      x    |
+|     e O   |
+|           |
+|       O   |
+\.       E ./
+.\         /.
+..\       /..
+...\  D  /...
+....\   /....
+.....---.....
+
+Sort ring -> 0(2), 4(1), 2(0), 3(0), 1(0), 
+SM BP
++ mov = S 2 3 M 2 2 
+SELF : Select Ring 0A @ (10,8)
+SELF : Move Ring 0A @ (8,8)
+Toggle dd= @ (-2,0) From @ (10,8) To @ (8,8)
+SELF[16] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.     c   .\
+| C         |
+|      x    |
+|     b A d |
+|      x    |
+|     a O   |
+|      x    |
+|     e O   |
+|           |
+|       O   |
+\.       E ./
+.\         /.
+..\       /..
+...\  D  /...
+....\   /....
+.....---.....
+
+OTH : Select Ring 2c @ (5,7)
+OTH : Move Ring 2c @ (6,8)
+Toggle dd= @ (1,1) From @ (5,7) To @ (6,8)
+OTH[17] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.     x   .\
+| C     c   |
+|      x    |
+|     b A d |
+|      x    |
+|     a O   |
+|      x    |
+|     e O   |
+|           |
+|       O   |
+\.       E ./
+.\         /.
+..\       /..
+...\  D  /...
+....\   /....
+.....---.....
+
+Sort ring -> 0(3), 4(1), 2(0), 3(0), 1(0), 
+SELF : Found 3 markers @ (16,8)
+Found a candidate ring to help out 3D
++ mov = S 4 12 M 4 10 
+SELF : Select Ring 3D @ (18,6)
+SELF : Move Ring 3D @ (16,8)
+Toggle dd= @ (-1,1) From @ (18,6) To @ (16,8)
+TGL @ loc=(17,7),  -> 
+SELF[18] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.     x   .\
+| C     c   |
+|      x    |
+|     b A d |
+|      x    |
+|     a O   |
+|      x    |
+|     e O   |
+|           |
+|       O   |
+\.       E ./
+.\      D  /.
+..\       /..
+...\  O  /...
+....\   /....
+.....---.....
+
+OTH : Select Ring 1b @ (8,6)
+OTH : Move Ring 1b @ (6,6)
+Toggle dd= @ (-2,0) From @ (8,6) To @ (6,6)
+OTH[19] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.     x   .\
+| C   b c   |
+|      x    |
+|     x A d |
+|      x    |
+|     a O   |
+|      x    |
+|     e O   |
+|           |
+|       O   |
+\.       E ./
+.\      D  /.
+..\       /..
+...\  O  /...
+....\   /....
+.....---.....
+
+Sort ring -> 0(3), 3(3), 4(1), 1(0), 2(0), 
+SELF : Found 3 markers @ (16,8)
+Moving ring D in forward direction @ (16,8)
++ mov = S 4 10 M 5 13 
+SELF : Select Ring 3D @ (16,8)
+SELF : Move Ring 3D @ (18,8)
+Toggle dd= @ (2,0) From @ (16,8) To @ (18,8)
+SELF[20] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.     x   .\
+| C   b c   |
+|      x    |
+|     x A d |
+|      x    |
+|     a O   |
+|      x    |
+|     e O   |
+|           |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 4e @ (12,6)
+OTH : Move Ring 4e @ (9,9)
+Toggle dd= @ (-1,1) From @ (12,6) To @ (9,9)
+TGL @ loc=(11,7), x->O
+TGL @ loc=(10,8), O->x
+OTH[21] 5 vs 5
+.....___.....
+..../B  \....
+.../     \...
+../       \..
+./         \.
+/.     x   .\
+| C   b c   |
+|      x    |
+|     x A d |
+|      x e  |
+|     a x   |
+|      O    |
+|     x O   |
+|           |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 3(3), 4(1), 2(0), 0(0), 1(0), 
+SELF : Found 3 markers @ (18,8)
+SM RL
++ mov = S 5 29 M 4 23 
+SELF : Select Ring 1B @ (1,5)
+SELF : Move Ring 1B @ (3,5)
+Toggle dd= @ (2,0) From @ (1,5) To @ (3,5)
+SELF[22] 5 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  B    \..
+./         \.
+/.     x   .\
+| C   b c   |
+|      x    |
+|     x A d |
+|      x e  |
+|     a x   |
+|      O    |
+|     x O   |
+|           |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 4e @ (9,9)
+OTH : Move Ring 4e @ (11,9)
+Toggle dd= @ (2,0) From @ (9,9) To @ (11,9)
+OTH[23] 5 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  B    \..
+./         \.
+/.     x   .\
+| C   b c   |
+|      x    |
+|     x A d |
+|      x x  |
+|     a x   |
+|      O e  |
+|     x O   |
+|           |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 3(3), 1(1), 4(1), 0(0), 2(0), 
+SM GD 4
++ mov = S 2 2 M 4 6 
+SELF : Select Ring 0A @ (8,8)
+SELF : Move Ring 0A @ (10,10)
+Toggle dd= @ (1,1) From @ (8,8) To @ (10,10)
+TGL @ loc=(9,9), x->O
+SELF[24] 5 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  B    \..
+./         \.
+/.     x   .\
+| C   b c   |
+|      x    |
+|     x O d |
+|      x O  |
+|     a x A |
+|      O e  |
+|     x O   |
+|           |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 0a @ (10,6)
+OTH : Move Ring 0a @ (13,9)
+Toggle dd= @ (1,1) From @ (10,6) To @ (13,9)
+TGL @ loc=(11,7), O->x
+TGL @ loc=(12,8), O->x
+OTH[25] 5 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  B    \..
+./         \.
+/.     x   .\
+| C   b c   |
+|      x    |
+|     x O d |
+|      x O  |
+|     x x A |
+|      x e  |
+|     x x   |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 0(2), 3(2), 1(1), 4(1), 2(0), 
+SM BP
++ mov = S 4 6 M 5 8 
+SELF : Select Ring 0A @ (10,10)
+SELF : Move Ring 0A @ (11,11)
+Toggle dd= @ (1,1) From @ (10,10) To @ (11,11)
+SELF[26] 5 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  B    \..
+./         \.
+/.     x   .\
+| C   b c   |
+|      x    |
+|     x O d |
+|      x O  |
+|     x x O |
+|      x e A|
+|     x x   |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 3d @ (8,10)
+OTH : Move Ring 3d @ (12,10)
+Toggle dd= @ (2,0) From @ (8,10) To @ (12,10)
+TGL @ loc=(10,10), O->x
+OTH[27] 5 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  B    \..
+./         \.
+/.     x   .\
+| C   b c   |
+|      x    |
+|     x O x |
+|      x O  |
+|     x x x |
+|      x e A|
+|     x x d |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 3(2), 1(1), 4(1), 0(0), 2(0), 
+SM BP
++ mov = S 4 23 M 3 17 
+SELF : Select Ring 1B @ (3,5)
+SELF : Move Ring 1B @ (5,5)
+Toggle dd= @ (2,0) From @ (3,5) To @ (5,5)
+SELF[28] 5 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  O    \..
+./         \.
+/.   B x   .\
+| C   b c   |
+|      x    |
+|     x O x |
+|      x O  |
+|     x x x |
+|      x e A|
+|     x x d |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 1b @ (6,6)
+OTH : Move Ring 1b @ (4,6)
+Toggle dd= @ (-2,0) From @ (6,6) To @ (4,6)
+OTH[29] 5 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  O    \..
+./    b    \.
+/.   B x   .\
+| C   x c   |
+|      x    |
+|     x O x |
+|      x O  |
+|     x x x |
+|      x e A|
+|     x x d |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 1(2), 3(2), 4(1), 0(0), 2(0), 
+OTH : Found 4 markers @ (14,6)
+OTH : Found 4 markers @ (13,7)
+Try again for a found space @ (3,7)
+SM BP
++ mov = S 3 17 M 2 11 
+SELF : Select Ring 1B @ (5,5)
+SELF : Move Ring 1B @ (7,5)
+Toggle dd= @ (2,0) From @ (5,5) To @ (7,5)
+SELF[30] 5 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  O    \..
+./    b    \.
+/.   O x   .\
+| C   x c   |
+|    B x    |
+|     x O x |
+|      x O  |
+|     x x x |
+|      x e A|
+|     x x d |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 1b @ (4,6)
+OTH : Move Ring 1b @ (3,7)
+Toggle dd= @ (-1,1) From @ (4,6) To @ (3,7)
+OTH[31] 5 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  O b  \..
+./    x    \.
+/.   O x   .\
+| C   x c   |
+|    B x    |
+|     x O x |
+|      x O  |
+|     x x x |
+|      x e A|
+|     x x d |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Removing markers from @ (4,6) to @ (12,6)
+OTH[32] 5 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  O b  \..
+./         \.
+/.   O x   .\
+| C     c   |
+|    B x    |
+|       O x |
+|      x O  |
+|       x x |
+|      x e A|
+|       x d |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+shifting last ring to deleted place
+OTH : Remove Ring  @ (12,10)
+OTH[33] 4 vs 5
+.....___.....
+..../O  \....
+.../     \...
+../  O b  \..
+./         \.
+/.   O x   .\
+| C     c   |
+|    B x    |
+|       O x |
+|      x O  |
+|       x x |
+|      x d A|
+|       x   |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 1(3), 3(2), 4(1), 0(0), 2(0), 
+Toggle dd= @ (-1,1) From @ (7,5) To @ (4,8)
+TGL @ loc=(6,6),  -> 
+TGL @ loc=(5,7), x->O
+SM GD 2
++ mov = S 2 11 M 4 2 
+SELF : Select Ring 1B @ (7,5)
+SELF : Move Ring 1B @ (4,8)
+Toggle dd= @ (-1,1) From @ (7,5) To @ (4,8)
+TGL @ loc=(6,6),  -> 
+TGL @ loc=(5,7), x->O
+SELF[34] 5 vs 4
+.....___.....
+..../O  \....
+.../     \...
+../  O b  \..
+./      B  \.
+/.   O O   .\
+| C     c   |
+|    O x    |
+|       O x |
+|      x O  |
+|       x x |
+|      x d A|
+|       x   |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 1b @ (3,7)
+OTH : Move Ring 1b @ (2,6)
+Toggle dd= @ (-1,-1) From @ (3,7) To @ (2,6)
+OTH[35] 4 vs 5
+.....___.....
+..../O  \....
+.../  b  \...
+../  O x  \..
+./      B  \.
+/.   O O   .\
+| C     c   |
+|    O x    |
+|       O x |
+|      x O  |
+|       x x |
+|      x d A|
+|       x   |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 3(2), 1(1), 4(1), 0(0), 2(0), 
+SELF : Found 3 markers @ (7,5)
+SM BP
++ mov = S 4 2 M 5 3 
+SELF : Select Ring 1B @ (4,8)
+SELF : Move Ring 1B @ (3,9)
+Toggle dd= @ (-1,1) From @ (4,8) To @ (3,9)
+SELF[36] 5 vs 4
+.....___.....
+..../O  \....
+.../  b  \...
+../  O x B\..
+./      O  \.
+/.   O O   .\
+| C     c   |
+|    O x    |
+|       O x |
+|      x O  |
+|       x x |
+|      x d A|
+|       x   |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 1b @ (2,6)
+OTH : Move Ring 1b @ (4,4)
+Toggle dd= @ (1,-1) From @ (2,6) To @ (4,4)
+TGL @ loc=(3,5), O->x
+OTH[37] 4 vs 5
+.....___.....
+..../O  \....
+.../  x  \...
+../  x x B\..
+./  b   O  \.
+/.   O O   .\
+| C     c   |
+|    O x    |
+|       O x |
+|      x O  |
+|       x x |
+|      x d A|
+|       x   |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 1(2), 3(2), 4(1), 0(0), 2(0), 
+SM RL
++ mov = S 4 20 M 5 24 
+SELF : Select Ring 2C @ (6,2)
+SELF : Move Ring 2C @ (7,1)
+Toggle dd= @ (1,-1) From @ (6,2) To @ (7,1)
+SELF[38] 5 vs 4
+.....___.....
+..../O  \....
+.../  x  \...
+../  x x B\..
+./  b   O  \.
+/.   O O   .\
+| O     c   |
+|C   O x    |
+|       O x |
+|      x O  |
+|       x x |
+|      x d A|
+|       x   |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 2c @ (6,8)
+OTH : Move Ring 2c @ (4,6)
+Toggle dd= @ (-1,-1) From @ (6,8) To @ (4,6)
+TGL @ loc=(5,7), O->x
+OTH[39] 4 vs 5
+.....___.....
+..../O  \....
+.../  x  \...
+../  x x B\..
+./  b c O  \.
+/.   O x   .\
+| O     x   |
+|C   O x    |
+|       O x |
+|      x O  |
+|       x x |
+|      x d A|
+|       x   |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Removing markers from @ (3,7) to @ (11,7)
+OTH[40] 4 vs 5
+.....___.....
+..../O  \....
+.../  x  \...
+../  x   B\..
+./  b c O  \.
+/.   O     .\
+| O     x   |
+|C   O      |
+|       O x |
+|        O  |
+|       x x |
+|        d A|
+|       x   |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+shifting last ring to deleted place
+OTH : Remove Ring  @ (4,6)
+OTH[41] 3 vs 5
+.....___.....
+..../O  \....
+.../  x  \...
+../  x   B\..
+./  b   O  \.
+/.   O     .\
+| O     x   |
+|C   O      |
+|       O x |
+|        O  |
+|       x x |
+|        c A|
+|       x   |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 3(2), 2(1), 1(1), 4(1), 0(0), 
+SM RL
++ mov = S 5 8 M 4 7 
+SELF : Select Ring 0A @ (11,11)
+SELF : Move Ring 0A @ (12,10)
+Toggle dd= @ (1,-1) From @ (11,11) To @ (12,10)
+SELF[42] 5 vs 3
+.....___.....
+..../O  \....
+.../  x  \...
+../  x   B\..
+./  b   O  \.
+/.   O     .\
+| O     x   |
+|C   O      |
+|       O x |
+|        O  |
+|       x x |
+|        c O|
+|       x A |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 2c @ (11,9)
+OTH : Move Ring 2c @ (9,11)
+Toggle dd= @ (-1,1) From @ (11,9) To @ (9,11)
+TGL @ loc=(10,10), x->O
+OTH[43] 3 vs 5
+.....___.....
+..../O  \....
+.../  x  \...
+../  x   B\..
+./  b   O  \.
+/.   O     .\
+| O     x   |
+|C   O      |
+|       O x |
+|        O c|
+|       x O |
+|        x O|
+|       x A |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 3(2), 1(1), 2(1), 0(1), 4(1), 
+SM GD 4
++ mov = S 4 7 M 1 1 
+SELF : Select Ring 0A @ (12,10)
+SELF : Move Ring 0A @ (9,7)
+Toggle dd= @ (-1,-1) From @ (12,10) To @ (9,7)
+TGL @ loc=(11,9), x->O
+TGL @ loc=(10,8), x->O
+SELF[44] 5 vs 3
+.....___.....
+..../O  \....
+.../  x  \...
+../  x   B\..
+./  b   O  \.
+/.   O     .\
+| O     x   |
+|C   O      |
+|       O x |
+|      A O c|
+|       O O |
+|        O O|
+|       x O |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 2c @ (9,11)
+OTH : Move Ring 2c @ (7,11)
+Toggle dd= @ (-2,0) From @ (9,11) To @ (7,11)
+OTH[45] 3 vs 5
+.....___.....
+..../O  \....
+.../  x  \...
+../  x   B\..
+./  b   O  \.
+/.   O     .\
+| O     x   |
+|C   O     c|
+|       O x |
+|      A O x|
+|       O O |
+|        O O|
+|       x O |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 0(3), 3(2), 2(1), 1(1), 4(1), 
+SM GD 3B
++ mov = S 1 1 M 1 0 
+SELF : Select Ring 0A @ (9,7)
+SELF : Move Ring 0A @ (8,6)
+Toggle dd= @ (-1,-1) From @ (9,7) To @ (8,6)
+SELF[46] 5 vs 3
+.....___.....
+..../O  \....
+.../  x  \...
+../  x   B\..
+./  b   O  \.
+/.   O     .\
+| O     x   |
+|C   O     c|
+|     A O x |
+|      O O x|
+|       O O |
+|        O O|
+|       x O |
+|        a  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 0a @ (13,9)
+OTH : Move Ring 0a @ (7,9)
+Toggle dd= @ (-2,0) From @ (13,9) To @ (7,9)
+TGL @ loc=(11,9), O->x
+TGL @ loc=(9,9), O->x
+OTH[47] 3 vs 5
+.....___.....
+..../O  \....
+.../  x  \...
+../  x   B\..
+./  b   O  \.
+/.   O     .\
+| O     x   |
+|C   O   a c|
+|     A O x |
+|      O x x|
+|       O O |
+|        x O|
+|       x O |
+|        x  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 0(3), 3(2), 2(1), 1(1), 4(1), 
+SM GD 5
++ mov = S 1 0 M 4 3 
+SELF : Select Ring 0A @ (8,6)
+SELF : Move Ring 0A @ (5,9)
+Toggle dd= @ (-1,1) From @ (8,6) To @ (5,9)
+TGL @ loc=(7,7),  -> 
+TGL @ loc=(6,8), x->O
+SELF[48] 5 vs 3
+.....___.....
+..../O  \....
+.../  x  \...
+../  x   B\..
+./  b   O  \.
+/.   O   A .\
+| O     O   |
+|C   O   a c|
+|     O O x |
+|      O x x|
+|       O O |
+|        x O|
+|       x O |
+|        x  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+OTH : Select Ring 0a @ (7,9)
+OTH : Move Ring 0a @ (5,7)
+Toggle dd= @ (-1,-1) From @ (7,9) To @ (5,7)
+TGL @ loc=(6,8), O->x
+OTH[49] 3 vs 5
+.....___.....
+..../O  \....
+.../  x  \...
+../  x   B\..
+./  b   O  \.
+/.   O a A .\
+| O     x   |
+|C   O   x c|
+|     O O x |
+|      O x x|
+|       O O |
+|        x O|
+|       x O |
+|        x  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+Sort ring -> 3(2), 1(1), 2(1), 0(1), 4(1), 
+Toggle dd= @ (1,-1) From @ (5,9) To @ (7,7)
+TGL @ loc=(6,8), x->O
+SM GD 2
++ mov = S 4 3 M 2 1 
+SELF : Select Ring 0A @ (5,9)
+SELF : Move Ring 0A @ (7,7)
+Toggle dd= @ (1,-1) From @ (5,9) To @ (7,7)
+TGL @ loc=(6,8), x->O
+SELF[50] 5 vs 3
+.....___.....
+..../O  \....
+.../  x  \...
+../  x   B\..
+./  b   O  \.
+/.   O a O .\
+| O     O   |
+|C   O A x c|
+|     O O x |
+|      O x x|
+|       O O |
+|        x O|
+|       x O |
+|        x  |
+|       O   |
+\.       E ./
+.\      O  /.
+..\       /..
+...\  O D/...
+....\   /....
+.....---.....
+
+***********************************
+
+-> You are player 2
+-> You are alloted a time of 120s
+
+***********************************
+
+Player 1 played : P 0 0
+P 0 0 True
+Time remaining is: 120s
+You played : P 2 4
+P 2 4 True
+Player 1 played : P 1 0
+P 1 0 True
+Time remaining is: 120s
+You played : P 5 29
+P 5 29 True
+Player 1 played : P 1 1
+P 1 1 True
+Time remaining is: 120s
+You played : P 4 20
+P 4 20 True
+Player 1 played : P 1 2
+P 1 2 True
+Time remaining is: 120s
+You played : P 4 12
+P 4 12 True
+Player 1 played : P 1 3
+P 1 3 True
+Time remaining is: 120s
+You played : P 3 7
+P 3 7 True
+Player 1 played : S 1 2 M 4 5
+S 1 2 True
+M 4 5 True
+Time remaining is: 120s
+You played : S 3 7 M 4 9
+S 3 7 True
+M 4 9 True
+Player 1 played : S 1 1 M 2 1
+S 1 1 True
+M 2 1 True
+Time remaining is: 120s
+You played : S 2 4 M 2 3
+S 2 4 True
+M 2 3 True
+Player 1 played : S 2 1 M 3 1
+S 2 1 True
+M 3 1 True
+Time remaining is: 120s
+You played : S 2 3 M 2 2
+S 2 3 True
+M 2 2 True
+Player 1 played : S 3 1 M 3 2
+S 3 1 True
+M 3 2 True
+Time remaining is: 120s
+You played : S 4 12 M 4 10
+S 4 12 True
+M 4 10 True
+Player 1 played : S 1 0 M 2 0
+S 1 0 True
+M 2 0 True
+Time remaining is: 120s
+You played : S 4 10 M 5 13
+S 4 10 True
+M 5 13 True
+Player 1 played : S 1 3 M 3 4
+S 1 3 True
+M 3 4 True
+Time remaining is: 120s
+You played : S 5 29 M 4 23
+S 5 29 True
+M 4 23 True
+Player 1 played : S 3 4 M 3 5
+S 3 4 True
+M 3 5 True
+Time remaining is: 120s
+You played : S 2 2 M 4 6
+S 2 2 True
+M 4 6 True
+Player 1 played : S 0 0 M 3 6
+S 0 0 True
+M 3 6 True
+Time remaining is: 120s
+You played : S 4 6 M 5 8
+S 4 6 True
+M 5 8 True
+Player 1 played : S 4 5 M 4 7
+S 4 5 True
+M 4 7 True
+Time remaining is: 120s
+You played : S 4 23 M 3 17
+S 4 23 True
+M 3 17 True
+Player 1 played : S 2 0 M 3 0
+S 2 0 True
+M 3 0 True
+Time remaining is: 120s
+You played : S 3 17 M 2 11
+S 3 17 True
+M 2 11 True
+Player 1 played : S 3 0 M 4 1 RS 3 0 RE 1 3 X 4 7
+S 3 0 True
+M 4 1 True
+RS 3 0 True
+RE 1 3 True
+X 4 7 True
+Time remaining is: 120s
+You played : S 2 11 M 4 2
+S 2 11 True
+M 4 2 True
+Player 1 played : S 4 1 M 4 0
+S 4 1 True
+M 4 0 True
+Time remaining is: 120s
+You played : S 4 2 M 5 3
+S 4 2 True
+M 5 3 True
+Player 1 played : S 4 0 M 4 22
+S 4 0 True
+M 4 22 True
+Time remaining is: 120s
+You played : S 4 20 M 5 24
+S 4 20 True
+M 5 24 True
+Player 1 played : S 3 2 M 3 0 RS 4 1 RE 1 2 X 3 0
+S 3 2 True
+M 3 0 True
+RS 4 1 True
+RE 1 2 True
+X 3 0 True
+Time remaining is: 120s
+You played : S 5 8 M 4 7
+S 5 8 True
+M 4 7 True
+Player 1 played : S 3 5 M 5 7
+S 3 5 True
+M 5 7 True
+Time remaining is: 120s
+You played : S 4 7 M 1 1
+S 4 7 True
+M 1 1 True
+Player 1 played : S 5 7 M 5 6
+S 5 7 True
+M 5 6 True
+Time remaining is: 120s
+You played : S 1 1 M 1 0
+S 1 1 True
+M 1 0 True
+Player 1 played : S 3 6 M 3 3
+S 3 6 True
+M 3 3 True
+Time remaining is: 119s
+You played : S 1 0 M 4 3
+S 1 0 True
+M 4 3 True
+Player 1 played : S 3 3 M 3 1
+S 3 3 True
+M 3 1 True
+Time remaining is: 119s
+You played : S 4 3 M 2 1
+S 4 3 True
+M 2 1 True
+Player 1 played : S 5 6 M 4 1 RS 4 3 RE 3 6 X 4 1
+S 5 6 True
+M 4 1 True
+RS 4 3 True
+RE 3 6 True
+X 4 1 True
+OTHER PLAYER WINS!
+Your Score : 0.015
+Opponent's Score : 10.007
